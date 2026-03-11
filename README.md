@@ -1,6 +1,6 @@
 # Architecture Arcade
 
-A standalone, offline-first study app for learning from [The Architecture of Open Source Applications](https://aosabook.org/en/) as a technical PM.
+A standalone, offline-first study app for learning from [The Architecture of Open Source Applications]() as a technical PM.
 
 ## What it includes
 
@@ -11,17 +11,6 @@ A standalone, offline-first study app for learning from [The Architecture of Ope
 - PM-focused study prompts, activities, and boss-battle questions
 - Local progress tracking, XP, streaks, bookmarks, and notes
 - Reader routes like `?session=v1-02&view=reader`
-
-## Run locally
-
-```bash
-ADMIN_PASSWORD='choose-a-strong-password' python3 scripts/app_server.py
-```
-
-Then open `http://127.0.0.1:4173`.
-
-Fixed admin account:
-- Email: `join.ydsingh@gmail.com`
 
 Notes:
 - The repo does not store the admin password.
