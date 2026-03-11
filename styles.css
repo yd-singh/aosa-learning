@@ -62,21 +62,21 @@ body[data-theme="teal"] {
 }
 
 body[data-theme="reader"] {
-  --bg: #f5efdf;
-  --bg-soft: rgba(250, 244, 231, 0.94);
-  --panel: rgba(255, 251, 241, 0.86);
-  --panel-strong: rgba(255, 252, 246, 0.95);
-  --line: rgba(95, 74, 41, 0.2);
-  --text: #2e2418;
-  --muted: #66523c;
-  --accent: #a56528;
-  --accent-2: #3a7f78;
-  --accent-3: #b78645;
-  --field-bg: rgba(253, 249, 239, 0.98);
-  --field-text: #2e2418;
-  --field-border: rgba(95, 74, 41, 0.24);
-  --panel-chip: rgba(126, 93, 51, 0.05);
-  --shadow: 0 18px 36px rgba(69, 48, 18, 0.12);
+  --bg: #0b1218;
+  --bg-soft: rgba(11, 18, 24, 0.84);
+  --panel: rgba(16, 26, 34, 0.82);
+  --panel-strong: rgba(12, 21, 28, 0.95);
+  --line: rgba(202, 170, 121, 0.22);
+  --text: #efe4d0;
+  --muted: #b9a78d;
+  --accent: #c58a49;
+  --accent-2: #6dbab0;
+  --accent-3: #d3aa69;
+  --field-bg: rgba(11, 20, 27, 0.94);
+  --field-text: #efe4d0;
+  --field-border: rgba(202, 170, 121, 0.24);
+  --panel-chip: rgba(211, 170, 105, 0.08);
+  --shadow: 0 20px 46px rgba(0, 0, 0, 0.34);
 }
 
 * {
@@ -114,9 +114,9 @@ body[data-theme="teal"] {
 
 body[data-theme="reader"] {
   background:
-    radial-gradient(circle at 12% 2%, rgba(165, 101, 40, 0.14), transparent 36%),
-    radial-gradient(circle at 88% 10%, rgba(58, 127, 120, 0.12), transparent 30%),
-    linear-gradient(180deg, #fcf8ef 0%, #f3ebda 60%, #ebdfc7 100%);
+    radial-gradient(circle at 12% 2%, rgba(197, 138, 73, 0.18), transparent 36%),
+    radial-gradient(circle at 88% 10%, rgba(109, 186, 176, 0.14), transparent 30%),
+    linear-gradient(180deg, #0b1218 0%, #0a1117 58%, #081016 100%);
 }
 
 body::before {
@@ -572,6 +572,20 @@ h3 {
   color: #b9fff4;
 }
 
+body[data-theme="light"] .pill,
+body[data-theme="reader"] .pill {
+  background: rgba(226, 112, 24, 0.16);
+  border-color: rgba(180, 88, 17, 0.34);
+  color: #7b3600;
+}
+
+body[data-theme="light"] .pill-soft,
+body[data-theme="reader"] .pill-soft {
+  background: rgba(27, 156, 168, 0.14);
+  border-color: rgba(18, 102, 110, 0.28);
+  color: #0f5c63;
+}
+
 .quest-meta,
 .collection-progress,
 .achievement-list,
@@ -1003,6 +1017,50 @@ textarea:focus {
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 1px dashed rgba(255, 255, 255, 0.16);
+}
+
+body[data-theme="light"] .reader-article {
+  background: linear-gradient(180deg, rgba(20, 33, 54, 0.03), transparent), rgba(255, 255, 255, 0.96);
+}
+
+body[data-theme="light"] .reader-content {
+  color: #1b2740;
+}
+
+body[data-theme="light"] .reader-content p,
+body[data-theme="light"] .reader-content li,
+body[data-theme="light"] .reader-content td,
+body[data-theme="light"] .reader-content th {
+  color: #21314f;
+}
+
+body[data-theme="light"] .reader-content a {
+  color: #1f7f87;
+}
+
+body[data-theme="light"] .reader-content pre {
+  background: #f4f7fc;
+  border-color: rgba(29, 45, 74, 0.18);
+  color: #21314f;
+}
+
+body[data-theme="light"] .reader-content table th,
+body[data-theme="light"] .reader-content table td {
+  border-color: rgba(29, 45, 74, 0.2);
+}
+
+body[data-theme="light"] .reader-content blockquote {
+  background: rgba(226, 112, 24, 0.08);
+}
+
+body[data-theme="light"] .reader-content .figure,
+body[data-theme="light"] .reader-content figure {
+  background: rgba(20, 33, 54, 0.03);
+  border-color: rgba(29, 45, 74, 0.14);
+}
+
+body[data-theme="light"] .reader-content .footnotes {
+  border-top-color: rgba(29, 45, 74, 0.22);
 }
 
 ul,
