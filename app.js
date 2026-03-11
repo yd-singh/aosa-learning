@@ -8,6 +8,14 @@ const themeLabels = {
 };
 
 const storageKey = 'aosa_progress_v2';
+const themeStorageKey = 'aosa_theme_v1';
+const themeOrder = ['dark', 'light', 'teal', 'reader'];
+const themeLabel = {
+  dark: 'Dark',
+  light: 'Light',
+  teal: 'Teal',
+  reader: 'Reader',
+};
 
 const defaultProgress = {
   completed: [],
@@ -71,12 +79,7 @@ const achievementsCatalog = [
 
 const els = {
   authScreen: document.querySelector('#auth-screen'),
-  appTopbar: document.querySelector('#app-topbar'),
-  goDashboard: document.querySelector('#go-dashboard'),
-  goProfile: document.querySelector('#go-profile'),
-  currentUser: document.querySelector('#current-user'),
-  currentRole: document.querySelector('#current-role'),
-  logoutButton: document.querySelector('#logout-button'),
+  themeToggle: document.querySelector('#theme-toggle'),
   journeyStrip: document.querySelector('#journey-strip'),
   journeyTitle: document.querySelector('#journey-title'),
   journeyBadge: document.querySelector('#journey-badge'),
@@ -86,14 +89,6 @@ const els = {
   journeyStep2: document.querySelector('#journey-step-2'),
   journeyStep3: document.querySelector('#journey-step-3'),
   journeyStep4: document.querySelector('#journey-step-4'),
-  profileView: document.querySelector('#profile-view'),
-  profileBack: document.querySelector('#profile-back'),
-  profileUsername: document.querySelector('#profile-username'),
-  profileRole: document.querySelector('#profile-role'),
-  profileProgress: document.querySelector('#profile-progress'),
-  profileLevel: document.querySelector('#profile-level'),
-  profileStreak: document.querySelector('#profile-streak'),
-  adminPanel: document.querySelector('#admin-panel'),
   dashboardView: document.querySelector('#dashboard-view'),
   readerView: document.querySelector('#reader-view'),
   statTotal: document.querySelector('#stat-total'),
@@ -167,6 +162,7 @@ bindEvents();
 bootstrap();
 
 async function bootstrap() {
+  applyTheme(loadTheme());
   try {
     const response = await fetch('data/aosa_dataset.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error('Dataset not found');
@@ -174,7 +170,7 @@ async function bootstrap() {
   } catch (error) {
     if (els.authScreen) {
       els.authScreen.classList.remove('hidden');
-      els.authScreen.innerHTML = '<div class="auth-card panel"><p class="eyebrow">Make Tech PM Tech</p><h1 class="auth-title">Dataset not loaded.</h1><p class="hero-text">Serve this app from a web server and keep <code>data/aosa_dataset.json</code> in place.</p></div>';
+      els.authScreen.innerHTML = '<div class="auth-card panel"><p class="eyebrow">Make PM tech again</p><h1 class="auth-title">Dataset not loaded.</h1><p class="hero-text">Serve this app from a web server and keep <code>data/aosa_dataset.json</code> in place.</p></div>';
     }
     return;
   }
@@ -186,18 +182,12 @@ async function bootstrap() {
 
   showApp();
   populateFiltersOnce();
-  renderUserChrome();
   render();
   if (app.currentView === 'reader') renderReader();
 }
 
 function bindEvents() {
-  els.goDashboard?.addEventListener('click', openDashboard);
-  els.goProfile?.addEventListener('click', openProfile);
-  els.profileBack?.addEventListener('click', openDashboard);
-  els.logoutButton?.addEventListener('click', () => {
-    showToast('Auth is managed by Cloudflare Access. Use your provider logout if needed.');
-  });
+  els.themeToggle?.addEventListener('click', toggleTheme);
 
   ['input', 'change'].forEach((eventName) => {
     els.searchInput?.addEventListener(eventName, renderSessionGrid);
@@ -224,18 +214,7 @@ function bindEvents() {
 
 function showApp() {
   els.authScreen?.classList.add('hidden');
-  els.appTopbar?.classList.remove('hidden');
   els.journeyStrip?.classList.remove('hidden');
-  els.adminPanel?.classList.add('hidden');
-}
-
-function renderUserChrome() {
-  if (els.currentUser) els.currentUser.textContent = 'Independent Tech PM';
-  if (els.currentRole) els.currentRole.textContent = 'standalone';
-  if (els.profileUsername) els.profileUsername.textContent = 'Independent Tech PM';
-  if (els.profileRole) els.profileRole.textContent = 'Cloudflare Access protected static app';
-  els.goDashboard?.classList.toggle('active', app.currentView !== 'profile');
-  els.goProfile?.classList.toggle('active', app.currentView === 'profile');
 }
 
 function populateFiltersOnce() {
@@ -265,18 +244,13 @@ function render() {
   renderCollectionProgress();
   renderSessionGrid();
   renderDetail();
-  renderProfile();
 }
 
 function syncViewVisibility() {
   const readerMode = app.currentView === 'reader';
-  const profileMode = app.currentView === 'profile';
-  els.dashboardView?.classList.toggle('hidden', readerMode || profileMode);
+  els.dashboardView?.classList.toggle('hidden', readerMode);
   els.readerView?.classList.toggle('hidden', !readerMode);
-  els.profileView?.classList.toggle('hidden', !profileMode);
-  els.journeyStrip?.classList.toggle('hidden', profileMode);
-  els.goDashboard?.classList.toggle('active', !profileMode);
-  els.goProfile?.classList.toggle('active', profileMode);
+  els.journeyStrip?.classList.toggle('hidden', readerMode);
 }
 
 function renderStats() {
@@ -299,7 +273,7 @@ function renderJourney() {
   const nextName = stage < 4 ? stageNames[stage] : 'Mastery loop';
 
   if (els.journeyFill) els.journeyFill.style.width = `${percent}%`;
-  if (els.journeyTitle) els.journeyTitle.textContent = `${percent}% complete on Make Tech PM Tech (AOSA)`;
+  if (els.journeyTitle) els.journeyTitle.textContent = `${percent}% complete on Make PM tech again (AOSA)`;
   if (els.journeyBadge) els.journeyBadge.textContent = `Stage ${stage}: ${stageNames[stage - 1]}`;
   if (els.journeyCopy) {
     els.journeyCopy.textContent = stage < 4
@@ -315,18 +289,6 @@ function renderJourney() {
   });
 }
 
-function renderProfile() {
-  const completed = app.state.completed.length;
-  const total = app.data.totalSessions || 1;
-  const percent = Math.round((completed / total) * 100);
-  const level = Math.max(1, Math.floor(calculateXp() / 550) + 1);
-  const streak = calculateStreak();
-
-  if (els.profileProgress) els.profileProgress.textContent = `${percent}%`;
-  if (els.profileLevel) els.profileLevel.textContent = `Level ${level}`;
-  if (els.profileStreak) els.profileStreak.textContent = `${streak} day${streak === 1 ? '' : 's'} streak`;
-}
-
 function renderQuest() {
   const session = getRecommendedSession();
   if (!session) return;
@@ -337,7 +299,7 @@ function renderQuest() {
   if (!els.questMeta) return;
   els.questMeta.innerHTML = '';
 
-  [`${session.estimatedMinutes} min`, `${themeLabels[session.theme]}`, `${session.offline.imageCount} figures`].forEach((text) => {
+  [`~${getSessionMinutes(session)} min`, `${themeLabels[session.theme]}`, `${session.offline.imageCount} figures`].forEach((text) => {
     const chip = document.createElement('div');
     chip.className = 'quest-chip';
     chip.innerHTML = `<strong>${text}</strong><span class="muted">${session.collectionName}</span>`;
@@ -408,7 +370,7 @@ function renderSessionGrid() {
       <p class="session-summary">${escapeHtml(session.summary)}</p>
       <div class="session-bottomline">
         <span>${themeLabels[session.theme]}</span>
-        <span>${session.estimatedMinutes} min · ${session.offline.wordCount.toLocaleString()} words</span>
+        <span>~${getSessionMinutes(session)} min · ${session.offline.wordCount.toLocaleString()} words</span>
       </div>
     `;
     els.sessionGrid.append(card);
@@ -433,7 +395,7 @@ function renderDetail() {
   if (els.detailTheme) els.detailTheme.textContent = themeLabels[session.theme];
   if (els.detailTitle) els.detailTitle.textContent = session.title;
   if (els.detailMeta) {
-    els.detailMeta.textContent = `${session.author || 'AOSA contributor'} · ${session.estimatedMinutes} minutes · Difficulty ${'★'.repeat(session.difficulty)} · ${capitalize(session.sessionKind)}`;
+    els.detailMeta.textContent = `${session.author || 'AOSA contributor'} · ~${getSessionMinutes(session)} minutes · Difficulty ${'★'.repeat(session.difficulty)} · ${capitalize(session.sessionKind)}`;
   }
   if (els.detailSummary) els.detailSummary.textContent = session.summary;
   if (els.sourceLink) els.sourceLink.href = session.url;
@@ -499,7 +461,7 @@ async function renderReader() {
 function renderReaderStats(session) {
   if (!els.readerStats) return;
   els.readerStats.innerHTML = `
-    ${renderStatChip('Read Time', `${session.estimatedMinutes} min`)}
+    ${renderStatChip('Read Time', `~${getSessionMinutes(session)} min`)}
     ${renderStatChip('Figures', String(session.offline.imageCount))}
     ${renderStatChip('Code', String(session.offline.codeBlockCount))}
     ${renderStatChip('Tables', String(session.offline.tableCount))}
@@ -546,13 +508,6 @@ function openSession(session) {
   updateUrl();
   render();
   document.querySelector('#detail-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-function openProfile() {
-  app.currentView = 'profile';
-  updateUrl();
-  render();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function openDashboard() {
@@ -759,6 +714,18 @@ function calculateStreak() {
   return streak;
 }
 
+function getSessionMinutes(session) {
+  const words = Number(session?.offline?.wordCount || 0);
+  const difficulty = Number(session?.difficulty || 1);
+  if (!words) return 20;
+
+  // Friendly estimate: moderate pace + light difficulty adjustment.
+  const base = words / 200;
+  const adjusted = base * (1 + (difficulty - 1) * 0.08);
+  const roundedToFive = Math.round(adjusted / 5) * 5;
+  return Math.max(15, Math.min(90, roundedToFive));
+}
+
 function getInitialSessionId() {
   const params = new URLSearchParams(window.location.search);
   const sessionId = params.get('session');
@@ -769,7 +736,6 @@ function getInitialView() {
   const params = new URLSearchParams(window.location.search);
   const view = params.get('view');
   if (view === 'reader') return 'reader';
-  if (view === 'profile') return 'profile';
   return 'dashboard';
 }
 
@@ -777,7 +743,6 @@ function updateUrl(hash = window.location.hash) {
   const params = new URLSearchParams();
   if (app.selectedSessionId) params.set('session', app.selectedSessionId);
   if (app.currentView === 'reader') params.set('view', 'reader');
-  if (app.currentView === 'profile') params.set('view', 'profile');
   const query = params.toString();
   const nextUrl = `${window.location.pathname}${query ? `?${query}` : ''}${hash || ''}`;
   history.replaceState({}, '', nextUrl);
@@ -831,4 +796,26 @@ function escapeHtml(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
+}
+
+function loadTheme() {
+  const stored = localStorage.getItem(themeStorageKey);
+  if (themeOrder.includes(stored)) return stored;
+  const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches;
+  return prefersDark ? 'dark' : 'light';
+}
+
+function applyTheme(theme) {
+  document.body.setAttribute('data-theme', theme);
+  if (els.themeToggle) {
+    els.themeToggle.textContent = `Theme: ${themeLabel[theme] || 'Dark'}`;
+  }
+}
+
+function toggleTheme() {
+  const current = document.body.getAttribute('data-theme') || 'dark';
+  const currentIndex = themeOrder.indexOf(current);
+  const next = themeOrder[(currentIndex + 1) % themeOrder.length];
+  applyTheme(next);
+  localStorage.setItem(themeStorageKey, next);
 }

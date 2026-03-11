@@ -1,4 +1,4 @@
-# Make Tech PM Tech
+# Make PM tech again
 
 A standalone AOSA study app for technical PMs.
 
