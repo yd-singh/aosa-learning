@@ -1,0 +1,142 @@
+{
+  "sessionId": "posa-08",
+  "sourceUrl": "https://aosabook.org/en/posa/infinispan.html",
+  "title": "Infinispan",
+  "author": "Manik Surtani",
+  "contentPath": "content/chapters/posa-08/content.html",
+  "rawPagePath": "content/chapters/posa-08/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "overview",
+      "text": "Overview",
+      "level": "h2"
+    },
+    {
+      "id": "who-uses-infinispan",
+      "text": "Who Uses Infinispan?",
+      "level": "h3"
+    },
+    {
+      "id": "as-a-library-or-as-a-server",
+      "text": "As a Library or as a Server",
+      "level": "h3"
+    },
+    {
+      "id": "peer-to-peer-architecture",
+      "text": "Peer-to-Peer Architecture",
+      "level": "h3"
+    },
+    {
+      "id": "benchmarking-infinispan",
+      "text": "Benchmarking Infinispan",
+      "level": "h2"
+    },
+    {
+      "id": "radar-gun",
+      "text": "Radar Gun",
+      "level": "h3"
+    },
+    {
+      "id": "yahoo-cloud-serving-benchmark",
+      "text": "Yahoo Cloud Serving Benchmark",
+      "level": "h3"
+    },
+    {
+      "id": "the-grinder-and-apache-jmeter",
+      "text": "The Grinder and Apache JMeter",
+      "level": "h3"
+    },
+    {
+      "id": "radar-gun-1",
+      "text": "Radar Gun",
+      "level": "h2"
+    },
+    {
+      "id": "early-days",
+      "text": "Early Days",
+      "level": "h3"
+    },
+    {
+      "id": "distributed-features",
+      "text": "Distributed Features",
+      "level": "h3"
+    },
+    {
+      "id": "fast-and-wrong-is-no-good",
+      "text": "Fast and Wrong is No Good!",
+      "level": "h3"
+    },
+    {
+      "id": "profiling",
+      "text": "Profiling",
+      "level": "h3"
+    },
+    {
+      "id": "memory-performance",
+      "text": "Memory Performance",
+      "level": "h3"
+    },
+    {
+      "id": "metrics",
+      "text": "Metrics",
+      "level": "h3"
+    },
+    {
+      "id": "extensibility",
+      "text": "Extensibility",
+      "level": "h3"
+    },
+    {
+      "id": "prime-suspects",
+      "text": "Prime Suspects",
+      "level": "h2"
+    },
+    {
+      "id": "the-network",
+      "text": "The Network",
+      "level": "h3"
+    },
+    {
+      "id": "data-serialization",
+      "text": "Data Serialization",
+      "level": "h3"
+    },
+    {
+      "id": "writing-to-disk",
+      "text": "Writing to Disk",
+      "level": "h3"
+    },
+    {
+      "id": "synchronization-locking-and-concurrency",
+      "text": "Synchronization, Locking and Concurrency",
+      "level": "h3"
+    },
+    {
+      "id": "threads-and-context-switching",
+      "text": "Threads and Context Switching",
+      "level": "h3"
+    },
+    {
+      "id": "garbage-collection",
+      "text": "Garbage Collection",
+      "level": "h3"
+    },
+    {
+      "id": "conclusions",
+      "text": "Conclusions",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 3469,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": true,
+  "missingAssetCount": 4
+}

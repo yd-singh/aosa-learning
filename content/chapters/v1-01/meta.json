@@ -1,0 +1,32 @@
+{
+  "sessionId": "v1-01",
+  "sourceUrl": "https://aosabook.org/en/v1/intro1.html",
+  "title": "Introduction",
+  "author": "Amy Brown and Greg Wilson",
+  "contentPath": "content/chapters/v1-01/content.html",
+  "rawPagePath": "content/chapters/v1-01/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "contributors",
+      "text": "Contributors",
+      "level": "h2"
+    },
+    {
+      "id": "acknowledgments",
+      "text": "Acknowledgments",
+      "level": "h2"
+    },
+    {
+      "id": "dedication",
+      "text": "Dedication",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 3346,
+  "imageCount": 0,
+  "tableCount": 1,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

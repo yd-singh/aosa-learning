@@ -1,0 +1,72 @@
+{
+  "sessionId": "500L-02",
+  "sourceUrl": "https://aosabook.org/en/500L/blockcode-a-visual-programming-toolkit.html",
+  "title": "Blockcode: A visual programming toolkit",
+  "author": "Dethe Elza",
+  "contentPath": "content/chapters/500L-02/content.html",
+  "rawPagePath": "content/chapters/500L-02/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "goals-and-structure",
+      "text": "Goals and Structure",
+      "level": "h2"
+    },
+    {
+      "id": "the-nature-of-scripts",
+      "text": "The Nature of Scripts",
+      "level": "h3"
+    },
+    {
+      "id": "web-applications",
+      "text": "Web Applications",
+      "level": "h3"
+    },
+    {
+      "id": "stepping-through-the-code",
+      "text": "Stepping Through the Code",
+      "level": "h2"
+    },
+    {
+      "id": "blocks.js",
+      "text": "blocks.js",
+      "level": "h3"
+    },
+    {
+      "id": "drag.js",
+      "text": "drag.js",
+      "level": "h3"
+    },
+    {
+      "id": "menu.js",
+      "text": "menu.js",
+      "level": "h3"
+    },
+    {
+      "id": "turtle.js",
+      "text": "turtle.js",
+      "level": "h3"
+    },
+    {
+      "id": "lessons-learned",
+      "text": "Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "why-not-use-mvc",
+      "text": "Why Not Use MVC?",
+      "level": "h3"
+    },
+    {
+      "id": "toy-changes-can-lead-to-real-changes",
+      "text": "Toy Changes Can Lead to Real Changes",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 5339,
+  "imageCount": 3,
+  "tableCount": 0,
+  "codeBlockCount": 20,
+  "hasFootnotes": false,
+  "missingAssetCount": 3
+}

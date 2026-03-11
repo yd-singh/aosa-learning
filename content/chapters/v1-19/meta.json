@@ -1,0 +1,108 @@
+{
+  "sessionId": "v1-19",
+  "sourceUrl": "https://aosabook.org/en/v1/snowflock.html",
+  "title": "SnowFlock",
+  "author": "Roy Bryant and Andr\u00e9s Lagar-Cavilla",
+  "contentPath": "content/chapters/v1-19/content.html",
+  "rawPagePath": "content/chapters/v1-19/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/snowflock/drawing.png",
+      "localPath": "content/assets/static/snowflock/drawing.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/snowflock/drawing-arch.png",
+      "localPath": "content/assets/static/snowflock/drawing-arch.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "18-1-introducing-snowflock",
+      "text": "18.1. Introducing SnowFlock",
+      "level": "h2"
+    },
+    {
+      "id": "18-2-vm-cloning",
+      "text": "18.2. VM Cloning",
+      "level": "h2"
+    },
+    {
+      "id": "18-3-snowflock-s-approach",
+      "text": "18.3. SnowFlock's Approach",
+      "level": "h2"
+    },
+    {
+      "id": "18-4-architectural-vm-descriptor",
+      "text": "18.4. Architectural VM Descriptor",
+      "level": "h2"
+    },
+    {
+      "id": "18-5-parent-side-components",
+      "text": "18.5. Parent-Side Components",
+      "level": "h2"
+    },
+    {
+      "id": "18-5-1-memserver-process",
+      "text": "18.5.1. Memserver Process",
+      "level": "h3"
+    },
+    {
+      "id": "18-5-2-multicasting-with-mcdist",
+      "text": "18.5.2. Multicasting with Mcdist",
+      "level": "h3"
+    },
+    {
+      "id": "18-5-3-virtual-disk",
+      "text": "18.5.3. Virtual Disk",
+      "level": "h3"
+    },
+    {
+      "id": "18-6-clone-side-components",
+      "text": "18.6. Clone-Side Components",
+      "level": "h2"
+    },
+    {
+      "id": "18-6-1-memtap-process",
+      "text": "18.6.1. Memtap Process",
+      "level": "h3"
+    },
+    {
+      "id": "18-6-2-clever-clones-avoid-unnecessary-fetches",
+      "text": "18.6.2. Clever Clones Avoid Unnecessary Fetches",
+      "level": "h3"
+    },
+    {
+      "id": "18-7-vm-cloning-application-interface",
+      "text": "18.7. VM Cloning Application Interface",
+      "level": "h2"
+    },
+    {
+      "id": "18-7-1-api-implementation",
+      "text": "18.7.1. API Implementation",
+      "level": "h3"
+    },
+    {
+      "id": "18-7-2-necessary-mutations",
+      "text": "18.7.2. Necessary Mutations",
+      "level": "h3"
+    },
+    {
+      "id": "18-8-conclusion",
+      "text": "18.8. Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5496,
+  "imageCount": 2,
+  "tableCount": 1,
+  "codeBlockCount": 0,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

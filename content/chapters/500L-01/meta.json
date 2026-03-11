@@ -1,0 +1,37 @@
+{
+  "sessionId": "500L-01",
+  "sourceUrl": "https://aosabook.org/en/500L/introduction.html",
+  "title": "Introduction",
+  "author": "Michael DiBernardo",
+  "contentPath": "content/chapters/500L-01/content.html",
+  "rawPagePath": "content/chapters/500L-01/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "contributors",
+      "text": "Contributors",
+      "level": "h2"
+    },
+    {
+      "id": "acknowledgments",
+      "text": "Acknowledgments",
+      "level": "h2"
+    },
+    {
+      "id": "contributing",
+      "text": "Contributing",
+      "level": "h2"
+    },
+    {
+      "id": "colophon",
+      "text": "Colophon",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 2254,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

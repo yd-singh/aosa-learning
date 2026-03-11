@@ -1,0 +1,143 @@
+{
+  "sessionId": "v2-03",
+  "sourceUrl": "https://aosabook.org/en/v2/ffreleng.html",
+  "title": "Firefox Release Engineering",
+  "author": "Chris AtLee, Lukas Blakk, John O'Duinn, and Armen Zambrano Gasparian",
+  "contentPath": "content/chapters/v2-03/content.html",
+  "rawPagePath": "content/chapters/v2-03/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/ffreleng/gotobuild.png",
+      "localPath": "content/assets/static/ffreleng/gotobuild.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/ffreleng/timelineSm.png",
+      "localPath": "content/assets/static/ffreleng/timelineSm.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/ffreleng/tagging.png",
+      "localPath": "content/assets/static/ffreleng/tagging.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/ffreleng/repacksl10n.png",
+      "localPath": "content/assets/static/ffreleng/repacksl10n.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/ffreleng/signing.png",
+      "localPath": "content/assets/static/ffreleng/signing.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "2-1-look-n-ways-before-you-start-a-release",
+      "text": "2.1. Look N Ways Before You Start a Release",
+      "level": "h2"
+    },
+    {
+      "id": "2-2-go-to-build",
+      "text": "2.2. \"Go to Build\"",
+      "level": "h2"
+    },
+    {
+      "id": "who-can-send-the-go-to-build",
+      "text": "Who Can Send the \"Go to Build\"?",
+      "level": "h3"
+    },
+    {
+      "id": "how-to-send-the-go-to-build",
+      "text": "How to Send the \"Go to Build\"?",
+      "level": "h3"
+    },
+    {
+      "id": "what-is-in-the-go-to-build-email",
+      "text": "What Is In the \"Go to Build\" Email?",
+      "level": "h3"
+    },
+    {
+      "id": "2-3-tagging-building-and-source-tarballs",
+      "text": "2.3. Tagging, Building, and Source Tarballs",
+      "level": "h2"
+    },
+    {
+      "id": "2-4-localization-repacks-and-partner-repacks",
+      "text": "2.4. Localization Repacks and Partner Repacks",
+      "level": "h2"
+    },
+    {
+      "id": "2-5-signing",
+      "text": "2.5. Signing",
+      "level": "h2"
+    },
+    {
+      "id": "2-6-updates",
+      "text": "2.6. Updates",
+      "level": "h2"
+    },
+    {
+      "id": "major-updates-vs-minor-updates",
+      "text": "Major Updates vs. Minor Updates",
+      "level": "h3"
+    },
+    {
+      "id": "complete-updates-vs-partial-updates",
+      "text": "Complete Updates vs. Partial Updates",
+      "level": "h3"
+    },
+    {
+      "id": "2-7-pushing-to-internal-mirrors-and-qa",
+      "text": "2.7. Pushing to Internal Mirrors and QA",
+      "level": "h2"
+    },
+    {
+      "id": "2-8-pushing-to-public-mirrors-and-aus",
+      "text": "2.8. Pushing to Public Mirrors and AUS",
+      "level": "h2"
+    },
+    {
+      "id": "2-9-lessons-learned",
+      "text": "2.9. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "the-importance-of-buy-in-from-other-stakeholders",
+      "text": "The Importance of Buy-in from Other Stakeholders",
+      "level": "h3"
+    },
+    {
+      "id": "involving-other-groups",
+      "text": "Involving Other Groups",
+      "level": "h3"
+    },
+    {
+      "id": "establishing-clear-handoffs",
+      "text": "Establishing Clear Handoffs",
+      "level": "h3"
+    },
+    {
+      "id": "managing-turnover",
+      "text": "Managing Turnover",
+      "level": "h3"
+    },
+    {
+      "id": "managing-change",
+      "text": "Managing Change",
+      "level": "h3"
+    },
+    {
+      "id": "2-10-for-more-information",
+      "text": "2.10. For More Information",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7096,
+  "imageCount": 5,
+  "tableCount": 0,
+  "codeBlockCount": 2,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

@@ -1,0 +1,123 @@
+{
+  "sessionId": "v2-25",
+  "sourceUrl": "https://aosabook.org/en/v2/zeromq.html",
+  "title": "ZeroMQ",
+  "author": "Martin S\u00fcstrik",
+  "contentPath": "content/chapters/v2-25/content.html",
+  "rawPagePath": "content/chapters/v2-25/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/zeromq/aosa1.png",
+      "localPath": "content/assets/static/zeromq/aosa1.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/zeromq/aosa8.png",
+      "localPath": "content/assets/static/zeromq/aosa8.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/zeromq/aosa2.png",
+      "localPath": "content/assets/static/zeromq/aosa2.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/zeromq/aosa3.png",
+      "localPath": "content/assets/static/zeromq/aosa3.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/zeromq/aosa4.png",
+      "localPath": "content/assets/static/zeromq/aosa4.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/zeromq/aosa9.png",
+      "localPath": "content/assets/static/zeromq/aosa9.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/zeromq/aosa5.png",
+      "localPath": "content/assets/static/zeromq/aosa5.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/zeromq/aosa6.png",
+      "localPath": "content/assets/static/zeromq/aosa6.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/zeromq/aosa7.png",
+      "localPath": "content/assets/static/zeromq/aosa7.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "24-1-application-vs-library",
+      "text": "24.1. Application vs. Library",
+      "level": "h2"
+    },
+    {
+      "id": "24-2-global-state",
+      "text": "24.2. Global State",
+      "level": "h2"
+    },
+    {
+      "id": "24-3-performance",
+      "text": "24.3. Performance",
+      "level": "h2"
+    },
+    {
+      "id": "24-4-critical-path",
+      "text": "24.4. Critical Path",
+      "level": "h2"
+    },
+    {
+      "id": "24-5-allocating-memory",
+      "text": "24.5. Allocating Memory",
+      "level": "h2"
+    },
+    {
+      "id": "24-6-batching",
+      "text": "24.6. Batching",
+      "level": "h2"
+    },
+    {
+      "id": "24-7-architecture-overview",
+      "text": "24.7. Architecture Overview",
+      "level": "h2"
+    },
+    {
+      "id": "24-8-concurrency-model",
+      "text": "24.8. Concurrency Model",
+      "level": "h2"
+    },
+    {
+      "id": "24-9-lock-free-algorithms",
+      "text": "24.9. Lock-Free Algorithms",
+      "level": "h2"
+    },
+    {
+      "id": "24-10-api",
+      "text": "24.10. API",
+      "level": "h2"
+    },
+    {
+      "id": "24-11-messaging-patterns",
+      "text": "24.11. Messaging Patterns",
+      "level": "h2"
+    },
+    {
+      "id": "24-12-conclusion",
+      "text": "24.12. Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6510,
+  "imageCount": 9,
+  "tableCount": 0,
+  "codeBlockCount": 2,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

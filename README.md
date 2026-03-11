@@ -1,46 +1,74 @@
-# Architecture Arcade
+# Make Tech PM Tech
 
-A standalone, offline-first study app for learning from [The Architecture of Open Source Applications]() as a technical PM.
+A standalone AOSA study app for technical PMs.
+
+This version is static and deployment-friendly:
+- no backend server
+- no app-side auth database
+- no user table/admin APIs
+- progress saved per browser via localStorage
 
 ## What it includes
 
 - 89 study sessions across all four AOSA collections
-- Real chapter URLs from the AOSA site
-- Downloaded local chapter content for in-app reading
-- Localized chapter figures and other AOSA-hosted assets
-- PM-focused study prompts, activities, and boss-battle questions
-- Local progress tracking, XP, streaks, bookmarks, and notes
-- Reader routes like `?session=v1-02&view=reader`
+- In-app chapter reading from local bundled content
+- Localized chapter figures/assets
+- PM-focused prompts, activities, and quiz checks
+- Progress, XP, streaks, bookmarks, notes (browser-local)
 
-Notes:
-- The repo does not store the admin password.
-- On first bootstrap, `ADMIN_PASSWORD` is required so the server can create the admin password hash.
-- After the first successful startup, remove `ADMIN_PASSWORD` from your run command. The stored hash in `data/app.db` is then used for future logins.
-- After that, only `join.ydsingh@gmail.com` can be admin.
-- Learners created in the UI are always `learner` role users.
-- Learner accounts must use usernames, not email addresses.
-
-## Refresh the offline corpus
-
-The bundler crawls the current AOSA site, downloads chapter pages, localizes images/assets, and regenerates the dataset bundle used by the app server.
+## Run locally
 
 ```bash
-python3 scripts/fetch_aosa.py
+python3 -m http.server 4173
 ```
+
+Open `http://127.0.0.1:4173`.
+
+## Deploy on Cloudflare Pages
+
+1. Push this repo to GitHub.
+2. Create a new Cloudflare Pages project from the repo.
+3. Build settings:
+- Framework preset: `None`
+- Build command: (leave empty)
+- Build output directory: `/` (root)
+4. Deploy.
+
+Because this is a static app, no runtime env vars are required.
+
+## Add login gate with Cloudflare Access
+
+Use Zero Trust Access in front of your Pages custom domain.
+
+1. Attach a custom domain to the Pages project.
+2. In Cloudflare Zero Trust, create an Access application (`Self-hosted`) for that hostname.
+3. Add allow policies for the identities you want (for example, your email domain or specific users).
+4. Optionally block/redirect direct `*.pages.dev` access and force custom-domain access only.
+
+This gives cloud login protection without app backend auth.
+
+## Sharing model
+
+- You can host your own instance behind Access.
+- Anyone else can clone/fork and deploy their own copy.
+- Each deployment keeps user progress in each user's browser storage.
 
 ## Content layout
 
 - `content/chapters/<session-id>/page.html`: raw downloaded chapter page
 - `content/chapters/<session-id>/content.html`: transformed chapter body used by the app
-- `content/chapters/<session-id>/meta.json`: per-session offline manifest
-- `content/assets/...`: localized AOSA-hosted figures and assets
+- `content/chapters/<session-id>/meta.json`: per-session manifest
+- `content/assets/...`: localized figures/assets
 
 ## Files
 
-- `index.html`: app shell and reader layout
-- `styles.css`: visual design, responsive layout, and reader prose styling
-- `app.js`: rendering, routing, auth flow, admin UX, and server-backed progress
-- `scripts/app_server.py`: multi-user app server with SQLite auth and progress storage
-- `scripts/fetch_aosa.py`: offline bundler for the AOSA site
-- `data/aosa_dataset.json`: raw structured dataset used by the server
-- `content/`: downloaded chapter corpus and assets
+- `index.html`: app shell and layout
+- `styles.css`: visual system and responsive styling
+- `app.js`: static runtime (dataset load, rendering, progress persistence)
+- `scripts/fetch_aosa.py`: corpus refresh script
+- `data/aosa_dataset.json`: dataset used by the app
+- `content/`: bundled chapter corpus and assets
+
+## Optional legacy backend
+
+`scripts/app_server.py` is retained only as an optional legacy path. It is not required for this static deployment setup.

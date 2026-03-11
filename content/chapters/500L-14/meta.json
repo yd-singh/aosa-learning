@@ -1,0 +1,92 @@
+{
+  "sessionId": "500L-14",
+  "sourceUrl": "https://aosabook.org/en/500L/a-3d-modeller.html",
+  "title": "A 3D Modeller",
+  "author": "Erick Dransch",
+  "contentPath": "content/chapters/500L-14/content.html",
+  "rawPagePath": "content/chapters/500L-14/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "rendering-as-a-guide",
+      "text": "Rendering as a Guide",
+      "level": "h2"
+    },
+    {
+      "id": "managing-interfaces-and-the-main-loop",
+      "text": "Managing Interfaces and the Main Loop",
+      "level": "h3"
+    },
+    {
+      "id": "coordinate-space",
+      "text": "Coordinate Space",
+      "level": "h3"
+    },
+    {
+      "id": "point",
+      "text": "Point",
+      "level": "h3"
+    },
+    {
+      "id": "vector",
+      "text": "Vector",
+      "level": "h3"
+    },
+    {
+      "id": "transformation-matrix",
+      "text": "Transformation Matrix",
+      "level": "h3"
+    },
+    {
+      "id": "model-world-view-and-projection-coordinate-spaces",
+      "text": "Model, World, View, and Projection Coordinate Spaces",
+      "level": "h3"
+    },
+    {
+      "id": "rendering-with-the-viewer",
+      "text": "Rendering with the Viewer",
+      "level": "h3"
+    },
+    {
+      "id": "what-to-render-the-scene",
+      "text": "What to Render: The Scene",
+      "level": "h3"
+    },
+    {
+      "id": "nodes",
+      "text": "Nodes",
+      "level": "h3"
+    },
+    {
+      "id": "user-interaction",
+      "text": "User Interaction",
+      "level": "h3"
+    },
+    {
+      "id": "interfacing-with-the-scene",
+      "text": "Interfacing with the Scene",
+      "level": "h3"
+    },
+    {
+      "id": "summary",
+      "text": "Summary",
+      "level": "h2"
+    },
+    {
+      "id": "further-exploration",
+      "text": "Further Exploration",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7397,
+  "imageCount": 4,
+  "tableCount": 1,
+  "codeBlockCount": 26,
+  "hasFootnotes": true,
+  "missingAssetCount": 4
+}

@@ -1,0 +1,42 @@
+{
+  "sessionId": "posa-09",
+  "sourceUrl": "https://aosabook.org/en/posa/talos.html",
+  "title": "Talos",
+  "author": "Clint Talbert and Joel Maher",
+  "contentPath": "content/chapters/posa-09/content.html",
+  "rawPagePath": "content/chapters/posa-09/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "overview",
+      "text": "Overview",
+      "level": "h2"
+    },
+    {
+      "id": "understanding-what-you-are-measuring",
+      "text": "Understanding What You Are Measuring",
+      "level": "h2"
+    },
+    {
+      "id": "rewrite-vs.-refactor",
+      "text": "Rewrite vs. Refactor",
+      "level": "h2"
+    },
+    {
+      "id": "creating-a-performance-culture",
+      "text": "Creating a Performance Culture",
+      "level": "h2"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 3403,
+  "imageCount": 1,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": true,
+  "missingAssetCount": 1
+}

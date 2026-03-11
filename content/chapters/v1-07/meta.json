@@ -1,0 +1,158 @@
+{
+  "sessionId": "v1-07",
+  "sourceUrl": "https://aosabook.org/en/v1/eclipse.html",
+  "title": "Eclipse",
+  "author": "Kim Moir",
+  "contentPath": "content/chapters/v1-07/content.html",
+  "rawPagePath": "content/chapters/v1-07/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/javaperspective.png",
+      "localPath": "content/assets/static/eclipse/javaperspective.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/examplemenu.png",
+      "localPath": "content/assets/static/eclipse/examplemenu.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/platform.png",
+      "localPath": "content/assets/static/eclipse/platform.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/bundlelifecycle.png",
+      "localPath": "content/assets/static/eclipse/bundlelifecycle.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/versioning.png",
+      "localPath": "content/assets/static/eclipse/versioning.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/rcp.png",
+      "localPath": "content/assets/static/eclipse/rcp.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/eclipse33features.png",
+      "localPath": "content/assets/static/eclipse/eclipse33features.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/p2.png",
+      "localPath": "content/assets/static/eclipse/p2.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/e4.png",
+      "localPath": "content/assets/static/eclipse/e4.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/modelledworkbench.png",
+      "localPath": "content/assets/static/eclipse/modelledworkbench.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/producerconsumer.png",
+      "localPath": "content/assets/static/eclipse/producerconsumer.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/eclipse/context.png",
+      "localPath": "content/assets/static/eclipse/context.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "6-1-early-eclipse",
+      "text": "6.1. Early Eclipse",
+      "level": "h2"
+    },
+    {
+      "id": "6-1-1-platform",
+      "text": "6.1.1. Platform",
+      "level": "h3"
+    },
+    {
+      "id": "6-1-2-java-development-tools-jdt",
+      "text": "6.1.2. Java Development Tools (JDT)",
+      "level": "h3"
+    },
+    {
+      "id": "6-1-3-plug-in-development-environment-pde",
+      "text": "6.1.3. Plug-in Development Environment (PDE)",
+      "level": "h3"
+    },
+    {
+      "id": "6-2-eclipse-3-0-runtime-rcp-and-robots",
+      "text": "6.2. Eclipse 3.0: Runtime, RCP and Robots",
+      "level": "h2"
+    },
+    {
+      "id": "6-2-1-runtime",
+      "text": "6.2.1. Runtime",
+      "level": "h3"
+    },
+    {
+      "id": "6-2-2-rich-client-platform-rcp",
+      "text": "6.2.2. Rich Client Platform (RCP)",
+      "level": "h3"
+    },
+    {
+      "id": "6-3-eclipse-3-4",
+      "text": "6.3. Eclipse 3.4",
+      "level": "h2"
+    },
+    {
+      "id": "6-3-1-p2-concepts",
+      "text": "6.3.1. p2 Concepts",
+      "level": "h3"
+    },
+    {
+      "id": "6-4-eclipse-4-0",
+      "text": "6.4. Eclipse 4.0",
+      "level": "h2"
+    },
+    {
+      "id": "6-4-1-model-workbench",
+      "text": "6.4.1. Model Workbench",
+      "level": "h3"
+    },
+    {
+      "id": "6-4-2-cascading-style-sheets-styling",
+      "text": "6.4.2. Cascading Style Sheets Styling",
+      "level": "h3"
+    },
+    {
+      "id": "6-4-3-dependency-injection",
+      "text": "6.4.3. Dependency Injection",
+      "level": "h3"
+    },
+    {
+      "id": "6-4-4-application-services",
+      "text": "6.4.4. Application Services",
+      "level": "h3"
+    },
+    {
+      "id": "6-5-conclusion",
+      "text": "6.5. Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8309,
+  "imageCount": 12,
+  "tableCount": 0,
+  "codeBlockCount": 11,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

@@ -1,0 +1,108 @@
+{
+  "sessionId": "v2-17",
+  "sourceUrl": "https://aosabook.org/en/v2/oscar.html",
+  "title": "OSCAR",
+  "author": "Jennifer Ruttan",
+  "contentPath": "content/chapters/v2-17/content.html",
+  "rawPagePath": "content/chapters/v2-17/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/oscar/integratoroscar.png",
+      "localPath": "content/assets/static/oscar/integratoroscar.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/oscar/integratorupload.png",
+      "localPath": "content/assets/static/oscar/integratorupload.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/oscar/integratordemodownload.png",
+      "localPath": "content/assets/static/oscar/integratordemodownload.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/oscar/integratordataretrieval.png",
+      "localPath": "content/assets/static/oscar/integratordataretrieval.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "16-1-system-hierarchy",
+      "text": "16.1. System Hierarchy",
+      "level": "h2"
+    },
+    {
+      "id": "16-2-past-decision-making",
+      "text": "16.2. Past Decision Making",
+      "level": "h2"
+    },
+    {
+      "id": "16-3-version-control",
+      "text": "16.3. Version Control",
+      "level": "h2"
+    },
+    {
+      "id": "16-4-data-models-daos",
+      "text": "16.4. Data Models/DAOs",
+      "level": "h2"
+    },
+    {
+      "id": "eforms-dbhandler",
+      "text": "EForms (DBHandler)",
+      "level": "h3"
+    },
+    {
+      "id": "demographic-records-hibernate",
+      "text": "Demographic Records (Hibernate)",
+      "level": "h3"
+    },
+    {
+      "id": "integrator-consent-jpa",
+      "text": "Integrator Consent (JPA)",
+      "level": "h3"
+    },
+    {
+      "id": "issues-with-hibernate-and-jpa",
+      "text": "Issues with Hibernate and JPA",
+      "level": "h3"
+    },
+    {
+      "id": "16-5-permissions",
+      "text": "16.5. Permissions",
+      "level": "h2"
+    },
+    {
+      "id": "16-6-integrator",
+      "text": "16.6. Integrator",
+      "level": "h2"
+    },
+    {
+      "id": "technical-details",
+      "text": "Technical Details",
+      "level": "h3"
+    },
+    {
+      "id": "design",
+      "text": "Design",
+      "level": "h3"
+    },
+    {
+      "id": "data-format",
+      "text": "Data Format",
+      "level": "h3"
+    },
+    {
+      "id": "16-7-lessons-learned",
+      "text": "16.7. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6558,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

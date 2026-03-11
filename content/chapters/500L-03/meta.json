@@ -1,0 +1,102 @@
+{
+  "sessionId": "500L-03",
+  "sourceUrl": "https://aosabook.org/en/500L/a-continuous-integration-system.html",
+  "title": "A Continuous Integration System",
+  "author": "Malini Das",
+  "contentPath": "content/chapters/500L-03/content.html",
+  "rawPagePath": "content/chapters/500L-03/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "what-is-a-continuous-integration-system",
+      "text": "What is a Continuous Integration System?",
+      "level": "h2"
+    },
+    {
+      "id": "project-limitations-and-notes",
+      "text": "Project Limitations and Notes",
+      "level": "h2"
+    },
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "files-in-this-project",
+      "text": "Files in this Project",
+      "level": "h3"
+    },
+    {
+      "id": "initial-setup",
+      "text": "Initial Setup",
+      "level": "h3"
+    },
+    {
+      "id": "the-components",
+      "text": "The Components",
+      "level": "h2"
+    },
+    {
+      "id": "the-repository-observer-repo_observer.py",
+      "text": "The Repository Observer ( repo_observer.py )",
+      "level": "h3"
+    },
+    {
+      "id": "the-dispatcher-dispatcher.py",
+      "text": "The Dispatcher ( dispatcher.py )",
+      "level": "h3"
+    },
+    {
+      "id": "the-test-runner-test_runner.py",
+      "text": "The Test Runner ( test_runner.py )",
+      "level": "h3"
+    },
+    {
+      "id": "control-flow-diagram",
+      "text": "Control Flow Diagram",
+      "level": "h3"
+    },
+    {
+      "id": "running-the-code",
+      "text": "Running the Code",
+      "level": "h3"
+    },
+    {
+      "id": "error-handling",
+      "text": "Error Handling",
+      "level": "h2"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "per-commit-test-runs",
+      "text": "Per-Commit Test Runs",
+      "level": "h3"
+    },
+    {
+      "id": "smarter-test-runners",
+      "text": "Smarter Test Runners",
+      "level": "h3"
+    },
+    {
+      "id": "real-reporting",
+      "text": "Real Reporting",
+      "level": "h3"
+    },
+    {
+      "id": "test-runner-manager",
+      "text": "Test Runner Manager",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 6042,
+  "imageCount": 1,
+  "tableCount": 0,
+  "codeBlockCount": 35,
+  "hasFootnotes": true,
+  "missingAssetCount": 1
+}

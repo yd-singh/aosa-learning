@@ -1,0 +1,143 @@
+{
+  "sessionId": "v2-06",
+  "sourceUrl": "https://aosabook.org/en/v2/ghc.html",
+  "title": "The Glasgow Haskell Compiler",
+  "author": "Simon Marlow and Simon Peyton-Jones",
+  "contentPath": "content/chapters/v2-06/content.html",
+  "rawPagePath": "content/chapters/v2-06/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/ghc/hscpipe2.png",
+      "localPath": "content/assets/static/ghc/hscpipe2.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "5-1-what-is-haskell",
+      "text": "5.1. What is Haskell?",
+      "level": "h2"
+    },
+    {
+      "id": "5-2-high-level-structure",
+      "text": "5.2. High-Level Structure",
+      "level": "h2"
+    },
+    {
+      "id": "code-metrics",
+      "text": "Code Metrics",
+      "level": "h3"
+    },
+    {
+      "id": "the-compiler",
+      "text": "The Compiler",
+      "level": "h3"
+    },
+    {
+      "id": "compiling-haskell-code",
+      "text": "Compiling Haskell Code",
+      "level": "h3"
+    },
+    {
+      "id": "5-3-key-design-choices",
+      "text": "5.3. Key Design Choices",
+      "level": "h2"
+    },
+    {
+      "id": "the-intermediate-language",
+      "text": "The Intermediate Language",
+      "level": "h3"
+    },
+    {
+      "id": "type-checking-the-source-language",
+      "text": "Type Checking the Source Language",
+      "level": "h3"
+    },
+    {
+      "id": "no-symbol-table",
+      "text": "No Symbol Table",
+      "level": "h3"
+    },
+    {
+      "id": "inter-module-optimisation",
+      "text": "Inter-Module Optimisation",
+      "level": "h3"
+    },
+    {
+      "id": "5-4-extensibility",
+      "text": "5.4. Extensibility",
+      "level": "h2"
+    },
+    {
+      "id": "user-defined-rewrite-rules",
+      "text": "User-Defined Rewrite Rules",
+      "level": "h3"
+    },
+    {
+      "id": "compiler-plugins",
+      "text": "Compiler Plugins",
+      "level": "h3"
+    },
+    {
+      "id": "ghc-as-a-library-the-ghc-api",
+      "text": "GHC as a Library: The GHC API",
+      "level": "h3"
+    },
+    {
+      "id": "the-package-system",
+      "text": "The Package System",
+      "level": "h3"
+    },
+    {
+      "id": "5-5-the-runtime-system",
+      "text": "5.5. The Runtime System",
+      "level": "h2"
+    },
+    {
+      "id": "key-design-decisions",
+      "text": "Key Design Decisions",
+      "level": "h3"
+    },
+    {
+      "id": "5-6-developing-ghc",
+      "text": "5.6. Developing GHC",
+      "level": "h2"
+    },
+    {
+      "id": "comments-and-notes",
+      "text": "Comments and Notes",
+      "level": "h3"
+    },
+    {
+      "id": "how-to-keep-on-refactoring",
+      "text": "How to Keep On Refactoring",
+      "level": "h3"
+    },
+    {
+      "id": "crime-doesn-t-pay",
+      "text": "Crime Doesn't Pay",
+      "level": "h3"
+    },
+    {
+      "id": "developing-the-rts",
+      "text": "Developing the RTS",
+      "level": "h3"
+    },
+    {
+      "id": "invariants-and-checking-them",
+      "text": "Invariants, and Checking Them",
+      "level": "h3"
+    },
+    {
+      "id": "5-7-conclusion",
+      "text": "5.7. Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 11238,
+  "imageCount": 1,
+  "tableCount": 2,
+  "codeBlockCount": 8,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

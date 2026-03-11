@@ -1,0 +1,143 @@
+{
+  "sessionId": "v2-10",
+  "sourceUrl": "https://aosabook.org/en/v2/itk.html",
+  "title": "ITK",
+  "author": "Luis Ib\u00e1\u00f1ez and Brad King",
+  "contentPath": "content/chapters/v2-10/content.html",
+  "rawPagePath": "content/chapters/v2-10/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/ExampleImageProcessingPipeline.png",
+      "localPath": "content/assets/static/itk/ExampleImageProcessingPipeline.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/BrainProtonDensitySlice.png",
+      "localPath": "content/assets/static/itk/BrainProtonDensitySlice.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/BrainProtonDensitySliceMedian.png",
+      "localPath": "content/assets/static/itk/BrainProtonDensitySliceMedian.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/BrainProtonDensitySliceCanny.png",
+      "localPath": "content/assets/static/itk/BrainProtonDensitySliceCanny.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/IllustrationOfModularStructure.png",
+      "localPath": "content/assets/static/itk/IllustrationOfModularStructure.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/moduleSizePlotCombined.png",
+      "localPath": "content/assets/static/itk/moduleSizePlotCombined.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/ProcessObjectDataObject.png",
+      "localPath": "content/assets/static/itk/ProcessObjectDataObject.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/ProcessObjectDataObjectHierarchy.png",
+      "localPath": "content/assets/static/itk/ProcessObjectDataObjectHierarchy.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/ProcessObjectDataObjectInteractionUML.png",
+      "localPath": "content/assets/static/itk/ProcessObjectDataObjectInteractionUML.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/ImageIOFactoriesDesignPattern.png",
+      "localPath": "content/assets/static/itk/ImageIOFactoriesDesignPattern.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/itk/StreamingImageDiagram.png",
+      "localPath": "content/assets/static/itk/StreamingImageDiagram.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "9-1-what-is-itk",
+      "text": "9.1. What Is ITK?",
+      "level": "h2"
+    },
+    {
+      "id": "9-2-architectural-features",
+      "text": "9.2. Architectural Features",
+      "level": "h2"
+    },
+    {
+      "id": "the-nature-of-the-beast",
+      "text": "The Nature of the Beast",
+      "level": "h3"
+    },
+    {
+      "id": "modularity",
+      "text": "Modularity",
+      "level": "h3"
+    },
+    {
+      "id": "data-pipeline",
+      "text": "Data Pipeline",
+      "level": "h3"
+    },
+    {
+      "id": "factories",
+      "text": "Factories",
+      "level": "h3"
+    },
+    {
+      "id": "io-factories",
+      "text": "IO Factories",
+      "level": "h3"
+    },
+    {
+      "id": "streaming",
+      "text": "Streaming",
+      "level": "h3"
+    },
+    {
+      "id": "9-3-lessons-learned",
+      "text": "9.3. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "reusability",
+      "text": "Reusability",
+      "level": "h3"
+    },
+    {
+      "id": "maintainability",
+      "text": "Maintainability",
+      "level": "h3"
+    },
+    {
+      "id": "the-invisible-hand",
+      "text": "The Invisible Hand",
+      "level": "h3"
+    },
+    {
+      "id": "refactoring",
+      "text": "Refactoring",
+      "level": "h3"
+    },
+    {
+      "id": "reproducibility",
+      "text": "Reproducibility",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 9167,
+  "imageCount": 11,
+  "tableCount": 0,
+  "codeBlockCount": 8,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

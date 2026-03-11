@@ -1,0 +1,127 @@
+{
+  "sessionId": "posa-02",
+  "sourceUrl": "https://aosabook.org/en/posa/high-performance-networking-in-chrome.html",
+  "title": "High Performance Networking in Chrome",
+  "author": "Ilya Grigorik",
+  "contentPath": "content/chapters/posa-02/content.html",
+  "rawPagePath": "content/chapters/posa-02/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "history-and-guiding-principles-of-google-chrome",
+      "text": "History and Guiding Principles of Google Chrome",
+      "level": "h2"
+    },
+    {
+      "id": "the-many-facets-of-performance",
+      "text": "The Many Facets of Performance",
+      "level": "h2"
+    },
+    {
+      "id": "what-is-a-modern-web-application",
+      "text": "What is a Modern Web Application?",
+      "level": "h2"
+    },
+    {
+      "id": "the-life-of-a-resource-request-on-the-wire",
+      "text": "The Life of a Resource Request on the Wire",
+      "level": "h2"
+    },
+    {
+      "id": "what-is-fast-enough",
+      "text": "What is \"Fast Enough\"?",
+      "level": "h2"
+    },
+    {
+      "id": "chromes-network-stack-from-10000-feet",
+      "text": "Chrome's Network Stack from 10,000 Feet",
+      "level": "h2"
+    },
+    {
+      "id": "multi-process-architecture",
+      "text": "Multi-process Architecture",
+      "level": "h3"
+    },
+    {
+      "id": "inter-process-communication-and-multi-process-resource-loading",
+      "text": "Inter-process Communication and Multi-process Resource Loading",
+      "level": "h3"
+    },
+    {
+      "id": "cross-platform-resource-fetching",
+      "text": "Cross-platform Resource Fetching",
+      "level": "h3"
+    },
+    {
+      "id": "architecture-and-performance-on-mobile-platforms",
+      "text": "Architecture and Performance on Mobile Platforms",
+      "level": "h3"
+    },
+    {
+      "id": "speculative-optimization-with-chromes-predictor",
+      "text": "Speculative Optimization with Chrome's Predictor",
+      "level": "h3"
+    },
+    {
+      "id": "chrome-network-architecture-in-a-nutshell",
+      "text": "Chrome Network Architecture in a Nutshell",
+      "level": "h3"
+    },
+    {
+      "id": "the-lifetime-of-your-browser-session",
+      "text": "The Lifetime of Your Browser Session",
+      "level": "h2"
+    },
+    {
+      "id": "optimizing-the-cold-boot-experience",
+      "text": "Optimizing the Cold-boot Experience",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-interactions-with-the-omnibox",
+      "text": "Optimizing Interactions with the Omnibox",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-cache-performance",
+      "text": "Optimizing Cache Performance",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-dns-with-prefetching",
+      "text": "Optimizing DNS with Prefetching",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-tcp-connection-management-with-pre-connect",
+      "text": "Optimizing TCP Connection Management with Pre-connect",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-resource-loading-with-prefetch-hints",
+      "text": "Optimizing Resource Loading with Prefetch Hints",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-resource-loading-with-browser-prefreshing",
+      "text": "Optimizing Resource Loading with Browser Prefreshing",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-navigation-with-prerendering",
+      "text": "Optimizing Navigation with Prerendering",
+      "level": "h3"
+    },
+    {
+      "id": "chrome-gets-faster-as-you-use-it",
+      "text": "Chrome Gets Faster as You Use It",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8354,
+  "imageCount": 11,
+  "tableCount": 3,
+  "codeBlockCount": 4,
+  "hasFootnotes": true,
+  "missingAssetCount": 11
+}

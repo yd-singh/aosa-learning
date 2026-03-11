@@ -1,0 +1,138 @@
+{
+  "sessionId": "v1-05",
+  "sourceUrl": "https://aosabook.org/en/v1/bdb.html",
+  "title": "Berkeley DB",
+  "author": "Margo Seltzer and Keith Bostic",
+  "contentPath": "content/chapters/v1-05/content.html",
+  "rawPagePath": "content/chapters/v1-05/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/bdb/libtp.png",
+      "localPath": "content/assets/static/bdb/libtp.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/bdb/bdb20.png",
+      "localPath": "content/assets/static/bdb/bdb20.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/bdb/bdb20-actual.png",
+      "localPath": "content/assets/static/bdb/bdb20-actual.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/bdb/bdb50.png",
+      "localPath": "content/assets/static/bdb/bdb50.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "4-1-in-the-beginning",
+      "text": "4.1. In the Beginning",
+      "level": "h2"
+    },
+    {
+      "id": "4-2-architectural-overview",
+      "text": "4.2. Architectural Overview",
+      "level": "h2"
+    },
+    {
+      "id": "4-3-the-access-methods-btree-hash-recno-queue",
+      "text": "4.3. The Access Methods: Btree, Hash, Recno, Queue",
+      "level": "h2"
+    },
+    {
+      "id": "sec.bdb.int",
+      "text": "4.4. The Library Interface Layer",
+      "level": "h2"
+    },
+    {
+      "id": "4-5-the-underlying-components",
+      "text": "4.5. The Underlying Components",
+      "level": "h2"
+    },
+    {
+      "id": "4-6-the-buffer-manager-mpool",
+      "text": "4.6. The Buffer Manager: Mpool",
+      "level": "h2"
+    },
+    {
+      "id": "4-6-1-the-mpool-file-abstraction",
+      "text": "4.6.1. The Mpool File Abstraction",
+      "level": "h3"
+    },
+    {
+      "id": "4-6-2-write-ahead-logging",
+      "text": "4.6.2. Write-ahead Logging",
+      "level": "h3"
+    },
+    {
+      "id": "4-7-the-lock-manager-lock",
+      "text": "4.7. The Lock Manager: Lock",
+      "level": "h2"
+    },
+    {
+      "id": "4-7-1-lock-objects",
+      "text": "4.7.1. Lock Objects",
+      "level": "h3"
+    },
+    {
+      "id": "4-7-2-the-conflict-matrix",
+      "text": "4.7.2. The Conflict Matrix",
+      "level": "h3"
+    },
+    {
+      "id": "4-7-3-supporting-hierarchical-locking",
+      "text": "4.7.3. Supporting Hierarchical Locking",
+      "level": "h3"
+    },
+    {
+      "id": "sec.bdb.log",
+      "text": "4.8. The Log Manager: Log",
+      "level": "h2"
+    },
+    {
+      "id": "sec.bdb.log-2",
+      "text": "4.8.1. Log Record Formatting",
+      "level": "h3"
+    },
+    {
+      "id": "sec.bdb.log-3",
+      "text": "4.8.2. Breaking the Abstraction",
+      "level": "h3"
+    },
+    {
+      "id": "4-9-the-transaction-manager-txn",
+      "text": "4.9. The Transaction Manager: Txn",
+      "level": "h2"
+    },
+    {
+      "id": "4-9-1-checkpoint-processing",
+      "text": "4.9.1. Checkpoint Processing",
+      "level": "h3"
+    },
+    {
+      "id": "4-9-2-recovery",
+      "text": "4.9.2. Recovery",
+      "level": "h3"
+    },
+    {
+      "id": "4-10-wrapping-up",
+      "text": "4.10. Wrapping Up",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 9774,
+  "imageCount": 4,
+  "tableCount": 2,
+  "codeBlockCount": 1,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

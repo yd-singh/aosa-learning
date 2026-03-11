@@ -1,0 +1,72 @@
+{
+  "sessionId": "500L-06",
+  "sourceUrl": "https://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html",
+  "title": "A Web Crawler With asyncio Coroutines",
+  "author": "A. Jesse Jiryu Davis and Guido van Rossum",
+  "contentPath": "content/chapters/500L-06/content.html",
+  "rawPagePath": "content/chapters/500L-06/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "the-task",
+      "text": "The Task",
+      "level": "h2"
+    },
+    {
+      "id": "the-traditional-approach",
+      "text": "The Traditional Approach",
+      "level": "h2"
+    },
+    {
+      "id": "async",
+      "text": "Async",
+      "level": "h2"
+    },
+    {
+      "id": "programming-with-callbacks",
+      "text": "Programming With Callbacks",
+      "level": "h2"
+    },
+    {
+      "id": "coroutines",
+      "text": "Coroutines",
+      "level": "h2"
+    },
+    {
+      "id": "how-python-generators-work",
+      "text": "How Python Generators Work",
+      "level": "h2"
+    },
+    {
+      "id": "building-coroutines-with-generators",
+      "text": "Building Coroutines With Generators",
+      "level": "h2"
+    },
+    {
+      "id": "factoring-coroutines-with-yield-from",
+      "text": "Factoring Coroutines With yield from",
+      "level": "h2"
+    },
+    {
+      "id": "coordinating-coroutines",
+      "text": "Coordinating Coroutines",
+      "level": "h2"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8612,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 68,
+  "hasFootnotes": true,
+  "missingAssetCount": 4
+}

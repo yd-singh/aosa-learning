@@ -1,0 +1,133 @@
+{
+  "sessionId": "v1-21",
+  "sourceUrl": "https://aosabook.org/en/v1/telepathy.html",
+  "title": "Telepathy",
+  "author": "Danielle Madeley",
+  "contentPath": "content/chapters/v1-21/content.html",
+  "rawPagePath": "content/chapters/v1-21/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/telepathy/telepathy-components.png",
+      "localPath": "content/assets/static/telepathy/telepathy-components.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/telepathy/bus-hierarchy-conceptual.png",
+      "localPath": "content/assets/static/telepathy/bus-hierarchy-conceptual.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/telepathy/telepathy-types-unpacked.png",
+      "localPath": "content/assets/static/telepathy/telepathy-types-unpacked.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/telepathy/dispatching-model.png",
+      "localPath": "content/assets/static/telepathy/dispatching-model.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/telepathy/cm.png",
+      "localPath": "content/assets/static/telepathy/cm.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "20-1-components-of-the-telepathy-framework",
+      "text": "20.1. Components of the Telepathy Framework",
+      "level": "h2"
+    },
+    {
+      "id": "20-2-how-telepathy-uses-d-bus",
+      "text": "20.2. How Telepathy uses D-Bus",
+      "level": "h2"
+    },
+    {
+      "id": "20-2-1-handles",
+      "text": "20.2.1. Handles",
+      "level": "h3"
+    },
+    {
+      "id": "20-2-2-discovering-telepathy-services",
+      "text": "20.2.2. Discovering Telepathy Services",
+      "level": "h3"
+    },
+    {
+      "id": "20-2-3-reducing-d-bus-traffic",
+      "text": "20.2.3. Reducing D-Bus Traffic",
+      "level": "h3"
+    },
+    {
+      "id": "sec.telepathy.ccc",
+      "text": "20.3. Connections, Channels and Clients",
+      "level": "h2"
+    },
+    {
+      "id": "sec.telepathy.ccc-2",
+      "text": "20.3.1. Connections",
+      "level": "h3"
+    },
+    {
+      "id": "sec.telepathy.ccc-3",
+      "text": "20.3.2. Channels",
+      "level": "h3"
+    },
+    {
+      "id": "sec.telepathy.ccc-4",
+      "text": "20.3.3. Requesting Channels, Channel Properties and Dispatching",
+      "level": "h3"
+    },
+    {
+      "id": "sec.telepathy.ccc-5",
+      "text": "20.3.4. Clients",
+      "level": "h3"
+    },
+    {
+      "id": "20-4-the-role-of-language-bindings",
+      "text": "20.4. The Role of Language Bindings",
+      "level": "h2"
+    },
+    {
+      "id": "20-4-1-asynchronous-programming",
+      "text": "20.4.1. Asynchronous Programming",
+      "level": "h3"
+    },
+    {
+      "id": "sec.telepathy.readiness",
+      "text": "20.4.2. Object Readiness",
+      "level": "h3"
+    },
+    {
+      "id": "20-5-robustness",
+      "text": "20.5. Robustness",
+      "level": "h2"
+    },
+    {
+      "id": "20-6-extending-telepathy-sidecars",
+      "text": "20.6. Extending Telepathy: Sidecars",
+      "level": "h2"
+    },
+    {
+      "id": "20-7-a-brief-look-inside-a-connection-manager",
+      "text": "20.7. A Brief Look Inside a Connection Manager",
+      "level": "h2"
+    },
+    {
+      "id": "20-8-lessons-learned",
+      "text": "20.8. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7811,
+  "imageCount": 5,
+  "tableCount": 5,
+  "codeBlockCount": 3,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

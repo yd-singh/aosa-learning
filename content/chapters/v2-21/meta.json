@@ -1,0 +1,218 @@
+{
+  "sessionId": "v2-21",
+  "sourceUrl": "https://aosabook.org/en/v2/sqlalchemy.html",
+  "title": "SQLAlchemy",
+  "author": "Michael Bayer",
+  "contentPath": "content/chapters/v2-21/content.html",
+  "rawPagePath": "content/chapters/v2-21/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/layers.png",
+      "localPath": "content/assets/static/sqlalchemy/layers.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/engine.png",
+      "localPath": "content/assets/static/sqlalchemy/engine.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/dialect-simple.png",
+      "localPath": "content/assets/static/sqlalchemy/dialect-simple.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/common-dbapi.png",
+      "localPath": "content/assets/static/sqlalchemy/common-dbapi.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/basic-schema.png",
+      "localPath": "content/assets/static/sqlalchemy/basic-schema.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/table-column-crossover.png",
+      "localPath": "content/assets/static/sqlalchemy/table-column-crossover.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/expression-hierarchy.png",
+      "localPath": "content/assets/static/sqlalchemy/expression-hierarchy.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/example-expression.png",
+      "localPath": "content/assets/static/sqlalchemy/example-expression.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/compiler-hierarchy.png",
+      "localPath": "content/assets/static/sqlalchemy/compiler-hierarchy.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/statement-compilation.png",
+      "localPath": "content/assets/static/sqlalchemy/statement-compilation.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/mapper-components.png",
+      "localPath": "content/assets/static/sqlalchemy/mapper-components.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/query-loading.png",
+      "localPath": "content/assets/static/sqlalchemy/query-loading.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/session-overview.png",
+      "localPath": "content/assets/static/sqlalchemy/session-overview.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/topological-sort.png",
+      "localPath": "content/assets/static/sqlalchemy/topological-sort.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/uow-mapper-buckets.png",
+      "localPath": "content/assets/static/sqlalchemy/uow-mapper-buckets.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/sqlalchemy/uow-element-buckets.png",
+      "localPath": "content/assets/static/sqlalchemy/uow-element-buckets.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "20-1-the-challenge-of-database-abstraction",
+      "text": "20.1. The Challenge of Database Abstraction",
+      "level": "h2"
+    },
+    {
+      "id": "sqlalchemy-s-approach-to-database-abstraction",
+      "text": "SQLAlchemy's Approach to Database Abstraction",
+      "level": "h3"
+    },
+    {
+      "id": "20-2-the-core-orm-dichotomy",
+      "text": "20.2. The Core/ORM Dichotomy",
+      "level": "h2"
+    },
+    {
+      "id": "20-3-taming-the-dbapi",
+      "text": "20.3. Taming the DBAPI",
+      "level": "h2"
+    },
+    {
+      "id": "the-dialect-system",
+      "text": "The Dialect System",
+      "level": "h3"
+    },
+    {
+      "id": "dealing-with-dbapi-variability",
+      "text": "Dealing with DBAPI Variability",
+      "level": "h3"
+    },
+    {
+      "id": "20-4-schema-definition",
+      "text": "20.4. Schema Definition",
+      "level": "h2"
+    },
+    {
+      "id": "20-5-sql-expressions",
+      "text": "20.5. SQL Expressions",
+      "level": "h2"
+    },
+    {
+      "id": "expression-trees",
+      "text": "Expression Trees",
+      "level": "h3"
+    },
+    {
+      "id": "python-operator-approach",
+      "text": "Python Operator Approach",
+      "level": "h3"
+    },
+    {
+      "id": "compilation",
+      "text": "Compilation",
+      "level": "h3"
+    },
+    {
+      "id": "20-6-class-mapping-with-the-orm",
+      "text": "20.6. Class Mapping with the ORM",
+      "level": "h2"
+    },
+    {
+      "id": "classical-vs-declarative",
+      "text": "Classical vs. Declarative",
+      "level": "h3"
+    },
+    {
+      "id": "anatomy-of-a-mapping",
+      "text": "Anatomy of a Mapping",
+      "level": "h3"
+    },
+    {
+      "id": "20-7-query-and-loading-behavior",
+      "text": "20.7. Query and Loading Behavior",
+      "level": "h2"
+    },
+    {
+      "id": "20-8-session-identity-map",
+      "text": "20.8. Session/Identity Map",
+      "level": "h2"
+    },
+    {
+      "id": "development-history",
+      "text": "Development History",
+      "level": "h3"
+    },
+    {
+      "id": "session-overview",
+      "text": "Session Overview",
+      "level": "h3"
+    },
+    {
+      "id": "state-tracking",
+      "text": "State Tracking",
+      "level": "h3"
+    },
+    {
+      "id": "transactional-control",
+      "text": "Transactional Control",
+      "level": "h3"
+    },
+    {
+      "id": "20-9-unit-of-work",
+      "text": "20.9. Unit of Work",
+      "level": "h2"
+    },
+    {
+      "id": "history",
+      "text": "History",
+      "level": "h3"
+    },
+    {
+      "id": "topological-sort",
+      "text": "Topological Sort",
+      "level": "h3"
+    },
+    {
+      "id": "20-10-conclusion",
+      "text": "20.10. Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8650,
+  "imageCount": 16,
+  "tableCount": 0,
+  "codeBlockCount": 13,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

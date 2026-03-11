@@ -1,0 +1,107 @@
+{
+  "sessionId": "500L-13",
+  "sourceUrl": "https://aosabook.org/en/500L/a-python-interpreter-written-in-python.html",
+  "title": "A Python Interpreter Written in Python",
+  "author": "Allison Kaptur",
+  "contentPath": "content/chapters/500L-13/content.html",
+  "rawPagePath": "content/chapters/500L-13/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "a-python-interpreter",
+      "text": "A Python Interpreter",
+      "level": "h3"
+    },
+    {
+      "id": "a-python-python-interpreter",
+      "text": "A Python Python Interpreter",
+      "level": "h3"
+    },
+    {
+      "id": "building-an-interpreter",
+      "text": "Building an Interpreter",
+      "level": "h2"
+    },
+    {
+      "id": "a-tiny-interpreter",
+      "text": "A Tiny Interpreter",
+      "level": "h3"
+    },
+    {
+      "id": "real-python-bytecode",
+      "text": "Real Python Bytecode",
+      "level": "h2"
+    },
+    {
+      "id": "conditionals-and-loops",
+      "text": "Conditionals and Loops",
+      "level": "h3"
+    },
+    {
+      "id": "explore-bytecode",
+      "text": "Explore Bytecode",
+      "level": "h3"
+    },
+    {
+      "id": "frames",
+      "text": "Frames",
+      "level": "h2"
+    },
+    {
+      "id": "byterun",
+      "text": "Byterun",
+      "level": "h2"
+    },
+    {
+      "id": "the-virtualmachine-class",
+      "text": "The VirtualMachine Class",
+      "level": "h3"
+    },
+    {
+      "id": "the-frame-class",
+      "text": "The Frame Class",
+      "level": "h3"
+    },
+    {
+      "id": "the-function-class",
+      "text": "The Function Class",
+      "level": "h3"
+    },
+    {
+      "id": "the-block-class",
+      "text": "The Block Class",
+      "level": "h3"
+    },
+    {
+      "id": "the-instructions",
+      "text": "The Instructions",
+      "level": "h2"
+    },
+    {
+      "id": "dynamic-typing-what-the-compiler-doesnt-know",
+      "text": "Dynamic Typing: What the Compiler Doesn't Know",
+      "level": "h2"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "acknowledgements",
+      "text": "Acknowledgements",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7671,
+  "imageCount": 2,
+  "tableCount": 0,
+  "codeBlockCount": 29,
+  "hasFootnotes": true,
+  "missingAssetCount": 2
+}

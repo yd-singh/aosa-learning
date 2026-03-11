@@ -1,0 +1,117 @@
+{
+  "sessionId": "posa-13",
+  "sourceUrl": "https://aosabook.org/en/posa/working-with-big-data-in-bioinformatics.html",
+  "title": "Working with Big Data in Bioinformatics",
+  "author": "Eric McDonald and C. Titus Brown",
+  "contentPath": "content/chapters/posa-13/content.html",
+  "rawPagePath": "content/chapters/posa-13/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "bioinformatics-and-big-data",
+      "text": "Bioinformatics and Big Data",
+      "level": "h3"
+    },
+    {
+      "id": "what-is-the-khmer-software",
+      "text": "What is the khmer Software?",
+      "level": "h3"
+    },
+    {
+      "id": "profiling-and-measurement",
+      "text": "Profiling and Measurement",
+      "level": "h2"
+    },
+    {
+      "id": "code-review",
+      "text": "Code Review",
+      "level": "h3"
+    },
+    {
+      "id": "tools",
+      "text": "Tools",
+      "level": "h3"
+    },
+    {
+      "id": "manual-instrumentation",
+      "text": "Manual Instrumentation",
+      "level": "h3"
+    },
+    {
+      "id": "tuning",
+      "text": "Tuning",
+      "level": "h2"
+    },
+    {
+      "id": "general-tuning",
+      "text": "General Tuning",
+      "level": "h2"
+    },
+    {
+      "id": "data-pump-and-parser-operations",
+      "text": "Data Pump and Parser Operations",
+      "level": "h3"
+    },
+    {
+      "id": "bloom-filter-operations",
+      "text": "Bloom Filter Operations",
+      "level": "h3"
+    },
+    {
+      "id": "parallelization",
+      "text": "Parallelization",
+      "level": "h2"
+    },
+    {
+      "id": "thread-safety-and-threading",
+      "text": "Thread-safety and Threading",
+      "level": "h3"
+    },
+    {
+      "id": "data-pump-and-parser-operations-1",
+      "text": "Data Pump and Parser Operations",
+      "level": "h3"
+    },
+    {
+      "id": "bloom-filter-operations-1",
+      "text": "Bloom Filter Operations",
+      "level": "h3"
+    },
+    {
+      "id": "scaling",
+      "text": "Scaling",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "future-directions",
+      "text": "Future Directions",
+      "level": "h2"
+    },
+    {
+      "id": "acknowledgements",
+      "text": "Acknowledgements",
+      "level": "h2"
+    },
+    {
+      "id": "references",
+      "text": "References",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6895,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 4,
+  "hasFootnotes": true,
+  "missingAssetCount": 4
+}

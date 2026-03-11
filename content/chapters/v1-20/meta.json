@@ -1,0 +1,218 @@
+{
+  "sessionId": "v1-20",
+  "sourceUrl": "https://aosabook.org/en/v1/socialcalc.html",
+  "title": "SocialCalc",
+  "author": "Audrey Tang",
+  "contentPath": "content/chapters/v1-20/content.html",
+  "rawPagePath": "content/chapters/v1-20/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/wikicalc-screenshot.png",
+      "localPath": "content/assets/static/socialcalc/wikicalc-screenshot.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/wikicalc-components.png",
+      "localPath": "content/assets/static/socialcalc/wikicalc-components.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/wikicalc-flow.png",
+      "localPath": "content/assets/static/socialcalc/wikicalc-flow.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/wikicalc-loading.png",
+      "localPath": "content/assets/static/socialcalc/wikicalc-loading.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/socialcalc-screenshot.png",
+      "localPath": "content/assets/static/socialcalc/socialcalc-screenshot.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/socialcalc-class-diagram.png",
+      "localPath": "content/assets/static/socialcalc/socialcalc-class-diagram.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/socialcalc-command-runloop.png",
+      "localPath": "content/assets/static/socialcalc/socialcalc-command-runloop.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/socialcalc-parts.png",
+      "localPath": "content/assets/static/socialcalc/socialcalc-parts.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/socialcalc-cell-handles.png",
+      "localPath": "content/assets/static/socialcalc/socialcalc-cell-handles.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/socialcalc-input.png",
+      "localPath": "content/assets/static/socialcalc/socialcalc-input.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/socialcalc-2046.png",
+      "localPath": "content/assets/static/socialcalc/socialcalc-2046.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/richtext-screenshot.png",
+      "localPath": "content/assets/static/socialcalc/richtext-screenshot.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/richtext-formats.png",
+      "localPath": "content/assets/static/socialcalc/richtext-formats.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/richtext-flow.png",
+      "localPath": "content/assets/static/socialcalc/richtext-flow.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/richtext-example.png",
+      "localPath": "content/assets/static/socialcalc/richtext-example.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/collab-olpc.png",
+      "localPath": "content/assets/static/socialcalc/collab-olpc.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/collab-flow.png",
+      "localPath": "content/assets/static/socialcalc/collab-flow.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/collab-conflict.png",
+      "localPath": "content/assets/static/socialcalc/collab-conflict.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/collab-resolution.png",
+      "localPath": "content/assets/static/socialcalc/collab-resolution.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/socialcalc/collab-borders.png",
+      "localPath": "content/assets/static/socialcalc/collab-borders.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "19-1-wikicalc",
+      "text": "19.1. WikiCalc",
+      "level": "h2"
+    },
+    {
+      "id": "19-2-socialcalc",
+      "text": "19.2. SocialCalc",
+      "level": "h2"
+    },
+    {
+      "id": "19-3-command-run-loop",
+      "text": "19.3. Command Run-loop",
+      "level": "h2"
+    },
+    {
+      "id": "19-4-table-editor",
+      "text": "19.4. Table Editor",
+      "level": "h2"
+    },
+    {
+      "id": "19-5-save-format",
+      "text": "19.5. Save Format",
+      "level": "h2"
+    },
+    {
+      "id": "19-6-rich-text-editing",
+      "text": "19.6. Rich-text Editing",
+      "level": "h2"
+    },
+    {
+      "id": "19-6-1-types-and-formats",
+      "text": "19.6.1. Types and Formats",
+      "level": "h3"
+    },
+    {
+      "id": "19-6-2-rendering-wikitext",
+      "text": "19.6.2. Rendering Wikitext",
+      "level": "h3"
+    },
+    {
+      "id": "19-7-real-time-collaboration",
+      "text": "19.7. Real-time Collaboration",
+      "level": "h2"
+    },
+    {
+      "id": "19-7-1-cross-browser-transport",
+      "text": "19.7.1. Cross-browser Transport",
+      "level": "h3"
+    },
+    {
+      "id": "19-7-2-conflict-resolution",
+      "text": "19.7.2. Conflict Resolution",
+      "level": "h3"
+    },
+    {
+      "id": "19-7-3-remote-cursors",
+      "text": "19.7.3. Remote Cursors",
+      "level": "h3"
+    },
+    {
+      "id": "19-8-lessons-learned",
+      "text": "19.8. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "19-8-1-chief-designer-with-a-clear-vision",
+      "text": "19.8.1. Chief Designer with a Clear Vision",
+      "level": "h3"
+    },
+    {
+      "id": "19-8-2-wikis-for-project-continuity",
+      "text": "19.8.2. Wikis for Project Continuity",
+      "level": "h3"
+    },
+    {
+      "id": "19-8-3-embrace-time-zone-differences",
+      "text": "19.8.3. Embrace Time Zone Differences",
+      "level": "h3"
+    },
+    {
+      "id": "19-8-4-optimize-for-fun",
+      "text": "19.8.4. Optimize for Fun",
+      "level": "h3"
+    },
+    {
+      "id": "19-8-5-drive-development-with-story-tests",
+      "text": "19.8.5. Drive Development with Story Tests",
+      "level": "h3"
+    },
+    {
+      "id": "19-8-6-open-source-with-cpal",
+      "text": "19.8.6. Open Source With CPAL",
+      "level": "h3"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5019,
+  "imageCount": 20,
+  "tableCount": 2,
+  "codeBlockCount": 11,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

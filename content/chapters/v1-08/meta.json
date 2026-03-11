@@ -1,0 +1,108 @@
+{
+  "sessionId": "v1-08",
+  "sourceUrl": "https://aosabook.org/en/v1/graphite.html",
+  "title": "Graphite",
+  "author": "Chris Davis",
+  "contentPath": "content/chapters/v1-08/content.html",
+  "rawPagePath": "content/chapters/v1-08/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/graphite/whisper-file.png",
+      "localPath": "content/assets/static/graphite/whisper-file.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/graphite/dataflow.png",
+      "localPath": "content/assets/static/graphite/dataflow.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/graphite/composer-ui.png",
+      "localPath": "content/assets/static/graphite/composer-ui.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/graphite/carbon-queues.png",
+      "localPath": "content/assets/static/graphite/carbon-queues.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "7-1-the-database-library-storing-time-series-data",
+      "text": "7.1. The Database Library: Storing Time-Series Data",
+      "level": "h2"
+    },
+    {
+      "id": "7-2-the-back-end-a-simple-storage-service",
+      "text": "7.2. The Back End: A Simple Storage Service",
+      "level": "h2"
+    },
+    {
+      "id": "7-3-the-front-end-graphs-on-demand",
+      "text": "7.3. The Front End: Graphs On-Demand",
+      "level": "h2"
+    },
+    {
+      "id": "7-4-dashboards",
+      "text": "7.4. Dashboards",
+      "level": "h2"
+    },
+    {
+      "id": "7-5-an-obvious-bottleneck",
+      "text": "7.5. An Obvious Bottleneck",
+      "level": "h2"
+    },
+    {
+      "id": "7-6-optimizing-i-o",
+      "text": "7.6. Optimizing I/O",
+      "level": "h2"
+    },
+    {
+      "id": "7-7-keeping-it-real-time",
+      "text": "7.7. Keeping It Real-Time",
+      "level": "h2"
+    },
+    {
+      "id": "7-8-kernels-caches-and-catastrophic-failures",
+      "text": "7.8. Kernels, Caches, and Catastrophic Failures",
+      "level": "h2"
+    },
+    {
+      "id": "7-9-clustering",
+      "text": "7.9. Clustering",
+      "level": "h2"
+    },
+    {
+      "id": "7-9-1-a-brief-analysis-of-clustering-efficiency",
+      "text": "7.9.1. A Brief Analysis of Clustering Efficiency",
+      "level": "h3"
+    },
+    {
+      "id": "7-9-2-distributing-metrics-in-a-cluster",
+      "text": "7.9.2. Distributing Metrics in a Cluster",
+      "level": "h3"
+    },
+    {
+      "id": "7-10-design-reflections",
+      "text": "7.10. Design Reflections",
+      "level": "h2"
+    },
+    {
+      "id": "7-11-becoming-open-source",
+      "text": "7.11. Becoming Open Source",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5075,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 5,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

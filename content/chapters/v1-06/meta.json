@@ -1,0 +1,98 @@
+{
+  "sessionId": "v1-06",
+  "sourceUrl": "https://aosabook.org/en/v1/cmake.html",
+  "title": "CMake",
+  "author": "Bill Hoffman and Kenneth Martin",
+  "contentPath": "content/chapters/v1-06/content.html",
+  "rawPagePath": "content/chapters/v1-06/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/cmake/process.png",
+      "localPath": "content/assets/static/cmake/process.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/cmake/objects.png",
+      "localPath": "content/assets/static/cmake/objects.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/cmake/GUI1.png",
+      "localPath": "content/assets/static/cmake/GUI1.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/cmake/GUI2.png",
+      "localPath": "content/assets/static/cmake/GUI2.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "5-1-cmake-history-and-requirements",
+      "text": "5.1. CMake History and Requirements",
+      "level": "h2"
+    },
+    {
+      "id": "5-2-how-cmake-is-implemented",
+      "text": "5.2. How CMake Is Implemented",
+      "level": "h2"
+    },
+    {
+      "id": "5-2-1-the-cmake-process",
+      "text": "5.2.1. The CMake Process",
+      "level": "h3"
+    },
+    {
+      "id": "5-2-2-cmake-the-code",
+      "text": "5.2.2. CMake: The Code",
+      "level": "h3"
+    },
+    {
+      "id": "5-2-3-graphical-interfaces",
+      "text": "5.2.3. Graphical Interfaces",
+      "level": "h3"
+    },
+    {
+      "id": "5-2-4-testing-cmake",
+      "text": "5.2.4. Testing CMake",
+      "level": "h3"
+    },
+    {
+      "id": "5-3-lessons-learned",
+      "text": "5.3. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "5-3-1-backwards-compatibility",
+      "text": "5.3.1. Backwards Compatibility",
+      "level": "h3"
+    },
+    {
+      "id": "5-3-2-language-language-language",
+      "text": "5.3.2. Language, Language, Language",
+      "level": "h3"
+    },
+    {
+      "id": "5-3-3-plugins-did-not-work",
+      "text": "5.3.3. Plugins Did Not Work",
+      "level": "h3"
+    },
+    {
+      "id": "5-3-4-reduce-exposed-apis",
+      "text": "5.3.4. Reduce Exposed APIs",
+      "level": "h3"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 4063,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 3,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

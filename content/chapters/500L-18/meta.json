@@ -1,0 +1,122 @@
+{
+  "sessionId": "500L-18",
+  "sourceUrl": "https://aosabook.org/en/500L/the-same-origin-policy.html",
+  "title": "The Same-Origin Policy",
+  "author": "Eunsuk Kang, Santiago Perez De Rosso, and Daniel Jackson",
+  "contentPath": "content/chapters/500L-18/content.html",
+  "rawPagePath": "content/chapters/500L-18/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "modeling-with-alloy",
+      "text": "Modeling with Alloy",
+      "level": "h2"
+    },
+    {
+      "id": "simplifications",
+      "text": "Simplifications",
+      "level": "h3"
+    },
+    {
+      "id": "roadmap",
+      "text": "Roadmap",
+      "level": "h2"
+    },
+    {
+      "id": "model-of-the-web",
+      "text": "Model of the Web",
+      "level": "h2"
+    },
+    {
+      "id": "http",
+      "text": "HTTP",
+      "level": "h3"
+    },
+    {
+      "id": "browser",
+      "text": "Browser",
+      "level": "h3"
+    },
+    {
+      "id": "script",
+      "text": "Script",
+      "level": "h3"
+    },
+    {
+      "id": "example-applications",
+      "text": "Example Applications",
+      "level": "h2"
+    },
+    {
+      "id": "security-properties",
+      "text": "Security Properties",
+      "level": "h2"
+    },
+    {
+      "id": "dataflow-properties",
+      "text": "Dataflow Properties",
+      "level": "h3"
+    },
+    {
+      "id": "threat-model",
+      "text": "Threat Model",
+      "level": "h3"
+    },
+    {
+      "id": "checking-properties",
+      "text": "Checking Properties",
+      "level": "h3"
+    },
+    {
+      "id": "same-origin-policy",
+      "text": "Same-Origin Policy",
+      "level": "h2"
+    },
+    {
+      "id": "techniques-for-bypassing-the-sop",
+      "text": "Techniques for Bypassing the SOP",
+      "level": "h2"
+    },
+    {
+      "id": "domain-property",
+      "text": "Domain Property",
+      "level": "h3"
+    },
+    {
+      "id": "json-with-padding-jsonp",
+      "text": "JSON with Padding (JSONP)",
+      "level": "h3"
+    },
+    {
+      "id": "postmessage",
+      "text": "PostMessage",
+      "level": "h3"
+    },
+    {
+      "id": "cross-origin-resource-sharing-cors",
+      "text": "Cross-Origin Resource Sharing (CORS)",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "appendix-reusing-modules-in-alloy",
+      "text": "Appendix: Reusing Modules in Alloy",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 10423,
+  "imageCount": 16,
+  "tableCount": 0,
+  "codeBlockCount": 52,
+  "hasFootnotes": true,
+  "missingAssetCount": 16
+}

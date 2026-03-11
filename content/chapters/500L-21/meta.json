@@ -1,0 +1,67 @@
+{
+  "sessionId": "500L-21",
+  "sourceUrl": "https://aosabook.org/en/500L/static-analysis.html",
+  "title": "Static Analysis",
+  "author": "Leah Hanson",
+  "contentPath": "content/chapters/500L-21/content.html",
+  "rawPagePath": "content/chapters/500L-21/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "a-very-brief-introduction-to-julia",
+      "text": "A Very Brief Introduction to Julia",
+      "level": "h2"
+    },
+    {
+      "id": "checking-the-types-of-variables-in-loops",
+      "text": "Checking the Types of Variables in Loops",
+      "level": "h2"
+    },
+    {
+      "id": "why-this-is-important",
+      "text": "Why This Is Important",
+      "level": "h3"
+    },
+    {
+      "id": "implementation-details",
+      "text": "Implementation Details",
+      "level": "h3"
+    },
+    {
+      "id": "making-this-usable",
+      "text": "Making This Usable",
+      "level": "h3"
+    },
+    {
+      "id": "looking-for-unused-variables",
+      "text": "Looking For Unused Variables",
+      "level": "h2"
+    },
+    {
+      "id": "left-hand-side-and-right-hand-side",
+      "text": "Left-Hand Side and Right-Hand Side",
+      "level": "h3"
+    },
+    {
+      "id": "looking-for-single-use-variables",
+      "text": "Looking for Single-Use Variables",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7765,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 51,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

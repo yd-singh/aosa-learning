@@ -1,0 +1,78 @@
+{
+  "sessionId": "v2-15",
+  "sourceUrl": "https://aosabook.org/en/v2/nginx.html",
+  "title": "nginx",
+  "author": "Andrew Alexeev",
+  "contentPath": "content/chapters/v2-15/content.html",
+  "rawPagePath": "content/chapters/v2-15/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/nginx/architecture.png",
+      "localPath": "content/assets/static/nginx/architecture.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "14-1-why-is-high-concurrency-important",
+      "text": "14.1. Why Is High Concurrency Important?",
+      "level": "h2"
+    },
+    {
+      "id": "isn-t-apache-suitable",
+      "text": "Isn't Apache Suitable?",
+      "level": "h3"
+    },
+    {
+      "id": "are-there-more-advantages-to-using-nginx",
+      "text": "Are There More Advantages to Using nginx?",
+      "level": "h3"
+    },
+    {
+      "id": "14-2-overview-of-nginx-architecture",
+      "text": "14.2. Overview of nginx Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "code-structure",
+      "text": "Code Structure",
+      "level": "h3"
+    },
+    {
+      "id": "workers-model",
+      "text": "Workers Model",
+      "level": "h3"
+    },
+    {
+      "id": "nginx-process-roles",
+      "text": "nginx Process Roles",
+      "level": "h3"
+    },
+    {
+      "id": "brief-overview-of-nginx-caching",
+      "text": "Brief Overview of nginx Caching",
+      "level": "h3"
+    },
+    {
+      "id": "14-3-nginx-configuration",
+      "text": "14.3. nginx Configuration",
+      "level": "h2"
+    },
+    {
+      "id": "14-4-nginx-internals",
+      "text": "14.4. nginx Internals",
+      "level": "h2"
+    },
+    {
+      "id": "14-5-lessons-learned",
+      "text": "14.5. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7201,
+  "imageCount": 1,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

@@ -1,0 +1,153 @@
+{
+  "sessionId": "v1-15",
+  "sourceUrl": "https://aosabook.org/en/v1/packaging.html",
+  "title": "Python Packaging",
+  "author": "Tarek Ziad\u00e9",
+  "contentPath": "content/chapters/v1-15/content.html",
+  "rawPagePath": "content/chapters/v1-15/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/packaging/setup-py.png",
+      "localPath": "content/assets/static/packaging/setup-py.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/packaging/pypi.png",
+      "localPath": "content/assets/static/packaging/pypi.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/packaging/pypi-workflow.png",
+      "localPath": "content/assets/static/packaging/pypi-workflow.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/packaging/find-file.png",
+      "localPath": "content/assets/static/packaging/find-file.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/packaging/installer.png",
+      "localPath": "content/assets/static/packaging/installer.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/packaging/mirroring.png",
+      "localPath": "content/assets/static/packaging/mirroring.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "14-1-introduction",
+      "text": "14.1. Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "14-2-the-burden-of-the-python-developer",
+      "text": "14.2. The Burden of the Python Developer",
+      "level": "h2"
+    },
+    {
+      "id": "14-3-the-current-architecture-of-packaging",
+      "text": "14.3. The Current Architecture of Packaging",
+      "level": "h2"
+    },
+    {
+      "id": "sec.packaging.flaws",
+      "text": "14.3.1. Distutils Basics and Design Flaws",
+      "level": "h3"
+    },
+    {
+      "id": "14-3-2-metadata-and-pypi",
+      "text": "14.3.2. Metadata and PyPI",
+      "level": "h3"
+    },
+    {
+      "id": "14-3-3-architecture-of-pypi",
+      "text": "14.3.3. Architecture of PyPI",
+      "level": "h3"
+    },
+    {
+      "id": "14-3-4-architecture-of-a-python-installation",
+      "text": "14.3.4. Architecture of a Python Installation",
+      "level": "h3"
+    },
+    {
+      "id": "14-3-5-setuptools-pip-and-the-like",
+      "text": "14.3.5. Setuptools, Pip and the Like",
+      "level": "h3"
+    },
+    {
+      "id": "14-3-6-what-about-data-files",
+      "text": "14.3.6. What About Data Files?",
+      "level": "h3"
+    },
+    {
+      "id": "14-4-improved-standards",
+      "text": "14.4. Improved Standards",
+      "level": "h2"
+    },
+    {
+      "id": "14-4-1-metadata",
+      "text": "14.4.1. Metadata",
+      "level": "h3"
+    },
+    {
+      "id": "14-4-2-what-s-installed",
+      "text": "14.4.2. What's Installed?",
+      "level": "h3"
+    },
+    {
+      "id": "14-4-3-architecture-of-data-files",
+      "text": "14.4.3. Architecture of Data Files",
+      "level": "h3"
+    },
+    {
+      "id": "14-4-4-pypi-improvements",
+      "text": "14.4.4. PyPI Improvements",
+      "level": "h3"
+    },
+    {
+      "id": "14-5-implementation-details",
+      "text": "14.5. Implementation Details",
+      "level": "h2"
+    },
+    {
+      "id": "14-6-lessons-learned",
+      "text": "14.6. Lessons learned",
+      "level": "h2"
+    },
+    {
+      "id": "14-6-1-it-s-all-about-peps",
+      "text": "14.6.1. It's All About PEPs",
+      "level": "h3"
+    },
+    {
+      "id": "14-6-2-a-package-that-enters-the-standard-library-has-one-foot-in-the-grave",
+      "text": "14.6.2. A Package that Enters the Standard Library Has One Foot in the Grave",
+      "level": "h3"
+    },
+    {
+      "id": "14-6-3-backward-compatibility",
+      "text": "14.6.3. Backward Compatibility",
+      "level": "h3"
+    },
+    {
+      "id": "14-7-references-and-contributions",
+      "text": "14.7. References and Contributions",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8108,
+  "imageCount": 6,
+  "tableCount": 0,
+  "codeBlockCount": 29,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

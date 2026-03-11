@@ -1,0 +1,98 @@
+{
+  "sessionId": "v1-03",
+  "sourceUrl": "https://aosabook.org/en/v1/audacity.html",
+  "title": "Audacity",
+  "author": "James Crook",
+  "contentPath": "content/chapters/v1-03/content.html",
+  "rawPagePath": "content/chapters/v1-03/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/audacity/Layers.png",
+      "localPath": "content/assets/static/audacity/Layers.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/audacity/SomeDialog.png",
+      "localPath": "content/assets/static/audacity/SomeDialog.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/audacity/MainPanelAnnotated.png",
+      "localPath": "content/assets/static/audacity/MainPanelAnnotated.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/audacity/Buffers.png",
+      "localPath": "content/assets/static/audacity/Buffers.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/audacity/BlocksCombined.png",
+      "localPath": "content/assets/static/audacity/BlocksCombined.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/audacity/Scripting.png",
+      "localPath": "content/assets/static/audacity/Scripting.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "2-1-structure-in-audacity",
+      "text": "2.1. Structure in Audacity",
+      "level": "h2"
+    },
+    {
+      "id": "2-2-wxwidgets-gui-library",
+      "text": "2.2. wxWidgets GUI Library",
+      "level": "h2"
+    },
+    {
+      "id": "2-3-shuttlegui-layer",
+      "text": "2.3. ShuttleGui Layer",
+      "level": "h2"
+    },
+    {
+      "id": "2-4-the-trackpanel",
+      "text": "2.4. The TrackPanel",
+      "level": "h2"
+    },
+    {
+      "id": "2-5-portaudio-library-recording-and-playback",
+      "text": "2.5. PortAudio Library: Recording and Playback",
+      "level": "h2"
+    },
+    {
+      "id": "2-6-blockfiles",
+      "text": "2.6. BlockFiles",
+      "level": "h2"
+    },
+    {
+      "id": "2-7-scripting",
+      "text": "2.7. Scripting",
+      "level": "h2"
+    },
+    {
+      "id": "2-8-real-time-effects",
+      "text": "2.8. Real-Time Effects",
+      "level": "h2"
+    },
+    {
+      "id": "2-9-summary",
+      "text": "2.9. Summary",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6416,
+  "imageCount": 6,
+  "tableCount": 0,
+  "codeBlockCount": 1,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

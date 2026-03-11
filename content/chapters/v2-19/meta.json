@@ -1,0 +1,108 @@
+{
+  "sessionId": "v2-19",
+  "sourceUrl": "https://aosabook.org/en/v2/puppet.html",
+  "title": "Puppet",
+  "author": "Luke Kanies",
+  "contentPath": "content/chapters/v2-19/content.html",
+  "rawPagePath": "content/chapters/v2-19/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/puppet/dataflow.png",
+      "localPath": "content/assets/static/puppet/dataflow.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/puppet/TimingDiagram.png",
+      "localPath": "content/assets/static/puppet/TimingDiagram.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "18-1-introduction",
+      "text": "18.1. Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "18-2-architectural-overview",
+      "text": "18.2. Architectural Overview",
+      "level": "h2"
+    },
+    {
+      "id": "18-3-component-analysis",
+      "text": "18.3. Component Analysis",
+      "level": "h2"
+    },
+    {
+      "id": "agent",
+      "text": "Agent",
+      "level": "h3"
+    },
+    {
+      "id": "facter",
+      "text": "Facter",
+      "level": "h3"
+    },
+    {
+      "id": "external-node-classifier",
+      "text": "External Node Classifier",
+      "level": "h3"
+    },
+    {
+      "id": "compiler",
+      "text": "Compiler",
+      "level": "h3"
+    },
+    {
+      "id": "transaction",
+      "text": "Transaction",
+      "level": "h3"
+    },
+    {
+      "id": "resource-abstraction-layer",
+      "text": "Resource Abstraction Layer",
+      "level": "h3"
+    },
+    {
+      "id": "reporting",
+      "text": "Reporting",
+      "level": "h3"
+    },
+    {
+      "id": "18-4-infrastructure",
+      "text": "18.4. Infrastructure",
+      "level": "h2"
+    },
+    {
+      "id": "plugins",
+      "text": "Plugins",
+      "level": "h3"
+    },
+    {
+      "id": "indirector",
+      "text": "Indirector",
+      "level": "h3"
+    },
+    {
+      "id": "networking",
+      "text": "Networking",
+      "level": "h3"
+    },
+    {
+      "id": "18-5-lessons-learned",
+      "text": "18.5. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "18-6-conclusion",
+      "text": "18.6. Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5705,
+  "imageCount": 2,
+  "tableCount": 0,
+  "codeBlockCount": 5,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

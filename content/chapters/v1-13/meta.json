@@ -1,0 +1,113 @@
+{
+  "sessionId": "v1-13",
+  "sourceUrl": "https://aosabook.org/en/v1/mercurial.html",
+  "title": "Mercurial",
+  "author": "Dirkjan Ochtman",
+  "contentPath": "content/chapters/v1-13/content.html",
+  "rawPagePath": "content/chapters/v1-13/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/mercurial/dag.png",
+      "localPath": "content/assets/static/mercurial/dag.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/mercurial/revlogs.png",
+      "localPath": "content/assets/static/mercurial/revlogs.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/mercurial/modules.png",
+      "localPath": "content/assets/static/mercurial/modules.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "12-1-a-short-history-of-version-control",
+      "text": "12.1. A Short History of Version Control",
+      "level": "h2"
+    },
+    {
+      "id": "12-1-1-centralized-version-control",
+      "text": "12.1.1. Centralized Version Control",
+      "level": "h3"
+    },
+    {
+      "id": "12-1-2-distributed-version-control",
+      "text": "12.1.2. Distributed Version Control",
+      "level": "h3"
+    },
+    {
+      "id": "12-2-data-structures",
+      "text": "12.2. Data Structures",
+      "level": "h2"
+    },
+    {
+      "id": "12-2-1-challenges",
+      "text": "12.2.1. Challenges",
+      "level": "h3"
+    },
+    {
+      "id": "12-2-2-fast-revision-storage-revlogs",
+      "text": "12.2.2. Fast Revision Storage: Revlogs",
+      "level": "h3"
+    },
+    {
+      "id": "12-2-3-the-three-revlogs",
+      "text": "12.2.3. The Three Revlogs",
+      "level": "h3"
+    },
+    {
+      "id": "12-2-4-the-working-directory",
+      "text": "12.2.4. The Working Directory",
+      "level": "h3"
+    },
+    {
+      "id": "12-3-versioning-mechanics",
+      "text": "12.3. Versioning Mechanics",
+      "level": "h2"
+    },
+    {
+      "id": "12-3-1-branches",
+      "text": "12.3.1. Branches",
+      "level": "h3"
+    },
+    {
+      "id": "12-3-2-tags",
+      "text": "12.3.2. Tags",
+      "level": "h3"
+    },
+    {
+      "id": "12-4-general-structure",
+      "text": "12.4. General Structure",
+      "level": "h2"
+    },
+    {
+      "id": "12-5-extensibility",
+      "text": "12.5. Extensibility",
+      "level": "h2"
+    },
+    {
+      "id": "12-5-1-writing-extensions",
+      "text": "12.5.1. Writing Extensions",
+      "level": "h3"
+    },
+    {
+      "id": "12-5-2-hooks",
+      "text": "12.5.2. Hooks",
+      "level": "h3"
+    },
+    {
+      "id": "12-6-lessons-learned",
+      "text": "12.6. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6591,
+  "imageCount": 3,
+  "tableCount": 1,
+  "codeBlockCount": 2,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

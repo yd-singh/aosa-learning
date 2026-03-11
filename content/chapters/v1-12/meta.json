@@ -1,0 +1,133 @@
+{
+  "sessionId": "v1-12",
+  "sourceUrl": "https://aosabook.org/en/v1/llvm.html",
+  "title": "LLVM",
+  "author": "Chris Lattner",
+  "contentPath": "content/chapters/v1-12/content.html",
+  "rawPagePath": "content/chapters/v1-12/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/llvm/SimpleCompiler.png",
+      "localPath": "content/assets/static/llvm/SimpleCompiler.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/llvm/RetargetableCompiler.png",
+      "localPath": "content/assets/static/llvm/RetargetableCompiler.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/llvm/LLVMCompiler1.png",
+      "localPath": "content/assets/static/llvm/LLVMCompiler1.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/llvm/PassLinkage.png",
+      "localPath": "content/assets/static/llvm/PassLinkage.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/llvm/X86Target.png",
+      "localPath": "content/assets/static/llvm/X86Target.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/llvm/LTO.png",
+      "localPath": "content/assets/static/llvm/LTO.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/llvm/InstallTime.png",
+      "localPath": "content/assets/static/llvm/InstallTime.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "11-1-a-quick-introduction-to-classical-compiler-design",
+      "text": "11.1. A Quick Introduction to Classical Compiler Design",
+      "level": "h2"
+    },
+    {
+      "id": "11-1-1-implications-of-this-design",
+      "text": "11.1.1. Implications of this Design",
+      "level": "h3"
+    },
+    {
+      "id": "11-2-existing-language-implementations",
+      "text": "11.2. Existing Language Implementations",
+      "level": "h2"
+    },
+    {
+      "id": "11-3-llvm-s-code-representation-llvm-ir",
+      "text": "11.3. LLVM's Code Representation: LLVM IR",
+      "level": "h2"
+    },
+    {
+      "id": "11-3-1-writing-an-llvm-ir-optimization",
+      "text": "11.3.1. Writing an LLVM IR Optimization",
+      "level": "h3"
+    },
+    {
+      "id": "11-4-llvm-s-implementation-of-three-phase-design",
+      "text": "11.4. LLVM's Implementation of Three-Phase Design",
+      "level": "h2"
+    },
+    {
+      "id": "11-4-1-llvm-ir-is-a-complete-code-representation",
+      "text": "11.4.1. LLVM IR is a Complete Code Representation",
+      "level": "h3"
+    },
+    {
+      "id": "11-4-2-llvm-is-a-collection-of-libraries",
+      "text": "11.4.2. LLVM is a Collection of Libraries",
+      "level": "h3"
+    },
+    {
+      "id": "11-5-design-of-the-retargetable-llvm-code-generator",
+      "text": "11.5. Design of the Retargetable LLVM Code Generator",
+      "level": "h2"
+    },
+    {
+      "id": "11-5-1-llvm-target-description-files",
+      "text": "11.5.1. LLVM Target Description Files",
+      "level": "h3"
+    },
+    {
+      "id": "11-6-interesting-capabilities-provided-by-a-modular-design",
+      "text": "11.6. Interesting Capabilities Provided by a Modular Design",
+      "level": "h2"
+    },
+    {
+      "id": "11-6-1-choosing-when-and-where-each-phase-runs",
+      "text": "11.6.1. Choosing When and Where Each Phase Runs",
+      "level": "h3"
+    },
+    {
+      "id": "11-6-2-unit-testing-the-optimizer",
+      "text": "11.6.2. Unit Testing the Optimizer",
+      "level": "h3"
+    },
+    {
+      "id": "11-6-3-automatic-test-case-reduction-with-bugpoint",
+      "text": "11.6.3. Automatic Test Case Reduction with BugPoint",
+      "level": "h3"
+    },
+    {
+      "id": "11-7-retrospective-and-future-directions",
+      "text": "11.7. Retrospective and Future Directions",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7146,
+  "imageCount": 7,
+  "tableCount": 0,
+  "codeBlockCount": 9,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

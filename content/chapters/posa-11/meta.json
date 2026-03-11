@@ -1,0 +1,112 @@
+{
+  "sessionId": "posa-11",
+  "sourceUrl": "https://aosabook.org/en/posa/secrets-of-mobile-network-performance.html",
+  "title": "Secrets of Mobile Network Performance",
+  "author": "Bryce Howard",
+  "contentPath": "content/chapters/posa-11/content.html",
+  "rawPagePath": "content/chapters/posa-11/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "what-are-you-waiting-for",
+      "text": "What Are You Waiting For?",
+      "level": "h2"
+    },
+    {
+      "id": "mobile-cellular-networks",
+      "text": "Mobile Cellular Networks",
+      "level": "h2"
+    },
+    {
+      "id": "baseband-processor",
+      "text": "Baseband Processor",
+      "level": "h3"
+    },
+    {
+      "id": "cell-site",
+      "text": "Cell Site",
+      "level": "h3"
+    },
+    {
+      "id": "backhaul-network",
+      "text": "Backhaul Network",
+      "level": "h3"
+    },
+    {
+      "id": "radio-network-controller",
+      "text": "Radio Network Controller",
+      "level": "h3"
+    },
+    {
+      "id": "core-network",
+      "text": "Core Network",
+      "level": "h3"
+    },
+    {
+      "id": "power-conservation",
+      "text": "Power Conservation",
+      "level": "h3"
+    },
+    {
+      "id": "network-protocol-performance",
+      "text": "Network Protocol Performance",
+      "level": "h2"
+    },
+    {
+      "id": "transmission-control-protocol",
+      "text": "Transmission Control Protocol",
+      "level": "h2"
+    },
+    {
+      "id": "tcp-fast-open",
+      "text": "TCP Fast Open",
+      "level": "h3"
+    },
+    {
+      "id": "initial-congestion-window",
+      "text": "Initial Congestion Window",
+      "level": "h3"
+    },
+    {
+      "id": "hypertext-transport-protocol",
+      "text": "Hypertext Transport Protocol",
+      "level": "h2"
+    },
+    {
+      "id": "keepalive",
+      "text": "Keepalive",
+      "level": "h3"
+    },
+    {
+      "id": "transport-layer-security",
+      "text": "Transport Layer Security",
+      "level": "h2"
+    },
+    {
+      "id": "refresh-on-failure",
+      "text": "Refresh on Failure",
+      "level": "h3"
+    },
+    {
+      "id": "asynchronous-refresh",
+      "text": "Asynchronous Refresh",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 3867,
+  "imageCount": 6,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": true,
+  "missingAssetCount": 6
+}

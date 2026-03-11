@@ -1,0 +1,92 @@
+{
+  "sessionId": "v2-18",
+  "sourceUrl": "https://aosabook.org/en/v2/pjs.html",
+  "title": "Processing.js",
+  "author": "Mike Kamermans",
+  "contentPath": "content/chapters/v2-18/content.html",
+  "rawPagePath": "content/chapters/v2-18/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "17-1-how-does-it-work",
+      "text": "17.1. How Does It Work?",
+      "level": "h2"
+    },
+    {
+      "id": "unifying-java-and-javascript",
+      "text": "Unifying Java and JavaScript",
+      "level": "h3"
+    },
+    {
+      "id": "17-2-significant-differences",
+      "text": "17.2. Significant Differences",
+      "level": "h2"
+    },
+    {
+      "id": "why-pick-javascript-if-it-can-t-do-java",
+      "text": "Why Pick JavaScript if It Can't Do Java?",
+      "level": "h3"
+    },
+    {
+      "id": "the-result",
+      "text": "The Result",
+      "level": "h3"
+    },
+    {
+      "id": "17-3-the-code-components",
+      "text": "17.3. The Code Components",
+      "level": "h2"
+    },
+    {
+      "id": "the-launcher",
+      "text": "The Launcher",
+      "level": "h3"
+    },
+    {
+      "id": "static-library",
+      "text": "Static Library",
+      "level": "h3"
+    },
+    {
+      "id": "instance-code",
+      "text": "Instance Code",
+      "level": "h3"
+    },
+    {
+      "id": "17-4-developing-processing-js",
+      "text": "17.4. Developing Processing.js",
+      "level": "h2"
+    },
+    {
+      "id": "make-it-work",
+      "text": "Make It Work",
+      "level": "h3"
+    },
+    {
+      "id": "make-it-fast",
+      "text": "Make It Fast",
+      "level": "h3"
+    },
+    {
+      "id": "make-it-small",
+      "text": "Make It Small",
+      "level": "h3"
+    },
+    {
+      "id": "if-all-else-fails-tell-people",
+      "text": "If All Else Fails, Tell People",
+      "level": "h3"
+    },
+    {
+      "id": "17-5-lessons-learned",
+      "text": "17.5. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8746,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 8,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

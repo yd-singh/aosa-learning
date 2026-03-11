@@ -1,0 +1,83 @@
+{
+  "sessionId": "v2-20",
+  "sourceUrl": "https://aosabook.org/en/v2/pypy.html",
+  "title": "PyPy",
+  "author": "Benjamin Peterson",
+  "contentPath": "content/chapters/v2-20/content.html",
+  "rawPagePath": "content/chapters/v2-20/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/pypy/translation_steps.png",
+      "localPath": "content/assets/static/pypy/translation_steps.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/pypy/flowgraph.png",
+      "localPath": "content/assets/static/pypy/flowgraph.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/pypy/guard_fails.png",
+      "localPath": "content/assets/static/pypy/guard_fails.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/pypy/jitviewer.png",
+      "localPath": "content/assets/static/pypy/jitviewer.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "19-1-a-little-history",
+      "text": "19.1. A Little History",
+      "level": "h2"
+    },
+    {
+      "id": "19-2-overview-of-pypy",
+      "text": "19.2. Overview of PyPy",
+      "level": "h2"
+    },
+    {
+      "id": "19-3-the-python-interpreter",
+      "text": "19.3. The Python Interpreter",
+      "level": "h2"
+    },
+    {
+      "id": "19-4-the-rpython-translator",
+      "text": "19.4. The RPython Translator",
+      "level": "h2"
+    },
+    {
+      "id": "19-5-the-pypy-jit",
+      "text": "19.5. The PyPy JIT",
+      "level": "h2"
+    },
+    {
+      "id": "19-6-design-drawbacks",
+      "text": "19.6. Design Drawbacks",
+      "level": "h2"
+    },
+    {
+      "id": "19-7-a-note-on-process",
+      "text": "19.7. A Note on Process",
+      "level": "h2"
+    },
+    {
+      "id": "19-8-summary",
+      "text": "19.8. Summary",
+      "level": "h2"
+    },
+    {
+      "id": "19-9-lessons-learned",
+      "text": "19.9. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5310,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 5,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

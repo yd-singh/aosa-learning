@@ -1,0 +1,57 @@
+{
+  "sessionId": "500L-05",
+  "sourceUrl": "https://aosabook.org/en/500L/contingent-a-fully-dynamic-build-system.html",
+  "title": "Contingent: A Fully Dynamic Build System",
+  "author": "Brandon Rhodes and Daniel Rocco",
+  "contentPath": "content/chapters/500L-05/content.html",
+  "rawPagePath": "content/chapters/500L-05/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "the-problem-building-document-systems",
+      "text": "The Problem: Building Document Systems",
+      "level": "h2"
+    },
+    {
+      "id": "build-systems-and-consistency",
+      "text": "Build Systems and Consistency",
+      "level": "h2"
+    },
+    {
+      "id": "linking-tasks-to-make-a-graph",
+      "text": "Linking Tasks to Make a Graph",
+      "level": "h2"
+    },
+    {
+      "id": "the-proper-use-of-classes",
+      "text": "The Proper Use of Classes",
+      "level": "h2"
+    },
+    {
+      "id": "learning-connections",
+      "text": "Learning Connections",
+      "level": "h2"
+    },
+    {
+      "id": "chasing-consequences",
+      "text": "Chasing Consequences",
+      "level": "h2"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8347,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 56,
+  "hasFootnotes": false,
+  "missingAssetCount": 4
+}

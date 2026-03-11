@@ -1,0 +1,168 @@
+{
+  "sessionId": "v1-17",
+  "sourceUrl": "https://aosabook.org/en/v1/selenium.html",
+  "title": "Selenium WebDriver",
+  "author": "Simon Stewart",
+  "contentPath": "content/chapters/v1-17/content.html",
+  "rawPagePath": "content/chapters/v1-17/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/selenium/role-based-interfaces-one-interface.png",
+      "localPath": "content/assets/static/selenium/role-based-interfaces-one-interface.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/selenium/role-based-interfaces-two-interfaces.png",
+      "localPath": "content/assets/static/selenium/role-based-interfaces-two-interfaces.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/selenium/atoms.png",
+      "localPath": "content/assets/static/selenium/atoms.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/selenium/firefox-driver-overall-architecture.png",
+      "localPath": "content/assets/static/selenium/firefox-driver-overall-architecture.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/selenium/simple-ie-stack.png",
+      "localPath": "content/assets/static/selenium/simple-ie-stack.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/selenium/ie-stack-no-threads.png",
+      "localPath": "content/assets/static/selenium/ie-stack-no-threads.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/selenium/full-ie-stack.png",
+      "localPath": "content/assets/static/selenium/full-ie-stack.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/selenium/selenium-rc.png",
+      "localPath": "content/assets/static/selenium/selenium-rc.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "16-1-history",
+      "text": "16.1. History",
+      "level": "h2"
+    },
+    {
+      "id": "16-2-a-digression-about-jargon",
+      "text": "16.2. A Digression About Jargon",
+      "level": "h2"
+    },
+    {
+      "id": "16-3-architectural-themes",
+      "text": "16.3. Architectural Themes",
+      "level": "h2"
+    },
+    {
+      "id": "16-3-1-keep-the-costs-down",
+      "text": "16.3.1. Keep the Costs Down",
+      "level": "h3"
+    },
+    {
+      "id": "16-3-2-emulate-the-user",
+      "text": "16.3.2. Emulate the User",
+      "level": "h3"
+    },
+    {
+      "id": "16-3-3-prove-the-drivers-work",
+      "text": "16.3.3. Prove the Drivers Work",
+      "level": "h3"
+    },
+    {
+      "id": "16-3-4-you-shouldn-t-need-to-understand-how-everything-works",
+      "text": "16.3.4. You Shouldn't Need to Understand How Everything Works",
+      "level": "h3"
+    },
+    {
+      "id": "16-3-5-lower-the-bus-factor",
+      "text": "16.3.5. Lower the Bus Factor",
+      "level": "h3"
+    },
+    {
+      "id": "16-3-6-have-sympathy-for-a-javascript-implementation",
+      "text": "16.3.6. Have Sympathy for a Javascript Implementation",
+      "level": "h3"
+    },
+    {
+      "id": "16-3-7-every-call-is-an-rpc-call",
+      "text": "16.3.7. Every Call Is an RPC Call",
+      "level": "h3"
+    },
+    {
+      "id": "16-3-8-final-thought-this-is-open-source",
+      "text": "16.3.8. Final Thought: This Is Open Source",
+      "level": "h3"
+    },
+    {
+      "id": "16-4-coping-with-complexity",
+      "text": "16.4. Coping with Complexity",
+      "level": "h2"
+    },
+    {
+      "id": "16-4-1-the-webdriver-design",
+      "text": "16.4.1. The WebDriver Design",
+      "level": "h3"
+    },
+    {
+      "id": "16-4-2-dealing-with-the-combinatorial-explosion",
+      "text": "16.4.2. Dealing with the Combinatorial Explosion",
+      "level": "h3"
+    },
+    {
+      "id": "16-4-3-flaws-in-the-webdriver-design",
+      "text": "16.4.3. Flaws in the WebDriver Design",
+      "level": "h3"
+    },
+    {
+      "id": "sec.selenium.layers",
+      "text": "16.5. Layers and Javascript",
+      "level": "h2"
+    },
+    {
+      "id": "16-6-the-remote-driver-and-the-firefox-driver-in-particular",
+      "text": "16.6. The Remote Driver, and the Firefox Driver in Particular",
+      "level": "h2"
+    },
+    {
+      "id": "16-7-the-ie-driver",
+      "text": "16.7. The IE Driver",
+      "level": "h2"
+    },
+    {
+      "id": "16-8-selenium-rc",
+      "text": "16.8. Selenium RC",
+      "level": "h2"
+    },
+    {
+      "id": "16-9-looking-back",
+      "text": "16.9. Looking Back",
+      "level": "h2"
+    },
+    {
+      "id": "16-10-looking-to-the-future",
+      "text": "16.10. Looking to the Future",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 12437,
+  "imageCount": 8,
+  "tableCount": 1,
+  "codeBlockCount": 18,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

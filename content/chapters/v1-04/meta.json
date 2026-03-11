@@ -1,0 +1,168 @@
+{
+  "sessionId": "v1-04",
+  "sourceUrl": "https://aosabook.org/en/v1/bash.html",
+  "title": "The Bourne-Again Shell",
+  "author": "Chet Ramey",
+  "contentPath": "content/chapters/v1-04/content.html",
+  "rawPagePath": "content/chapters/v1-04/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/bash/bash-article-diagram.png",
+      "localPath": "content/assets/static/bash/bash-article-diagram.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "3-1-introduction",
+      "text": "3.1. Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "3-1-1-bash",
+      "text": "3.1.1. Bash",
+      "level": "h3"
+    },
+    {
+      "id": "3-2-syntactic-units-and-primitives",
+      "text": "3.2. Syntactic Units and Primitives",
+      "level": "h2"
+    },
+    {
+      "id": "3-2-1-primitives",
+      "text": "3.2.1. Primitives",
+      "level": "h3"
+    },
+    {
+      "id": "3-2-2-variables-and-parameters",
+      "text": "3.2.2. Variables and Parameters",
+      "level": "h3"
+    },
+    {
+      "id": "3-2-3-the-shell-programming-language",
+      "text": "3.2.3. The Shell Programming Language",
+      "level": "h3"
+    },
+    {
+      "id": "3-2-4-a-further-note",
+      "text": "3.2.4. A Further Note",
+      "level": "h3"
+    },
+    {
+      "id": "3-3-input-processing",
+      "text": "3.3. Input Processing",
+      "level": "h2"
+    },
+    {
+      "id": "3-3-1-readline-and-command-line-editing",
+      "text": "3.3.1. Readline and Command Line Editing",
+      "level": "h3"
+    },
+    {
+      "id": "3-3-2-non-interactive-input-processing",
+      "text": "3.3.2. Non-interactive Input Processing",
+      "level": "h3"
+    },
+    {
+      "id": "3-3-3-multibyte-characters",
+      "text": "3.3.3. Multibyte Characters",
+      "level": "h3"
+    },
+    {
+      "id": "3-4-parsing",
+      "text": "3.4. Parsing",
+      "level": "h2"
+    },
+    {
+      "id": "3-5-word-expansions",
+      "text": "3.5. Word Expansions",
+      "level": "h2"
+    },
+    {
+      "id": "3-5-1-parameter-and-variable-expansions",
+      "text": "3.5.1. Parameter and Variable Expansions",
+      "level": "h3"
+    },
+    {
+      "id": "3-5-2-and-many-more",
+      "text": "3.5.2. And Many More",
+      "level": "h3"
+    },
+    {
+      "id": "3-5-3-word-splitting",
+      "text": "3.5.3. Word Splitting",
+      "level": "h3"
+    },
+    {
+      "id": "3-5-4-globbing",
+      "text": "3.5.4. Globbing",
+      "level": "h3"
+    },
+    {
+      "id": "3-5-5-implementation",
+      "text": "3.5.5. Implementation",
+      "level": "h3"
+    },
+    {
+      "id": "3-6-command-execution",
+      "text": "3.6. Command Execution",
+      "level": "h2"
+    },
+    {
+      "id": "3-6-1-redirection",
+      "text": "3.6.1. Redirection",
+      "level": "h3"
+    },
+    {
+      "id": "3-6-2-builtin-commands",
+      "text": "3.6.2. Builtin Commands",
+      "level": "h3"
+    },
+    {
+      "id": "3-6-3-simple-command-execution",
+      "text": "3.6.3. Simple Command Execution",
+      "level": "h3"
+    },
+    {
+      "id": "3-6-4-job-control",
+      "text": "3.6.4. Job Control",
+      "level": "h3"
+    },
+    {
+      "id": "3-6-5-compound-commands",
+      "text": "3.6.5. Compound Commands",
+      "level": "h3"
+    },
+    {
+      "id": "3-7-lessons-learned",
+      "text": "3.7. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "3-7-1-what-i-have-found-is-important",
+      "text": "3.7.1. What I Have Found Is Important",
+      "level": "h3"
+    },
+    {
+      "id": "3-7-2-what-i-would-have-done-differently",
+      "text": "3.7.2. What I Would Have Done Differently",
+      "level": "h3"
+    },
+    {
+      "id": "3-8-conclusions",
+      "text": "3.8. Conclusions",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7645,
+  "imageCount": 1,
+  "tableCount": 0,
+  "codeBlockCount": 5,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

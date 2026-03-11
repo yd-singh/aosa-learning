@@ -1,0 +1,143 @@
+{
+  "sessionId": "v1-02",
+  "sourceUrl": "https://aosabook.org/en/v1/asterisk.html",
+  "title": "Asterisk",
+  "author": "Russell Bryant",
+  "contentPath": "content/chapters/v1-02/content.html",
+  "rawPagePath": "content/chapters/v1-02/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/asterisk/singleChannel.png",
+      "localPath": "content/assets/static/asterisk/singleChannel.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/asterisk/twoChannels.png",
+      "localPath": "content/assets/static/asterisk/twoChannels.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/asterisk/nativeBridge.png",
+      "localPath": "content/assets/static/asterisk/nativeBridge.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/asterisk/channelLayers.png",
+      "localPath": "content/assets/static/asterisk/channelLayers.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/asterisk/callSetupSequence.png",
+      "localPath": "content/assets/static/asterisk/callSetupSequence.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/asterisk/voicemail.png",
+      "localPath": "content/assets/static/asterisk/voicemail.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/asterisk/bridgedCall.png",
+      "localPath": "content/assets/static/asterisk/bridgedCall.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/asterisk/bridgeFrameProcessSequence.png",
+      "localPath": "content/assets/static/asterisk/bridgeFrameProcessSequence.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "1-1-critical-architectural-concepts",
+      "text": "1.1. Critical Architectural Concepts",
+      "level": "h2"
+    },
+    {
+      "id": "1-1-1-channels",
+      "text": "1.1.1. Channels",
+      "level": "h3"
+    },
+    {
+      "id": "1-1-2-channel-bridging",
+      "text": "1.1.2. Channel Bridging",
+      "level": "h3"
+    },
+    {
+      "id": "1-1-3-frames",
+      "text": "1.1.3. Frames",
+      "level": "h3"
+    },
+    {
+      "id": "1-2-asterisk-component-abstractions",
+      "text": "1.2. Asterisk Component Abstractions",
+      "level": "h2"
+    },
+    {
+      "id": "sec.asterisk.drivers",
+      "text": "1.2.1. Channel Drivers",
+      "level": "h3"
+    },
+    {
+      "id": "1-2-2-dialplan-applications",
+      "text": "1.2.2. Dialplan Applications",
+      "level": "h3"
+    },
+    {
+      "id": "1-2-3-dialplan-functions",
+      "text": "1.2.3. Dialplan Functions",
+      "level": "h3"
+    },
+    {
+      "id": "1-2-4-codec-translators",
+      "text": "1.2.4. Codec Translators",
+      "level": "h3"
+    },
+    {
+      "id": "1-3-threads",
+      "text": "1.3. Threads",
+      "level": "h2"
+    },
+    {
+      "id": "1-3-1-network-monitor-threads",
+      "text": "1.3.1. Network Monitor Threads",
+      "level": "h3"
+    },
+    {
+      "id": "1-3-2-channel-threads",
+      "text": "1.3.2. Channel Threads",
+      "level": "h3"
+    },
+    {
+      "id": "1-4-call-scenarios",
+      "text": "1.4. Call Scenarios",
+      "level": "h2"
+    },
+    {
+      "id": "1-4-1-checking-voicemail",
+      "text": "1.4.1. Checking Voicemail",
+      "level": "h3"
+    },
+    {
+      "id": "1-4-2-bridged-call",
+      "text": "1.4.2. Bridged Call",
+      "level": "h3"
+    },
+    {
+      "id": "1-5-final-comments",
+      "text": "1.5. Final Comments",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5147,
+  "imageCount": 8,
+  "tableCount": 0,
+  "codeBlockCount": 8,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

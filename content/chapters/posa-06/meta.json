@@ -1,0 +1,57 @@
+{
+  "sessionId": "posa-06",
+  "sourceUrl": "https://aosabook.org/en/posa/memshrink.html",
+  "title": "MemShrink",
+  "author": "Kyle Huey",
+  "contentPath": "content/chapters/posa-06/content.html",
+  "rawPagePath": "content/chapters/posa-06/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "architecture-overview",
+      "text": "Architecture Overview",
+      "level": "h2"
+    },
+    {
+      "id": "you-make-what-you-measure",
+      "text": "You Make What You Measure",
+      "level": "h2"
+    },
+    {
+      "id": "low-hanging-fruit",
+      "text": "Low-Hanging Fruit",
+      "level": "h2"
+    },
+    {
+      "id": "not-your-fault-does-not-mean-not-your-problem",
+      "text": "Not Your Fault Does Not Mean Not Your Problem",
+      "level": "h2"
+    },
+    {
+      "id": "eternal-persistence-is-the-price-of-excellence",
+      "text": "Eternal Persistence is the Price of Excellence",
+      "level": "h2"
+    },
+    {
+      "id": "community",
+      "text": "Community",
+      "level": "h2"
+    },
+    {
+      "id": "conclusions",
+      "text": "Conclusions",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5855,
+  "imageCount": 1,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 1
+}

@@ -1,0 +1,72 @@
+{
+  "sessionId": "500L-15",
+  "sourceUrl": "https://aosabook.org/en/500L/a-simple-object-model.html",
+  "title": "A Simple Object Model",
+  "author": "Carl Friedrich Bolz",
+  "contentPath": "content/chapters/500L-15/content.html",
+  "rawPagePath": "content/chapters/500L-15/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "method-based-model",
+      "text": "Method-Based Model",
+      "level": "h2"
+    },
+    {
+      "id": "isinstance-checking",
+      "text": "isinstance Checking",
+      "level": "h3"
+    },
+    {
+      "id": "calling-methods",
+      "text": "Calling Methods",
+      "level": "h3"
+    },
+    {
+      "id": "attribute-based-model",
+      "text": "Attribute-Based Model",
+      "level": "h2"
+    },
+    {
+      "id": "meta-object-protocols",
+      "text": "Meta-Object Protocols",
+      "level": "h2"
+    },
+    {
+      "id": "customizing-reading-and-writing-and-attribute",
+      "text": "Customizing Reading and Writing and Attribute",
+      "level": "h3"
+    },
+    {
+      "id": "descriptor-protocol",
+      "text": "Descriptor Protocol",
+      "level": "h3"
+    },
+    {
+      "id": "instance-optimization",
+      "text": "Instance Optimization",
+      "level": "h2"
+    },
+    {
+      "id": "potential-extensions",
+      "text": "Potential Extensions",
+      "level": "h2"
+    },
+    {
+      "id": "conclusions",
+      "text": "Conclusions",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5473,
+  "imageCount": 2,
+  "tableCount": 0,
+  "codeBlockCount": 22,
+  "hasFootnotes": true,
+  "missingAssetCount": 2
+}

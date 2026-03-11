@@ -1,0 +1,158 @@
+{
+  "sessionId": "v1-24",
+  "sourceUrl": "https://aosabook.org/en/v1/vistrails.html",
+  "title": "VisTrails",
+  "author": "Juliana Freire, David Koop, Emanuele Santos, Carlos Scheidegger, Claudio Silva, and Huy T. Vo",
+  "contentPath": "content/chapters/v1-24/content.html",
+  "rawPagePath": "content/chapters/v1-24/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/vistrails/overview.png",
+      "localPath": "content/assets/static/vistrails/overview.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/vistrails/overview-tree.png",
+      "localPath": "content/assets/static/vistrails/overview-tree.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/vistrails/system-interaction.png",
+      "localPath": "content/assets/static/vistrails/system-interaction.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/vistrails/change-based-prov.png",
+      "localPath": "content/assets/static/vistrails/change-based-prov.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/vistrails/python-source.png",
+      "localPath": "content/assets/static/vistrails/python-source.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/vistrails/spreadsheet.png",
+      "localPath": "content/assets/static/vistrails/spreadsheet.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "23-1-system-overview",
+      "text": "23.1. System Overview",
+      "level": "h2"
+    },
+    {
+      "id": "23-1-1-workflows-and-workflow-based-systems",
+      "text": "23.1.1. Workflows and Workflow-Based Systems",
+      "level": "h3"
+    },
+    {
+      "id": "23-1-2-data-and-workflow-provenance",
+      "text": "23.1.2. Data and Workflow Provenance",
+      "level": "h3"
+    },
+    {
+      "id": "23-1-3-user-interface-and-basic-functionality",
+      "text": "23.1.3. User Interface and Basic Functionality",
+      "level": "h3"
+    },
+    {
+      "id": "23-2-project-history",
+      "text": "23.2. Project History",
+      "level": "h2"
+    },
+    {
+      "id": "23-3-inside-vistrails",
+      "text": "23.3. Inside VisTrails",
+      "level": "h2"
+    },
+    {
+      "id": "23-3-1-the-version-tree-change-based-provenance",
+      "text": "23.3.1. The Version Tree: Change-Based Provenance",
+      "level": "h3"
+    },
+    {
+      "id": "sec.vistrails.exec-cache",
+      "text": "23.3.2. Workflow Execution and Caching",
+      "level": "h3"
+    },
+    {
+      "id": "23-3-3-data-serialization-and-storage",
+      "text": "23.3.3. Data Serialization and Storage",
+      "level": "h3"
+    },
+    {
+      "id": "sec.vistrails.packages",
+      "text": "23.3.4. Extensibility Through Packages and Python",
+      "level": "h3"
+    },
+    {
+      "id": "23-3-5-vistrails-packages-and-bundles",
+      "text": "23.3.5. VisTrails Packages and Bundles",
+      "level": "h3"
+    },
+    {
+      "id": "23-3-6-passing-data-as-modules",
+      "text": "23.3.6. Passing Data as Modules",
+      "level": "h3"
+    },
+    {
+      "id": "23-4-components-and-features",
+      "text": "23.4. Components and Features",
+      "level": "h2"
+    },
+    {
+      "id": "23-4-1-visual-spreadsheet",
+      "text": "23.4.1. Visual Spreadsheet",
+      "level": "h3"
+    },
+    {
+      "id": "sec.vistrails.diff",
+      "text": "23.4.2. Visual Differences and Analogies",
+      "level": "h3"
+    },
+    {
+      "id": "23-4-3-querying-provenance",
+      "text": "23.4.3. Querying Provenance",
+      "level": "h3"
+    },
+    {
+      "id": "23-4-4-persistent-data",
+      "text": "23.4.4. Persistent Data",
+      "level": "h3"
+    },
+    {
+      "id": "sec.vistrails.upgrades",
+      "text": "23.4.5. Upgrades",
+      "level": "h3"
+    },
+    {
+      "id": "sec.vistrails.publish",
+      "text": "23.4.6. Sharing and Publishing Provenance-Rich Results",
+      "level": "h3"
+    },
+    {
+      "id": "23-5-lessons-learned",
+      "text": "23.5. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "23-5-1-acknowledgments",
+      "text": "23.5.1. Acknowledgments",
+      "level": "h3"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8957,
+  "imageCount": 6,
+  "tableCount": 0,
+  "codeBlockCount": 2,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

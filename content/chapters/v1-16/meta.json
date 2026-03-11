@@ -1,0 +1,108 @@
+{
+  "sessionId": "v1-16",
+  "sourceUrl": "https://aosabook.org/en/v1/riak.html",
+  "title": "Riak and Erlang/OTP",
+  "author": "Francesco Cesarini, Andy Gross, and Justin Sheehy",
+  "contentPath": "content/chapters/v1-16/content.html",
+  "rawPagePath": "content/chapters/v1-16/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/riak/supervision-tree.png",
+      "localPath": "content/assets/static/riak/supervision-tree.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "15-1-an-abridged-introduction-to-erlang",
+      "text": "15.1. An Abridged Introduction to Erlang",
+      "level": "h2"
+    },
+    {
+      "id": "15-2-process-skeletons",
+      "text": "15.2. Process Skeletons",
+      "level": "h2"
+    },
+    {
+      "id": "15-3-otp-behaviors",
+      "text": "15.3. OTP Behaviors",
+      "level": "h2"
+    },
+    {
+      "id": "15-3-1-introduction",
+      "text": "15.3.1. Introduction",
+      "level": "h3"
+    },
+    {
+      "id": "15-3-2-generic-servers",
+      "text": "15.3.2. Generic Servers",
+      "level": "h3"
+    },
+    {
+      "id": "15-3-3-starting-your-server",
+      "text": "15.3.3. Starting Your Server",
+      "level": "h3"
+    },
+    {
+      "id": "15-3-4-passing-messages",
+      "text": "15.3.4. Passing Messages",
+      "level": "h3"
+    },
+    {
+      "id": "15-3-5-stopping-the-server",
+      "text": "15.3.5. Stopping the Server",
+      "level": "h3"
+    },
+    {
+      "id": "15-4-other-worker-behaviors",
+      "text": "15.4. Other Worker Behaviors",
+      "level": "h2"
+    },
+    {
+      "id": "15-4-1-finite-state-machines",
+      "text": "15.4.1. Finite State Machines",
+      "level": "h3"
+    },
+    {
+      "id": "15-4-2-event-handlers",
+      "text": "15.4.2. Event Handlers",
+      "level": "h3"
+    },
+    {
+      "id": "15-5-supervisors",
+      "text": "15.5. Supervisors",
+      "level": "h2"
+    },
+    {
+      "id": "15-5-1-supervisor-callback-functions",
+      "text": "15.5.1. Supervisor Callback Functions",
+      "level": "h3"
+    },
+    {
+      "id": "15-5-2-applications",
+      "text": "15.5.2. Applications",
+      "level": "h3"
+    },
+    {
+      "id": "15-6-replication-and-communication-in-riak",
+      "text": "15.6. Replication and Communication in Riak",
+      "level": "h2"
+    },
+    {
+      "id": "15-7-conclusions-and-lessons-learned",
+      "text": "15.7. Conclusions and Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "15-7-1-acknowledgments",
+      "text": "15.7.1. Acknowledgments",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 7606,
+  "imageCount": 1,
+  "tableCount": 0,
+  "codeBlockCount": 14,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

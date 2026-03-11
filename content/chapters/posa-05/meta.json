@@ -1,0 +1,87 @@
+{
+  "sessionId": "posa-05",
+  "sourceUrl": "https://aosabook.org/en/posa/parsing-xml-at-the-speed-of-light.html",
+  "title": "Parsing XML at the Speed of Light",
+  "author": "Arseny Kapoulkine",
+  "contentPath": "content/chapters/posa-05/content.html",
+  "rawPagePath": "content/chapters/posa-05/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "preface",
+      "text": "Preface",
+      "level": "h2"
+    },
+    {
+      "id": "xml-parsing-models",
+      "text": "XML parsing models",
+      "level": "h2"
+    },
+    {
+      "id": "design-choices-in-pugixml",
+      "text": "Design choices in pugixml",
+      "level": "h2"
+    },
+    {
+      "id": "parsing",
+      "text": "Parsing",
+      "level": "h2"
+    },
+    {
+      "id": "token-stream-vs.-character-stream",
+      "text": "Token stream vs. character stream",
+      "level": "h3"
+    },
+    {
+      "id": "in-place-parsing",
+      "text": "In-place parsing",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-character-wise-operations",
+      "text": "Optimizing character-wise operations",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-string-transformations",
+      "text": "Optimizing string transformations",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-control-flow",
+      "text": "Optimizing control flow",
+      "level": "h3"
+    },
+    {
+      "id": "ensuring-memory-safety",
+      "text": "Ensuring memory safety",
+      "level": "h3"
+    },
+    {
+      "id": "data-structures-for-the-document-object-model",
+      "text": "Data structures for the document object model",
+      "level": "h2"
+    },
+    {
+      "id": "stack-based-memory-allocation",
+      "text": "Stack-based memory allocation",
+      "level": "h2"
+    },
+    {
+      "id": "supporting-deallocation-in-a-stack-based-allocator",
+      "text": "Supporting deallocation in a stack-based allocator",
+      "level": "h2"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7184,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 18,
+  "hasFootnotes": true,
+  "missingAssetCount": 4
+}

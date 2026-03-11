@@ -1,0 +1,128 @@
+{
+  "sessionId": "v1-11",
+  "sourceUrl": "https://aosabook.org/en/v1/jitsi.html",
+  "title": "Jitsi",
+  "author": "Emil Ivov",
+  "contentPath": "content/chapters/v1-11/content.html",
+  "rawPagePath": "content/chapters/v1-11/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/jitsi/OSGI.png",
+      "localPath": "content/assets/static/jitsi/OSGI.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/jitsi/PKGs.png",
+      "localPath": "content/assets/static/jitsi/PKGs.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/jitsi/OperationSets.png",
+      "localPath": "content/assets/static/jitsi/OperationSets.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/jitsi/Media.png",
+      "localPath": "content/assets/static/jitsi/Media.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "10-1-designing-jitsi",
+      "text": "10.1. Designing Jitsi",
+      "level": "h2"
+    },
+    {
+      "id": "10-2-jitsi-and-the-osgi-framework",
+      "text": "10.2. Jitsi and the OSGi Framework",
+      "level": "h2"
+    },
+    {
+      "id": "10-3-building-and-running-a-bundle",
+      "text": "10.3. Building and Running a Bundle",
+      "level": "h2"
+    },
+    {
+      "id": "10-4-protocol-provider-service",
+      "text": "10.4. Protocol Provider Service",
+      "level": "h2"
+    },
+    {
+      "id": "10-4-1-operation-sets",
+      "text": "10.4.1. Operation Sets",
+      "level": "h3"
+    },
+    {
+      "id": "10-4-2-accounts-factories-and-provider-instances",
+      "text": "10.4.2. Accounts, Factories and Provider Instances",
+      "level": "h3"
+    },
+    {
+      "id": "10-5-media-service",
+      "text": "10.5. Media Service",
+      "level": "h2"
+    },
+    {
+      "id": "10-5-1-capture-streaming-and-playback",
+      "text": "10.5.1. Capture, Streaming, and Playback",
+      "level": "h3"
+    },
+    {
+      "id": "10-5-2-codecs",
+      "text": "10.5.2. Codecs",
+      "level": "h3"
+    },
+    {
+      "id": "10-5-3-connecting-with-the-protocol-providers",
+      "text": "10.5.3. Connecting with the Protocol Providers",
+      "level": "h3"
+    },
+    {
+      "id": "10-6-ui-service",
+      "text": "10.6. UI Service",
+      "level": "h2"
+    },
+    {
+      "id": "10-7-lessons-learned",
+      "text": "10.7. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "10-7-1-java-sound-vs-portaudio",
+      "text": "10.7.1. Java Sound vs. PortAudio",
+      "level": "h3"
+    },
+    {
+      "id": "10-7-2-video-capture-and-rendering",
+      "text": "10.7.2. Video Capture and Rendering",
+      "level": "h3"
+    },
+    {
+      "id": "10-7-3-video-encoding-and-decoding",
+      "text": "10.7.3. Video Encoding and Decoding",
+      "level": "h3"
+    },
+    {
+      "id": "10-7-4-others",
+      "text": "10.7.4. Others",
+      "level": "h3"
+    },
+    {
+      "id": "10-8-acknowledgments",
+      "text": "10.8. Acknowledgments",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5811,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 14,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

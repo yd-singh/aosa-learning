@@ -1,0 +1,143 @@
+{
+  "sessionId": "v2-23",
+  "sourceUrl": "https://aosabook.org/en/v2/yesod.html",
+  "title": "Yesod",
+  "author": "Michael Snoyman",
+  "contentPath": "content/chapters/v2-23/content.html",
+  "rawPagePath": "content/chapters/v2-23/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/yesod/overview.png",
+      "localPath": "content/assets/static/yesod/overview.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/yesod/extra-large.png",
+      "localPath": "content/assets/static/yesod/extra-large.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "22-1-compared-to-other-frameworks",
+      "text": "22.1. Compared to Other Frameworks",
+      "level": "h2"
+    },
+    {
+      "id": "22-2-web-application-interface",
+      "text": "22.2. Web Application Interface",
+      "level": "h2"
+    },
+    {
+      "id": "datatypes",
+      "text": "Datatypes",
+      "level": "h3"
+    },
+    {
+      "id": "streaming",
+      "text": "Streaming",
+      "level": "h3"
+    },
+    {
+      "id": "builder",
+      "text": "Builder",
+      "level": "h3"
+    },
+    {
+      "id": "handlers",
+      "text": "Handlers",
+      "level": "h3"
+    },
+    {
+      "id": "middleware",
+      "text": "Middleware",
+      "level": "h3"
+    },
+    {
+      "id": "wai-test",
+      "text": "Wai-test",
+      "level": "h3"
+    },
+    {
+      "id": "22-3-templates",
+      "text": "22.3. Templates",
+      "level": "h2"
+    },
+    {
+      "id": "types",
+      "text": "Types",
+      "level": "h3"
+    },
+    {
+      "id": "the-other-languages",
+      "text": "The Other Languages",
+      "level": "h3"
+    },
+    {
+      "id": "22-4-persistent",
+      "text": "22.4. Persistent",
+      "level": "h2"
+    },
+    {
+      "id": "terminology",
+      "text": "Terminology",
+      "level": "h3"
+    },
+    {
+      "id": "type-safety",
+      "text": "Type Safety",
+      "level": "h3"
+    },
+    {
+      "id": "cross-database-syntax",
+      "text": "Cross-Database Syntax",
+      "level": "h3"
+    },
+    {
+      "id": "migrations",
+      "text": "Migrations",
+      "level": "h3"
+    },
+    {
+      "id": "relations",
+      "text": "Relations",
+      "level": "h3"
+    },
+    {
+      "id": "22-5-yesod",
+      "text": "22.5. Yesod",
+      "level": "h2"
+    },
+    {
+      "id": "routes",
+      "text": "Routes",
+      "level": "h3"
+    },
+    {
+      "id": "handlers-2",
+      "text": "Handlers",
+      "level": "h3"
+    },
+    {
+      "id": "widgets",
+      "text": "Widgets",
+      "level": "h3"
+    },
+    {
+      "id": "subsites",
+      "text": "Subsites",
+      "level": "h3"
+    },
+    {
+      "id": "22-6-lessons-learned",
+      "text": "22.6. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6959,
+  "imageCount": 2,
+  "tableCount": 1,
+  "codeBlockCount": 15,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

@@ -1,0 +1,48 @@
+{
+  "sessionId": "v1-26",
+  "sourceUrl": "https://aosabook.org/en/v1/wesnoth.html",
+  "title": "Battle For Wesnoth",
+  "author": "Richard Shimooka and David White",
+  "contentPath": "content/chapters/v1-26/content.html",
+  "rawPagePath": "content/chapters/v1-26/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/wesnoth/architecture.png",
+      "localPath": "content/assets/static/wesnoth/architecture.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "25-1-project-overview",
+      "text": "25.1. Project Overview",
+      "level": "h2"
+    },
+    {
+      "id": "25-2-wesnoth-markup-language",
+      "text": "25.2. Wesnoth Markup Language",
+      "level": "h2"
+    },
+    {
+      "id": "25-3-units-in-wesnoth",
+      "text": "25.3. Units in Wesnoth",
+      "level": "h2"
+    },
+    {
+      "id": "25-4-wesnoth-s-multiplayer-implementation",
+      "text": "25.4. Wesnoth's Multiplayer Implementation",
+      "level": "h2"
+    },
+    {
+      "id": "25-5-conclusion",
+      "text": "25.5. Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 4124,
+  "imageCount": 1,
+  "tableCount": 0,
+  "codeBlockCount": 5,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

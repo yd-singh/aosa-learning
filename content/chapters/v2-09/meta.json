@@ -1,0 +1,88 @@
+{
+  "sessionId": "v2-09",
+  "sourceUrl": "https://aosabook.org/en/v2/ironlang.html",
+  "title": "The Dynamic Language Runtime and the Iron Languages",
+  "author": "Jeff Hardy",
+  "contentPath": "content/chapters/v2-09/content.html",
+  "rawPagePath": "content/chapters/v2-09/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/ironlang/callsiteclass.png",
+      "localPath": "content/assets/static/ironlang/callsiteclass.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/ironlang/callsites.png",
+      "localPath": "content/assets/static/ironlang/callsites.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/ironlang/idmop.png",
+      "localPath": "content/assets/static/ironlang/idmop.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "8-1-history",
+      "text": "8.1. History",
+      "level": "h2"
+    },
+    {
+      "id": "8-2-dynamic-language-runtime-principles",
+      "text": "8.2. Dynamic Language Runtime Principles",
+      "level": "h2"
+    },
+    {
+      "id": "8-3-language-implementation-details",
+      "text": "8.3. Language Implementation Details",
+      "level": "h2"
+    },
+    {
+      "id": "8-4-parsing",
+      "text": "8.4. Parsing",
+      "level": "h2"
+    },
+    {
+      "id": "8-5-expression-trees",
+      "text": "8.5. Expression Trees",
+      "level": "h2"
+    },
+    {
+      "id": "8-6-interpreting-and-compilation",
+      "text": "8.6. Interpreting and Compilation",
+      "level": "h2"
+    },
+    {
+      "id": "8-7-dynamic-call-sites",
+      "text": "8.7. Dynamic Call Sites",
+      "level": "h2"
+    },
+    {
+      "id": "8-8-meta-object-protocol",
+      "text": "8.8. Meta-Object Protocol",
+      "level": "h2"
+    },
+    {
+      "id": "8-9-hosting",
+      "text": "8.9. Hosting",
+      "level": "h2"
+    },
+    {
+      "id": "8-10-assembly-layout",
+      "text": "8.10. Assembly Layout",
+      "level": "h2"
+    },
+    {
+      "id": "8-11-lessons-learned",
+      "text": "8.11. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6627,
+  "imageCount": 3,
+  "tableCount": 0,
+  "codeBlockCount": 3,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

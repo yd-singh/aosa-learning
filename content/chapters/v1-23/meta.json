@@ -1,0 +1,103 @@
+{
+  "sessionId": "v1-23",
+  "sourceUrl": "https://aosabook.org/en/v1/violet.html",
+  "title": "Violet",
+  "author": "Cay Horstmann",
+  "contentPath": "content/chapters/v1-23/content.html",
+  "rawPagePath": "content/chapters/v1-23/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/violet/object-sample.png",
+      "localPath": "content/assets/static/violet/object-sample.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/violet/Ch8-06.png",
+      "localPath": "content/assets/static/violet/Ch8-06.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/violet/Ch8-07.png",
+      "localPath": "content/assets/static/violet/Ch8-07.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/violet/SimpleGraph-in-Violet.png",
+      "localPath": "content/assets/static/violet/SimpleGraph-in-Violet.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/violet/Ch8-11.png",
+      "localPath": "content/assets/static/violet/Ch8-11.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/violet/undo.png",
+      "localPath": "content/assets/static/violet/undo.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "22-1-introducing-violet",
+      "text": "22.1. Introducing Violet",
+      "level": "h2"
+    },
+    {
+      "id": "22-2-the-graph-framework",
+      "text": "22.2. The Graph Framework",
+      "level": "h2"
+    },
+    {
+      "id": "22-3-use-of-javabeans-properties",
+      "text": "22.3. Use of JavaBeans Properties",
+      "level": "h2"
+    },
+    {
+      "id": "22-4-long-term-persistence",
+      "text": "22.4. Long-Term Persistence",
+      "level": "h2"
+    },
+    {
+      "id": "22-5-java-webstart",
+      "text": "22.5. Java WebStart",
+      "level": "h2"
+    },
+    {
+      "id": "22-6-java-2d",
+      "text": "22.6. Java 2D",
+      "level": "h2"
+    },
+    {
+      "id": "22-7-no-swing-application-framework",
+      "text": "22.7. No Swing Application Framework",
+      "level": "h2"
+    },
+    {
+      "id": "22-8-undo-redo",
+      "text": "22.8. Undo/Redo",
+      "level": "h2"
+    },
+    {
+      "id": "22-9-plugin-architecture",
+      "text": "22.9. Plugin Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "22-10-conclusion",
+      "text": "22.10. Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 4490,
+  "imageCount": 6,
+  "tableCount": 0,
+  "codeBlockCount": 15,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

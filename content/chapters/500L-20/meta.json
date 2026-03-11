@@ -1,0 +1,72 @@
+{
+  "sessionId": "500L-20",
+  "sourceUrl": "https://aosabook.org/en/500L/web-spreadsheet.html",
+  "title": "Web Spreadsheet",
+  "author": "Audrey Tang",
+  "contentPath": "content/chapters/500L-20/content.html",
+  "rawPagePath": "content/chapters/500L-20/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "overview",
+      "text": "Overview",
+      "level": "h2"
+    },
+    {
+      "id": "basic-concepts",
+      "text": "Basic Concepts",
+      "level": "h3"
+    },
+    {
+      "id": "progressive-enhancement",
+      "text": "Progressive Enhancement",
+      "level": "h3"
+    },
+    {
+      "id": "code-walkthrough",
+      "text": "Code Walkthrough",
+      "level": "h2"
+    },
+    {
+      "id": "html",
+      "text": "HTML",
+      "level": "h3"
+    },
+    {
+      "id": "js-main-controller",
+      "text": "JS: Main Controller",
+      "level": "h3"
+    },
+    {
+      "id": "js-background-worker",
+      "text": "JS: Background Worker",
+      "level": "h3"
+    },
+    {
+      "id": "css",
+      "text": "CSS",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "a-note-on-js-versions",
+      "text": "A Note on JS versions",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 4712,
+  "imageCount": 8,
+  "tableCount": 0,
+  "codeBlockCount": 45,
+  "hasFootnotes": false,
+  "missingAssetCount": 8
+}

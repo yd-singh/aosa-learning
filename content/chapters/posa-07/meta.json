@@ -1,0 +1,77 @@
+{
+  "sessionId": "posa-07",
+  "sourceUrl": "https://aosabook.org/en/posa/applying-optimization-principle-patterns-to-component-deployment-and-configuration-tools.html",
+  "title": "Applying Optimization Principle Patterns to Component Deployment and Configuration Tools",
+  "author": "Doug C. Schmidt, William R. Otte, and Aniruddha Gokhale",
+  "contentPath": "content/chapters/posa-07/content.html",
+  "rawPagePath": "content/chapters/posa-07/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "overview-of-dance",
+      "text": "Overview of DAnCE",
+      "level": "h2"
+    },
+    {
+      "id": "runtime-dc-architecture",
+      "text": "Runtime D&C Architecture",
+      "level": "h3"
+    },
+    {
+      "id": "dc-deployment-data-model",
+      "text": "D&C Deployment Data Model",
+      "level": "h3"
+    },
+    {
+      "id": "omg-dc-deployment-process",
+      "text": "OMG D&C Deployment Process",
+      "level": "h3"
+    },
+    {
+      "id": "applying-optimization-principle-patterns-to-dance",
+      "text": "Applying Optimization Principle Patterns to DAnCE",
+      "level": "h2"
+    },
+    {
+      "id": "overview-of-the-seamonster-platform",
+      "text": "Overview of the SEAMONSTER Platform",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-deployment-plan-parsing",
+      "text": "Optimizing Deployment Plan Parsing",
+      "level": "h3"
+    },
+    {
+      "id": "optimizing-plan-analysis",
+      "text": "Optimizing Plan Analysis",
+      "level": "h3"
+    },
+    {
+      "id": "optimization-through-reduction-in-serialized-execution-of-deployment-tasks",
+      "text": "Optimization Through Reduction in Serialized Execution of Deployment Tasks",
+      "level": "h3"
+    },
+    {
+      "id": "concluding-remarks",
+      "text": "Concluding Remarks",
+      "level": "h2"
+    },
+    {
+      "id": "references",
+      "text": "References",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 9710,
+  "imageCount": 4,
+  "tableCount": 2,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 4
+}

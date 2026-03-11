@@ -1,0 +1,103 @@
+{
+  "sessionId": "v2-07",
+  "sourceUrl": "https://aosabook.org/en/v2/git.html",
+  "title": "Git",
+  "author": "Susan Potter",
+  "contentPath": "content/chapters/v2-07/content.html",
+  "rawPagePath": "content/chapters/v2-07/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/git/dag-example.png",
+      "localPath": "content/assets/static/git/dag-example.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/git/object-hierarchy.png",
+      "localPath": "content/assets/static/git/object-hierarchy.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/git/packed-format.png",
+      "localPath": "content/assets/static/git/packed-format.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/git/merge-history.png",
+      "localPath": "content/assets/static/git/merge-history.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "6-1-git-in-a-nutshell",
+      "text": "6.1. Git in a Nutshell",
+      "level": "h2"
+    },
+    {
+      "id": "6-2-git-s-origin",
+      "text": "6.2. Git's Origin",
+      "level": "h2"
+    },
+    {
+      "id": "6-3-version-control-system-design",
+      "text": "6.3. Version Control System Design",
+      "level": "h2"
+    },
+    {
+      "id": "content-storage",
+      "text": "Content Storage",
+      "level": "h3"
+    },
+    {
+      "id": "commit-and-merge-histories",
+      "text": "Commit and Merge Histories",
+      "level": "h3"
+    },
+    {
+      "id": "distribution",
+      "text": "Distribution",
+      "level": "h3"
+    },
+    {
+      "id": "6-4-the-toolkit",
+      "text": "6.4. The Toolkit",
+      "level": "h2"
+    },
+    {
+      "id": "6-5-the-repository-index-and-working-areas",
+      "text": "6.5. The Repository, Index and Working Areas",
+      "level": "h2"
+    },
+    {
+      "id": "6-6-the-object-database",
+      "text": "6.6. The Object Database",
+      "level": "h2"
+    },
+    {
+      "id": "6-7-storage-and-compression-techniques",
+      "text": "6.7. Storage and Compression Techniques",
+      "level": "h2"
+    },
+    {
+      "id": "6-8-merge-histories",
+      "text": "6.8. Merge Histories",
+      "level": "h2"
+    },
+    {
+      "id": "6-9-what-s-next",
+      "text": "6.9. What's Next?",
+      "level": "h2"
+    },
+    {
+      "id": "6-10-lessons-learned",
+      "text": "6.10. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 4427,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 4,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

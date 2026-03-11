@@ -1,0 +1,37 @@
+{
+  "sessionId": "posa-01",
+  "sourceUrl": "https://aosabook.org/en/posa/introduction.html",
+  "title": "Introduction",
+  "author": "Tavish Armstrong",
+  "contentPath": "content/chapters/posa-01/content.html",
+  "rawPagePath": "content/chapters/posa-01/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "contributors",
+      "text": "Contributors",
+      "level": "h2"
+    },
+    {
+      "id": "acknowledgements",
+      "text": "Acknowledgements",
+      "level": "h2"
+    },
+    {
+      "id": "contributing",
+      "text": "Contributing",
+      "level": "h2"
+    },
+    {
+      "id": "colophon",
+      "text": "Colophon",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 1813,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

@@ -1,0 +1,57 @@
+{
+  "sessionId": "500L-23",
+  "sourceUrl": "https://aosabook.org/en/500L/a-simple-web-server.html",
+  "title": "A Simple Web Server",
+  "author": "Greg Wilson",
+  "contentPath": "content/chapters/500L-23/content.html",
+  "rawPagePath": "content/chapters/500L-23/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "background",
+      "text": "Background",
+      "level": "h2"
+    },
+    {
+      "id": "hello-web",
+      "text": "Hello, Web",
+      "level": "h2"
+    },
+    {
+      "id": "displaying-values",
+      "text": "Displaying Values",
+      "level": "h2"
+    },
+    {
+      "id": "serving-static-pages",
+      "text": "Serving Static Pages",
+      "level": "h2"
+    },
+    {
+      "id": "listing-directories",
+      "text": "Listing Directories",
+      "level": "h2"
+    },
+    {
+      "id": "the-cgi-protocol",
+      "text": "The CGI Protocol",
+      "level": "h2"
+    },
+    {
+      "id": "discussion",
+      "text": "Discussion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 4526,
+  "imageCount": 3,
+  "tableCount": 0,
+  "codeBlockCount": 29,
+  "hasFootnotes": true,
+  "missingAssetCount": 3
+}

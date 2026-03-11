@@ -1,0 +1,112 @@
+{
+  "sessionId": "500L-07",
+  "sourceUrl": "https://aosabook.org/en/500L/dagoba-an-in-memory-graph-database.html",
+  "title": "Dagoba: an in-memory graph database",
+  "author": "Dann Toliver",
+  "contentPath": "content/chapters/500L-07/content.html",
+  "rawPagePath": "content/chapters/500L-07/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "prologue",
+      "text": "Prologue",
+      "level": "h2"
+    },
+    {
+      "id": "take-one",
+      "text": "Take One",
+      "level": "h2"
+    },
+    {
+      "id": "build-a-better-graph",
+      "text": "Build a Better Graph",
+      "level": "h2"
+    },
+    {
+      "id": "enter-the-query",
+      "text": "Enter the Query",
+      "level": "h2"
+    },
+    {
+      "id": "the-problem-with-being-eager",
+      "text": "The Problem with Being Eager",
+      "level": "h2"
+    },
+    {
+      "id": "ramifications-of-evaluation-strategy-on-our-mental-model",
+      "text": "Ramifications of Evaluation Strategy on our Mental Model",
+      "level": "h2"
+    },
+    {
+      "id": "pipetypes",
+      "text": "Pipetypes",
+      "level": "h2"
+    },
+    {
+      "id": "helpers",
+      "text": "Helpers",
+      "level": "h2"
+    },
+    {
+      "id": "the-interpreters-nature",
+      "text": "The Interpreter's Nature",
+      "level": "h2"
+    },
+    {
+      "id": "interpreter-unveiled",
+      "text": "Interpreter, Unveiled",
+      "level": "h2"
+    },
+    {
+      "id": "query-transformers",
+      "text": "Query Transformers",
+      "level": "h2"
+    },
+    {
+      "id": "aliases",
+      "text": "Aliases",
+      "level": "h2"
+    },
+    {
+      "id": "performance",
+      "text": "Performance",
+      "level": "h2"
+    },
+    {
+      "id": "serialization",
+      "text": "Serialization",
+      "level": "h2"
+    },
+    {
+      "id": "persistence",
+      "text": "Persistence",
+      "level": "h2"
+    },
+    {
+      "id": "updates",
+      "text": "Updates",
+      "level": "h2"
+    },
+    {
+      "id": "future-directions",
+      "text": "Future Directions",
+      "level": "h2"
+    },
+    {
+      "id": "wrapping-up",
+      "text": "Wrapping Up",
+      "level": "h2"
+    },
+    {
+      "id": "acknowledgements",
+      "text": "Acknowledgements",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 14615,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 85,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

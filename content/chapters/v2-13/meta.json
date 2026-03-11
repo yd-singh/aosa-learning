@@ -1,0 +1,188 @@
+{
+  "sessionId": "v2-13",
+  "sourceUrl": "https://aosabook.org/en/v2/mediawiki.html",
+  "title": "MediaWiki",
+  "author": "Sumana Harihareswara and Guillaume Paumier",
+  "contentPath": "content/chapters/v2-13/content.html",
+  "rawPagePath": "content/chapters/v2-13/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/mediawiki/database-schema.png",
+      "localPath": "content/assets/static/mediawiki/database-schema.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/mediawiki/database-restructure.png",
+      "localPath": "content/assets/static/mediawiki/database-restructure.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "12-1-historical-overview",
+      "text": "12.1. Historical Overview",
+      "level": "h2"
+    },
+    {
+      "id": "phase-i-usemodwiki",
+      "text": "Phase I: UseModWiki",
+      "level": "h3"
+    },
+    {
+      "id": "phase-ii-the-php-script",
+      "text": "Phase II: The PHP Script",
+      "level": "h3"
+    },
+    {
+      "id": "phase-iii-mediawiki",
+      "text": "Phase III: MediaWiki",
+      "level": "h3"
+    },
+    {
+      "id": "12-2-mediawiki-code-base-and-practices",
+      "text": "12.2. MediaWiki Code Base and Practices",
+      "level": "h2"
+    },
+    {
+      "id": "php",
+      "text": "PHP",
+      "level": "h3"
+    },
+    {
+      "id": "security",
+      "text": "Security",
+      "level": "h3"
+    },
+    {
+      "id": "configuration",
+      "text": "Configuration",
+      "level": "h3"
+    },
+    {
+      "id": "12-3-database-and-text-storage",
+      "text": "12.3. Database and Text Storage",
+      "level": "h2"
+    },
+    {
+      "id": "12-4-requests-caching-and-delivery",
+      "text": "12.4. Requests, Caching and Delivery",
+      "level": "h2"
+    },
+    {
+      "id": "execution-workflow-of-a-web-request",
+      "text": "Execution Workflow of a Web Request",
+      "level": "h3"
+    },
+    {
+      "id": "caching",
+      "text": "Caching",
+      "level": "h3"
+    },
+    {
+      "id": "resourceloader",
+      "text": "ResourceLoader",
+      "level": "h3"
+    },
+    {
+      "id": "12-5-languages",
+      "text": "12.5. Languages",
+      "level": "h2"
+    },
+    {
+      "id": "context-and-rationale",
+      "text": "Context and Rationale",
+      "level": "h3"
+    },
+    {
+      "id": "content-language",
+      "text": "Content Language",
+      "level": "h3"
+    },
+    {
+      "id": "interface-language",
+      "text": "Interface Language",
+      "level": "h3"
+    },
+    {
+      "id": "localizing-messages",
+      "text": "Localizing Messages",
+      "level": "h3"
+    },
+    {
+      "id": "12-6-users",
+      "text": "12.6. Users",
+      "level": "h2"
+    },
+    {
+      "id": "12-7-content",
+      "text": "12.7. Content",
+      "level": "h2"
+    },
+    {
+      "id": "content-structure",
+      "text": "Content Structure",
+      "level": "h3"
+    },
+    {
+      "id": "content-processing-mediawiki-markup-language-and-parser",
+      "text": "Content Processing: MediaWiki Markup Language and Parser",
+      "level": "h3"
+    },
+    {
+      "id": "magic-words-and-templates",
+      "text": "Magic Words and Templates",
+      "level": "h3"
+    },
+    {
+      "id": "media-files",
+      "text": "Media Files",
+      "level": "h3"
+    },
+    {
+      "id": "12-8-customizing-and-extending-mediawiki",
+      "text": "12.8. Customizing and Extending MediaWiki",
+      "level": "h2"
+    },
+    {
+      "id": "levels",
+      "text": "Levels",
+      "level": "h3"
+    },
+    {
+      "id": "javascript-and-css",
+      "text": "JavaScript and CSS",
+      "level": "h3"
+    },
+    {
+      "id": "extensions-and-skins",
+      "text": "Extensions and Skins",
+      "level": "h3"
+    },
+    {
+      "id": "api",
+      "text": "API",
+      "level": "h3"
+    },
+    {
+      "id": "12-9-future",
+      "text": "12.9. Future",
+      "level": "h2"
+    },
+    {
+      "id": "12-10-further-reading",
+      "text": "12.10. Further Reading",
+      "level": "h2"
+    },
+    {
+      "id": "12-11-acknowledgments",
+      "text": "12.11. Acknowledgments",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8057,
+  "imageCount": 2,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

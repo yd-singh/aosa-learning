@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make Tech PM Tech | AOSA Mastery Lab</title>
+    <meta
+      name="description"
+      content="Make Tech PM Tech: a rigorous AOSA-powered training workspace for PMs who want to build real technical depth."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div id="auth-screen" class="auth-screen hidden">
+      <div class="auth-card panel">
+        <p class="eyebrow">Make Tech PM Tech</p>
+        <h1 class="auth-title">Stop claiming technical PM. Prove it.</h1>
+        <p class="hero-text">
+          One deployment, many learners. Your reading progress, notes, bookmarks, and streaks stay tied to your account.
+        </p>
+        <form id="login-form" class="auth-form">
+          <label>
+            <span>Admin Email or Learner Username</span>
+            <input id="login-username" name="username" type="text" autocomplete="username" required />
+          </label>
+          <label>
+            <span>Password</span>
+            <input id="login-password" name="password" type="password" autocomplete="current-password" required />
+          </label>
+          <button type="submit" class="button button-primary">Sign In</button>
+        </form>
+        <p id="login-error" class="auth-error hidden"></p>
+      </div>
+    </div>
+    <div class="app-shell">
+      <div id="app-topbar" class="app-topbar panel hidden">
+        <div class="topbar-brand">
+          <p class="eyebrow">Make Tech PM Tech</p>
+          <h2 id="current-user">Loading account...</h2>
+          <p class="muted">Architecture of Open Source Applications (AOSA)</p>
+        </div>
+        <div class="app-topbar-nav">
+          <button id="go-dashboard" class="button button-ghost">Study</button>
+          <button id="go-profile" class="button button-ghost">Profile</button>
+        </div>
+        <div class="app-topbar-actions">
+          <span id="current-role" class="pill pill-soft">learner</span>
+          <button id="logout-button" class="button button-ghost">Log Out</button>
+        </div>
+      </div>
+
+      <section id="journey-strip" class="panel journey-strip hidden">
+        <div class="journey-head">
+          <div>
+            <p class="eyebrow">You Are Here</p>
+            <h2 id="journey-title">Learning path progress</h2>
+          </div>
+          <span id="journey-badge" class="pill">Stage 1</span>
+        </div>
+        <div class="journey-track" id="journey-track">
+          <div id="journey-step-1" class="journey-step">
+            <strong>Scout</strong>
+            <span>0-24%</span>
+          </div>
+          <div id="journey-step-2" class="journey-step">
+            <strong>Builder</strong>
+            <span>25-49%</span>
+          </div>
+          <div id="journey-step-3" class="journey-step">
+            <strong>Operator</strong>
+            <span>50-74%</span>
+          </div>
+          <div id="journey-step-4" class="journey-step">
+            <strong>Architect</strong>
+            <span>75-100%</span>
+          </div>
+        </div>
+        <div class="journey-meter" aria-hidden="true">
+          <div id="journey-fill" class="journey-fill"></div>
+        </div>
+        <p id="journey-copy" class="muted"></p>
+      </section>
+
+      <section id="profile-view" class="profile-view hidden">
+        <div class="panel profile-panel">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">Make Tech PM Tech Profile</p>
+              <h2>Account and Capability Controls</h2>
+            </div>
+            <button id="profile-back" class="button button-ghost">Back to Study</button>
+          </div>
+          <div class="profile-grid">
+            <div class="profile-card">
+              <p class="eyebrow">Identity</p>
+              <h3 id="profile-username">User</h3>
+              <p id="profile-role" class="muted"></p>
+            </div>
+            <div class="profile-card">
+              <p class="eyebrow">Progress</p>
+              <h3 id="profile-progress">0%</h3>
+              <p class="muted">Mission completion across all AOSA sessions</p>
+            </div>
+            <div class="profile-card">
+              <p class="eyebrow">Level</p>
+              <h3 id="profile-level">1</h3>
+              <p class="muted">Systems product fluency level</p>
+            </div>
+            <div class="profile-card">
+              <p class="eyebrow">Momentum</p>
+              <h3 id="profile-streak">0 day streak</h3>
+              <p class="muted">Keep the streak by finishing one mission daily</p>
+            </div>
+          </div>
+        </div>
+
+        <section id="admin-panel" class="panel admin-panel hidden">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">Admin Console</p>
+              <h2>Create and manage learners</h2>
+            </div>
+          </div>
+          <div class="admin-grid">
+            <form id="create-user-form" class="admin-form">
+              <label>
+                <span>Learner Username</span>
+                <input id="new-username" name="username" type="text" autocomplete="off" required />
+              </label>
+              <label>
+                <span>Password</span>
+                <input id="new-password" name="password" type="password" autocomplete="new-password" required />
+              </label>
+              <button type="submit" class="button button-primary">Create Learner</button>
+              <p id="admin-message" class="muted">Learners sign in with their username. The only admin account is <strong>join.ydsingh@gmail.com</strong>.</p>
+            </form>
+            <div>
+              <p class="eyebrow">Users</p>
+              <div id="admin-users" class="admin-users"></div>
+            </div>
+          </div>
+          <div class="detail-block">
+            <h3>Admin Password</h3>
+            <p class="muted">Only <strong>join.ydsingh@gmail.com</strong> can be admin. Change that password here when needed.</p>
+            <form id="change-password-form" class="admin-form">
+              <label>
+                <span>Current Password</span>
+                <input id="current-password" name="current_password" type="password" autocomplete="current-password" required />
+              </label>
+              <label>
+                <span>New Password</span>
+                <input id="updated-password" name="new_password" type="password" autocomplete="new-password" required />
+              </label>
+              <button type="submit" class="button button-ghost">Update Password</button>
+              <p id="password-message" class="muted"></p>
+            </form>
+          </div>
+        </section>
+      </section>
+
+      <div id="dashboard-view">
+        <header class="hero panel">
+          <div class="hero-copy">
+            <p class="eyebrow">Make Tech PM Tech</p>
+            <h1>Most PMs say they are technical. Build the proof.</h1>
+            <p class="hero-text">
+              AOSA chapter-by-chapter training with real architecture case studies, deliberate practice, and visible progress. Learn the systems depth that separates true technical PMs.
+            </p>
+            <div class="hero-actions">
+              <button id="start-next" class="button button-primary">Resume Next Mission</button>
+              <a class="button button-ghost" href="https://aosabook.org/en/" target="_blank" rel="noreferrer">Open AOSA Source</a>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-card accent">
+              <span class="stat-label">Total Missions</span>
+              <strong id="stat-total">0</strong>
+              <span class="stat-sub">Complete AOSA corpus included</span>
+            </div>
+            <div class="stat-grid">
+              <div class="stat-card">
+                <span class="stat-label">Completed</span>
+                <strong id="stat-completed">0</strong>
+                <span class="stat-sub">Sessions mastered</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-label">XP</span>
+                <strong id="stat-xp">0</strong>
+                <span class="stat-sub">Career capital</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-label">Level</span>
+                <strong id="stat-level">1</strong>
+                <span class="stat-sub">Systems PM</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-label">Streak</span>
+                <strong id="stat-streak">0</strong>
+                <span class="stat-sub">Days in a row</span>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="dashboard-grid">
+          <div class="panel quest-panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Daily Quest</p>
+                <h2 id="quest-title">Loading your next mission...</h2>
+              </div>
+              <span id="quest-badge" class="pill">Ready</span>
+            </div>
+            <p id="quest-summary" class="muted"></p>
+            <div class="quest-meta" id="quest-meta"></div>
+            <div class="quest-actions">
+              <button id="open-quest" class="button button-primary">Open Mission Detail</button>
+              <button id="open-quest-reader" class="button button-ghost">Read Chapter Now</button>
+              <button id="random-quest" class="button button-ghost">Surprise Me</button>
+            </div>
+          </div>
+
+          <div class="panel achievements-panel">
+            <div class="section-heading compact">
+              <div>
+                <p class="eyebrow">Achievements</p>
+                <h2>Unlockable PM badges</h2>
+              </div>
+            </div>
+            <div id="achievements" class="achievement-list"></div>
+          </div>
+        </section>
+
+        <section class="panel progress-panel">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">Roadmap</p>
+              <h2>Collection progress</h2>
+            </div>
+            <span class="muted">All four AOSA collections in one workspace</span>
+          </div>
+          <div id="collection-progress" class="collection-progress"></div>
+        </section>
+
+        <section class="panel controls-panel">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">Mission Control</p>
+              <h2>Find the right study session</h2>
+            </div>
+          </div>
+          <div class="controls-grid">
+            <label>
+              <span>Search</span>
+              <input id="search-input" type="search" placeholder="Search chapter, concept, author, or source content..." />
+            </label>
+            <label>
+              <span>Collection</span>
+              <select id="collection-filter">
+                <option value="all">All collections</option>
+              </select>
+            </label>
+            <label>
+              <span>Theme</span>
+              <select id="theme-filter">
+                <option value="all">All themes</option>
+              </select>
+            </label>
+            <label>
+              <span>Status</span>
+              <select id="status-filter">
+                <option value="all">All statuses</option>
+                <option value="remaining">Remaining</option>
+                <option value="completed">Completed</option>
+                <option value="bookmarked">Bookmarked</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <main class="main-grid">
+          <section class="panel curriculum-panel">
+            <div class="section-heading compact">
+              <div>
+                <p class="eyebrow">Curriculum</p>
+                <h2 id="results-title">89 detailed missions</h2>
+              </div>
+              <span id="results-subtitle" class="muted">Derived from downloaded chapter pages</span>
+            </div>
+            <div id="session-grid" class="session-grid"></div>
+          </section>
+
+          <aside class="panel detail-panel" id="detail-panel">
+            <div id="detail-empty" class="detail-empty">
+              <p class="eyebrow">Mission Briefing</p>
+              <h2>Select a session to inspect the study plan.</h2>
+              <p class="muted">Each mission includes the real source link, in-app chapter reading, extracted section headings, a PM lens, exercises, and account-synced notes.</p>
+            </div>
+            <div id="detail-content" class="detail-content hidden">
+              <div class="detail-topline">
+                <span id="detail-collection" class="pill"></span>
+                <span id="detail-theme" class="pill pill-soft"></span>
+              </div>
+              <h2 id="detail-title"></h2>
+              <p id="detail-meta" class="detail-meta"></p>
+              <p id="detail-summary" class="detail-summary"></p>
+              <div class="detail-actions">
+                <button id="read-offline" class="button button-primary">Read Chapter</button>
+                <button id="complete-toggle" class="button button-ghost">Mark Complete</button>
+                <button id="bookmark-toggle" class="button button-ghost">Bookmark</button>
+                <a id="source-link" class="button button-ghost" href="#" target="_blank" rel="noreferrer">Open Source</a>
+              </div>
+
+              <div class="detail-block stats-band" id="offline-stats"></div>
+
+              <div class="detail-block">
+                <h3>Why this matters for a tech PM</h3>
+                <ul id="pm-focus"></ul>
+              </div>
+
+              <div class="detail-block two-column">
+                <div>
+                  <h3>Chapter map</h3>
+                  <ul id="headings-list"></ul>
+                </div>
+                <div>
+                  <h3>Mission agenda</h3>
+                  <ul id="activities-list"></ul>
+                </div>
+              </div>
+
+              <div class="detail-block">
+                <h3>Boss battle prompts</h3>
+                <ol id="quiz-list"></ol>
+              </div>
+
+              <div class="detail-block">
+                <h3>Study notes</h3>
+                <textarea id="session-notes" rows="8" placeholder="Capture insights, product tradeoffs, launch risks, or questions for your engineering team..."></textarea>
+              </div>
+            </div>
+          </aside>
+        </main>
+      </div>
+
+      <section id="reader-view" class="reader-view hidden">
+        <div class="reader-topbar panel">
+          <div>
+            <p class="eyebrow">AOSA Reader</p>
+            <h2 id="reader-title">Loading chapter...</h2>
+            <p id="reader-subtitle" class="muted"></p>
+          </div>
+          <div class="reader-toolbar-actions">
+            <button id="reader-back" class="button button-ghost">Back</button>
+            <button id="reader-bookmark" class="button button-ghost">Save</button>
+            <button id="reader-complete" class="button button-primary">Complete</button>
+            <a id="reader-source-link" class="button button-ghost" href="#" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </div>
+
+        <div class="reader-layout">
+          <aside class="panel reader-sidebar">
+            <div class="reader-sidebar-section">
+              <p class="eyebrow">Mission Stats</p>
+              <div id="reader-stats" class="reader-stats"></div>
+            </div>
+            <div class="reader-sidebar-section">
+              <p class="eyebrow">Table of Contents</p>
+              <nav id="reader-toc" class="reader-toc"></nav>
+            </div>
+            <div class="reader-sidebar-section">
+              <p class="eyebrow">Quick Notes</p>
+              <textarea id="reader-notes" rows="12" placeholder="Capture the architectural choices, tradeoffs, and PM implications while you read..."></textarea>
+            </div>
+          </aside>
+
+          <article class="panel reader-article">
+            <div class="reader-intro">
+              <div class="reader-intro-copy">
+                <span id="reader-collection" class="pill"></span>
+                <span id="reader-theme" class="pill pill-soft"></span>
+                <p id="reader-summary" class="detail-summary"></p>
+              </div>
+            </div>
+            <div id="reader-loading" class="reader-loading">Loading local chapter content...</div>
+            <div id="reader-content" class="reader-content hidden"></div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <div id="toast" class="toast hidden"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

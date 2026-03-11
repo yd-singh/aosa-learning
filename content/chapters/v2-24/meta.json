@@ -1,0 +1,78 @@
+{
+  "sessionId": "v2-24",
+  "sourceUrl": "https://aosabook.org/en/v2/yocto.html",
+  "title": "Yocto",
+  "author": "Elizabeth Flanagan",
+  "contentPath": "content/chapters/v2-24/content.html",
+  "rawPagePath": "content/chapters/v2-24/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/yocto/aosa1.jpg",
+      "localPath": "content/assets/static/yocto/aosa1.jpg",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/yocto/aosa2.jpg",
+      "localPath": "content/assets/static/yocto/aosa2.jpg",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/yocto/aosa3.jpg",
+      "localPath": "content/assets/static/yocto/aosa3.jpg",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "23-1-introduction-to-the-poky-build-system",
+      "text": "23.1. Introduction to the Poky Build System",
+      "level": "h2"
+    },
+    {
+      "id": "poky-build-system-concepts",
+      "text": "Poky Build System Concepts",
+      "level": "h3"
+    },
+    {
+      "id": "example-bitbake-recipe-for-grep",
+      "text": "Example BitBake recipe for grep",
+      "level": "h3"
+    },
+    {
+      "id": "23-2-bitbake-architecture",
+      "text": "23.2. BitBake Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "bitbake-ipc",
+      "text": "BitBake IPC",
+      "level": "h3"
+    },
+    {
+      "id": "bitbake-datasmart-copy-on-write-data-storage",
+      "text": "BitBake DataSmart Copy-on-Write Data Storage",
+      "level": "h3"
+    },
+    {
+      "id": "bitbake-scheduler",
+      "text": "BitBake Scheduler",
+      "level": "h3"
+    },
+    {
+      "id": "23-3-conclusion",
+      "text": "23.3. Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "23-4-acknowledgements",
+      "text": "23.4. Acknowledgements",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5220,
+  "imageCount": 3,
+  "tableCount": 0,
+  "codeBlockCount": 7,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

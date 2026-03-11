@@ -1,0 +1,108 @@
+{
+  "sessionId": "v2-04",
+  "sourceUrl": "https://aosabook.org/en/v2/freertos.html",
+  "title": "FreeRTOS",
+  "author": "Christopher Svec",
+  "contentPath": "content/chapters/v2-04/content.html",
+  "rawPagePath": "content/chapters/v2-04/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/freertos/freertos-figures-layers.png",
+      "localPath": "content/assets/static/freertos/freertos-figures-layers.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/freertos/freertos-figures-basic-ready-list.png",
+      "localPath": "content/assets/static/freertos/freertos-figures-basic-ready-list.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/freertos/freertos-figures-full-ready-list.png",
+      "localPath": "content/assets/static/freertos/freertos-figures-full-ready-list.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/freertos/freertos-figures-full-ready-list-2.png",
+      "localPath": "content/assets/static/freertos/freertos-figures-full-ready-list-2.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "3-1-what-is-embedded-and-real-time",
+      "text": "3.1. What is \"Embedded\" and \"Real-Time\"?",
+      "level": "h2"
+    },
+    {
+      "id": "3-2-architecture-overview",
+      "text": "3.2. Architecture Overview",
+      "level": "h2"
+    },
+    {
+      "id": "hardware-considerations",
+      "text": "Hardware Considerations",
+      "level": "h3"
+    },
+    {
+      "id": "3-3-scheduling-tasks-a-quick-overview",
+      "text": "3.3. Scheduling Tasks: A Quick Overview",
+      "level": "h2"
+    },
+    {
+      "id": "task-priorities-and-the-ready-list",
+      "text": "Task Priorities and the Ready List",
+      "level": "h3"
+    },
+    {
+      "id": "the-system-tick",
+      "text": "The System Tick",
+      "level": "h3"
+    },
+    {
+      "id": "3-4-tasks",
+      "text": "3.4. Tasks",
+      "level": "h2"
+    },
+    {
+      "id": "task-control-block-tcb",
+      "text": "Task Control Block (TCB)",
+      "level": "h3"
+    },
+    {
+      "id": "task-setup",
+      "text": "Task Setup",
+      "level": "h3"
+    },
+    {
+      "id": "3-5-lists",
+      "text": "3.5. Lists",
+      "level": "h2"
+    },
+    {
+      "id": "3-6-queues",
+      "text": "3.6. Queues",
+      "level": "h2"
+    },
+    {
+      "id": "semaphores-and-mutexes",
+      "text": "Semaphores and Mutexes",
+      "level": "h3"
+    },
+    {
+      "id": "3-7-conclusion",
+      "text": "3.7. Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "3-8-acknowledgements",
+      "text": "3.8. Acknowledgements",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5219,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 12,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

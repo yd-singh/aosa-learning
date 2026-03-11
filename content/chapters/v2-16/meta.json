@@ -1,0 +1,113 @@
+{
+  "sessionId": "v2-16",
+  "sourceUrl": "https://aosabook.org/en/v2/openmpi.html",
+  "title": "Open MPI",
+  "author": "Jeffrey M. Squyres",
+  "contentPath": "content/chapters/v2-16/content.html",
+  "rawPagePath": "content/chapters/v2-16/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/openmpi/open-mpi-layers.png",
+      "localPath": "content/assets/static/openmpi/open-mpi-layers.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/openmpi/open-mpi-mca.png",
+      "localPath": "content/assets/static/openmpi/open-mpi-mca.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/openmpi/open-mpi-mca-struct-nesting.png",
+      "localPath": "content/assets/static/openmpi/open-mpi-mca-struct-nesting.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "15-1-background",
+      "text": "15.1. Background",
+      "level": "h2"
+    },
+    {
+      "id": "the-message-passing-interface-mpi",
+      "text": "The Message Passing Interface (MPI)",
+      "level": "h3"
+    },
+    {
+      "id": "uses-of-mpi",
+      "text": "Uses of MPI",
+      "level": "h3"
+    },
+    {
+      "id": "open-mpi",
+      "text": "Open MPI",
+      "level": "h3"
+    },
+    {
+      "id": "15-2-architecture",
+      "text": "15.2. Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "abstraction-layer-architecture",
+      "text": "Abstraction Layer Architecture",
+      "level": "h3"
+    },
+    {
+      "id": "plugin-architecture",
+      "text": "Plugin Architecture",
+      "level": "h3"
+    },
+    {
+      "id": "plugin-frameworks",
+      "text": "Plugin Frameworks",
+      "level": "h3"
+    },
+    {
+      "id": "plugin-components",
+      "text": "Plugin Components",
+      "level": "h3"
+    },
+    {
+      "id": "run-time-parameters",
+      "text": "Run-Time Parameters",
+      "level": "h3"
+    },
+    {
+      "id": "15-3-lessons-learned",
+      "text": "15.3. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "performance",
+      "text": "Performance",
+      "level": "h3"
+    },
+    {
+      "id": "standing-on-the-shoulders-of-giants",
+      "text": "Standing on the Shoulders of Giants",
+      "level": "h3"
+    },
+    {
+      "id": "optimize-for-the-common-case",
+      "text": "Optimize for the Common Case",
+      "level": "h3"
+    },
+    {
+      "id": "miscellaneous",
+      "text": "Miscellaneous",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 6013,
+  "imageCount": 3,
+  "tableCount": 0,
+  "codeBlockCount": 3,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

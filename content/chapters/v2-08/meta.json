@@ -1,0 +1,78 @@
+{
+  "sessionId": "v2-08",
+  "sourceUrl": "https://aosabook.org/en/v2/gpsd.html",
+  "title": "GPSD",
+  "author": "Eric Raymond",
+  "contentPath": "content/chapters/v2-08/content.html",
+  "rawPagePath": "content/chapters/v2-08/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/gpsd/software-layers.png",
+      "localPath": "content/assets/static/gpsd/software-layers.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/gpsd/dataflow.png",
+      "localPath": "content/assets/static/gpsd/dataflow.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "7-1-why-gpsd-exists",
+      "text": "7.1. Why GPSD Exists",
+      "level": "h2"
+    },
+    {
+      "id": "7-2-the-external-view",
+      "text": "7.2. The External View",
+      "level": "h2"
+    },
+    {
+      "id": "7-3-the-software-layers",
+      "text": "7.3. The Software Layers",
+      "level": "h2"
+    },
+    {
+      "id": "7-4-the-dataflow-view",
+      "text": "7.4. The Dataflow View",
+      "level": "h2"
+    },
+    {
+      "id": "7-5-defending-the-architecture",
+      "text": "7.5. Defending the Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "7-6-zero-configuration-zero-hassles",
+      "text": "7.6. Zero Configuration, Zero Hassles",
+      "level": "h2"
+    },
+    {
+      "id": "7-7-embedded-constraints-considered-helpful",
+      "text": "7.7. Embedded Constraints Considered Helpful",
+      "level": "h2"
+    },
+    {
+      "id": "7-8-json-and-the-architecturenauts",
+      "text": "7.8. JSON and the Architecturenauts",
+      "level": "h2"
+    },
+    {
+      "id": "7-9-designing-for-zero-defects",
+      "text": "7.9. Designing for Zero Defects",
+      "level": "h2"
+    },
+    {
+      "id": "7-10-lessons-learned",
+      "text": "7.10. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6176,
+  "imageCount": 2,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

@@ -1,0 +1,123 @@
+{
+  "sessionId": "v2-12",
+  "sourceUrl": "https://aosabook.org/en/v2/matplotlib.html",
+  "title": "matplotlib",
+  "author": "John Hunter and Michael Droettboom",
+  "contentPath": "content/chapters/v2-12/content.html",
+  "rawPagePath": "content/chapters/v2-12/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/ecog.png",
+      "localPath": "content/assets/static/matplotlib/ecog.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/artists_figure.png",
+      "localPath": "content/assets/static/matplotlib/artists_figure.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/artists_tree.png",
+      "localPath": "content/assets/static/matplotlib/artists_tree.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/histogram_demo.png",
+      "localPath": "content/assets/static/matplotlib/histogram_demo.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/matrix.png",
+      "localPath": "content/assets/static/matplotlib/matrix.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/nonaffine_transforms.png",
+      "localPath": "content/assets/static/matplotlib/nonaffine_transforms.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/transform_tree.png",
+      "localPath": "content/assets/static/matplotlib/transform_tree.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/pixel_snapping.png",
+      "localPath": "content/assets/static/matplotlib/pixel_snapping.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/path_simplification.png",
+      "localPath": "content/assets/static/matplotlib/path_simplification.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/matplotlib/regression.png",
+      "localPath": "content/assets/static/matplotlib/regression.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "11-1-the-dongle-problem",
+      "text": "11.1. The Dongle Problem",
+      "level": "h2"
+    },
+    {
+      "id": "11-2-overview-of-matplotlib-architecture",
+      "text": "11.2. Overview of matplotlib Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "backend-layer",
+      "text": "Backend Layer",
+      "level": "h3"
+    },
+    {
+      "id": "artist-layer",
+      "text": "Artist Layer",
+      "level": "h3"
+    },
+    {
+      "id": "scripting-layer-pyplot",
+      "text": "Scripting Layer (pyplot)",
+      "level": "h3"
+    },
+    {
+      "id": "11-3-backend-refactoring",
+      "text": "11.3. Backend Refactoring",
+      "level": "h2"
+    },
+    {
+      "id": "11-4-transforms",
+      "text": "11.4. Transforms",
+      "level": "h2"
+    },
+    {
+      "id": "11-5-the-polyline-pipeline",
+      "text": "11.5. The Polyline Pipeline",
+      "level": "h2"
+    },
+    {
+      "id": "11-6-math-text",
+      "text": "11.6. Math Text",
+      "level": "h2"
+    },
+    {
+      "id": "11-7-regression-testing",
+      "text": "11.7. Regression Testing",
+      "level": "h2"
+    },
+    {
+      "id": "11-8-lessons-learned",
+      "text": "11.8. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5715,
+  "imageCount": 10,
+  "tableCount": 1,
+  "codeBlockCount": 7,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

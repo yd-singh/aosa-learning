@@ -1,0 +1,158 @@
+{
+  "sessionId": "v1-14",
+  "sourceUrl": "https://aosabook.org/en/v1/nosql.html",
+  "title": "The NoSQL Ecosystem",
+  "author": "Adam Marcus",
+  "contentPath": "content/chapters/v1-14/content.html",
+  "rawPagePath": "content/chapters/v1-14/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/nosql/hashring.png",
+      "localPath": "content/assets/static/nosql/hashring.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/nosql/bigtable.png",
+      "localPath": "content/assets/static/nosql/bigtable.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "13-1-what-s-in-a-name",
+      "text": "13.1. What's in a Name?",
+      "level": "h2"
+    },
+    {
+      "id": "13-1-1-sql-and-the-relational-model",
+      "text": "13.1.1. SQL and the Relational Model",
+      "level": "h3"
+    },
+    {
+      "id": "13-1-2-nosql-inspirations",
+      "text": "13.1.2. NoSQL Inspirations",
+      "level": "h3"
+    },
+    {
+      "id": "13-1-3-characteristics-and-considerations",
+      "text": "13.1.3. Characteristics and Considerations",
+      "level": "h3"
+    },
+    {
+      "id": "13-2-nosql-data-and-query-models",
+      "text": "13.2. NoSQL Data and Query Models",
+      "level": "h2"
+    },
+    {
+      "id": "13-2-1-key-based-nosql-data-models",
+      "text": "13.2.1. Key-based NoSQL Data Models",
+      "level": "h3"
+    },
+    {
+      "id": "13-2-2-graph-storage",
+      "text": "13.2.2. Graph Storage",
+      "level": "h3"
+    },
+    {
+      "id": "13-2-3-complex-queries",
+      "text": "13.2.3. Complex Queries",
+      "level": "h3"
+    },
+    {
+      "id": "13-2-4-transactions",
+      "text": "13.2.4. Transactions",
+      "level": "h3"
+    },
+    {
+      "id": "13-2-5-schema-free-storage",
+      "text": "13.2.5. Schema-free Storage",
+      "level": "h3"
+    },
+    {
+      "id": "13-3-data-durability",
+      "text": "13.3. Data Durability",
+      "level": "h2"
+    },
+    {
+      "id": "13-3-1-single-server-durability",
+      "text": "13.3.1. Single-server Durability",
+      "level": "h3"
+    },
+    {
+      "id": "13-3-2-multi-server-durability",
+      "text": "13.3.2. Multi-server Durability",
+      "level": "h3"
+    },
+    {
+      "id": "13-4-scaling-for-performance",
+      "text": "13.4. Scaling for Performance",
+      "level": "h2"
+    },
+    {
+      "id": "13-4-1-do-not-shard-until-you-have-to",
+      "text": "13.4.1. Do Not Shard Until You Have To",
+      "level": "h3"
+    },
+    {
+      "id": "13-4-2-sharding-through-coordinators",
+      "text": "13.4.2. Sharding Through Coordinators",
+      "level": "h3"
+    },
+    {
+      "id": "13-4-3-consistent-hash-rings",
+      "text": "13.4.3. Consistent Hash Rings",
+      "level": "h3"
+    },
+    {
+      "id": "13-4-4-range-partitioning",
+      "text": "13.4.4. Range Partitioning",
+      "level": "h3"
+    },
+    {
+      "id": "13-4-5-which-partitioning-scheme-to-use",
+      "text": "13.4.5. Which Partitioning Scheme to Use",
+      "level": "h3"
+    },
+    {
+      "id": "sec.nosql.consistency",
+      "text": "13.5. Consistency",
+      "level": "h2"
+    },
+    {
+      "id": "sec.nosql.consistency-2",
+      "text": "13.5.1. A Little Bit About CAP",
+      "level": "h3"
+    },
+    {
+      "id": "sec.nosql.consistency-3",
+      "text": "13.5.2. Strong Consistency",
+      "level": "h3"
+    },
+    {
+      "id": "sec.nosql.consistency-4",
+      "text": "13.5.3. Eventual Consistency",
+      "level": "h3"
+    },
+    {
+      "id": "13-6-a-final-word",
+      "text": "13.6. A Final Word",
+      "level": "h2"
+    },
+    {
+      "id": "13-7-acknowledgments",
+      "text": "13.7. Acknowledgments",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 10073,
+  "imageCount": 2,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

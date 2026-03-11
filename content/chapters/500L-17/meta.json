@@ -1,0 +1,152 @@
+{
+  "sessionId": "500L-17",
+  "sourceUrl": "https://aosabook.org/en/500L/a-pedometer-in-the-real-world.html",
+  "title": "A Pedometer in the Real World",
+  "author": "Dessy Daskalov",
+  "contentPath": "content/chapters/500L-17/content.html",
+  "rawPagePath": "content/chapters/500L-17/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "a-perfect-world",
+      "text": "A Perfect World",
+      "level": "h2"
+    },
+    {
+      "id": "pedometer-theory",
+      "text": "Pedometer Theory",
+      "level": "h2"
+    },
+    {
+      "id": "whats-an-accelerometer",
+      "text": "What's an Accelerometer?",
+      "level": "h3"
+    },
+    {
+      "id": "lets-talk-about-a-walk",
+      "text": "Let's Talk About a Walk",
+      "level": "h3"
+    },
+    {
+      "id": "even-perfect-worlds-have-fundamental-forces-of-nature",
+      "text": "Even Perfect Worlds Have Fundamental Forces of Nature",
+      "level": "h3"
+    },
+    {
+      "id": "people-are-complicated-creatures",
+      "text": "People Are Complicated Creatures",
+      "level": "h3"
+    },
+    {
+      "id": "splitting-total-acceleration-into-user-acceleration-and-gravitational-acceleration",
+      "text": "1. Splitting Total Acceleration Into User Acceleration and Gravitational Acceleration",
+      "level": "h3"
+    },
+    {
+      "id": "isolating-user-acceleration-in-the-direction-of-gravity",
+      "text": "2. Isolating User Acceleration in the Direction of Gravity",
+      "level": "h3"
+    },
+    {
+      "id": "solutions-in-the-real-world",
+      "text": "Solutions in the Real World",
+      "level": "h3"
+    },
+    {
+      "id": "recap",
+      "text": "Recap",
+      "level": "h3"
+    },
+    {
+      "id": "diving-into-code",
+      "text": "Diving Into Code",
+      "level": "h2"
+    },
+    {
+      "id": "preliminary-work",
+      "text": "Preliminary Work",
+      "level": "h3"
+    },
+    {
+      "id": "input-formats",
+      "text": "Input Formats",
+      "level": "h3"
+    },
+    {
+      "id": "i-got-multiple-input-formats-but-a-standard-aint-one",
+      "text": "I Got Multiple Input Formats But a Standard Ain't One",
+      "level": "h3"
+    },
+    {
+      "id": "the-pipeline",
+      "text": "The Pipeline",
+      "level": "h3"
+    },
+    {
+      "id": "parsing",
+      "text": "Parsing",
+      "level": "h3"
+    },
+    {
+      "id": "processing",
+      "text": "Processing",
+      "level": "h3"
+    },
+    {
+      "id": "pedometer-functionality",
+      "text": "Pedometer Functionality",
+      "level": "h3"
+    },
+    {
+      "id": "distance-travelled",
+      "text": "Distance Travelled",
+      "level": "h3"
+    },
+    {
+      "id": "elapsed-time",
+      "text": "Elapsed Time",
+      "level": "h3"
+    },
+    {
+      "id": "steps-taken",
+      "text": "Steps Taken",
+      "level": "h3"
+    },
+    {
+      "id": "tying-it-all-together-with-the-pipeline",
+      "text": "Tying It All Together With the Pipeline",
+      "level": "h3"
+    },
+    {
+      "id": "adding-a-friendly-interface",
+      "text": "Adding A Friendly Interface",
+      "level": "h2"
+    },
+    {
+      "id": "a-user-scenario",
+      "text": "A User Scenario",
+      "level": "h3"
+    },
+    {
+      "id": "storing-and-retrieving-data",
+      "text": "1. Storing and Retrieving Data",
+      "level": "h3"
+    },
+    {
+      "id": "building-a-web-application",
+      "text": "2. Building a Web Application",
+      "level": "h3"
+    },
+    {
+      "id": "a-fully-functional-app",
+      "text": "A Fully Functional App",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8263,
+  "imageCount": 19,
+  "tableCount": 0,
+  "codeBlockCount": 8,
+  "hasFootnotes": false,
+  "missingAssetCount": 19
+}

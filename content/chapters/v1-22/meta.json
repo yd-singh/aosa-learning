@@ -1,0 +1,127 @@
+{
+  "sessionId": "v1-22",
+  "sourceUrl": "https://aosabook.org/en/v1/thousandparsec.html",
+  "title": "Thousand Parsec",
+  "author": "Alan Laudicina and Aaron Mavrinac",
+  "contentPath": "content/chapters/v1-22/content.html",
+  "rawPagePath": "content/chapters/v1-22/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "21-1-anatomy-of-a-star-empire",
+      "text": "21.1. Anatomy of a Star Empire",
+      "level": "h2"
+    },
+    {
+      "id": "21-1-1-objects",
+      "text": "21.1.1. Objects",
+      "level": "h3"
+    },
+    {
+      "id": "21-1-2-orders",
+      "text": "21.1.2. Orders",
+      "level": "h3"
+    },
+    {
+      "id": "21-1-3-resources",
+      "text": "21.1.3. Resources",
+      "level": "h3"
+    },
+    {
+      "id": "21-1-4-designs",
+      "text": "21.1.4. Designs",
+      "level": "h3"
+    },
+    {
+      "id": "21-2-the-thousand-parsec-protocol",
+      "text": "21.2. The Thousand Parsec Protocol",
+      "level": "h2"
+    },
+    {
+      "id": "21-2-1-basics",
+      "text": "21.2.1. Basics",
+      "level": "h3"
+    },
+    {
+      "id": "21-2-2-players-and-games",
+      "text": "21.2.2. Players and Games",
+      "level": "h3"
+    },
+    {
+      "id": "21-2-3-objects-orders-and-resources",
+      "text": "21.2.3. Objects, Orders, and Resources",
+      "level": "h3"
+    },
+    {
+      "id": "21-2-4-design-manipulation",
+      "text": "21.2.4. Design Manipulation",
+      "level": "h3"
+    },
+    {
+      "id": "21-2-5-server-administration",
+      "text": "21.2.5. Server Administration",
+      "level": "h3"
+    },
+    {
+      "id": "21-3-supporting-functionality",
+      "text": "21.3. Supporting Functionality",
+      "level": "h2"
+    },
+    {
+      "id": "21-3-1-server-persistence",
+      "text": "21.3.1. Server Persistence",
+      "level": "h3"
+    },
+    {
+      "id": "21-3-2-thousand-parsec-component-language",
+      "text": "21.3.2. Thousand Parsec Component Language",
+      "level": "h3"
+    },
+    {
+      "id": "21-3-3-battlexml",
+      "text": "21.3.3. BattleXML",
+      "level": "h3"
+    },
+    {
+      "id": "21-3-4-metaserver",
+      "text": "21.3.4. Metaserver",
+      "level": "h3"
+    },
+    {
+      "id": "21-3-5-single-player-mode",
+      "text": "21.3.5. Single-Player Mode",
+      "level": "h3"
+    },
+    {
+      "id": "21-4-lessons-learned",
+      "text": "21.4. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "21-4-1-what-worked",
+      "text": "21.4.1. What Worked",
+      "level": "h3"
+    },
+    {
+      "id": "21-4-2-what-didn-t-work",
+      "text": "21.4.2. What Didn't Work",
+      "level": "h3"
+    },
+    {
+      "id": "21-4-3-conclusion",
+      "text": "21.4.3. Conclusion",
+      "level": "h3"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8822,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 2,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

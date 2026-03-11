@@ -1,0 +1,77 @@
+{
+  "sessionId": "500L-16",
+  "sourceUrl": "https://aosabook.org/en/500L/optical-character-recognition-ocr.html",
+  "title": "Optical Character Recognition (OCR)",
+  "author": "Marina Samuel",
+  "contentPath": "content/chapters/500L-16/content.html",
+  "rawPagePath": "content/chapters/500L-16/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "what-is-artificial-intelligence",
+      "text": "What is Artificial Intelligence?",
+      "level": "h2"
+    },
+    {
+      "id": "artificial-neural-networks",
+      "text": "Artificial Neural Networks",
+      "level": "h2"
+    },
+    {
+      "id": "what-are-anns",
+      "text": "What Are ANNs?",
+      "level": "h3"
+    },
+    {
+      "id": "how-do-we-use-anns",
+      "text": "How Do We Use ANNs?",
+      "level": "h3"
+    },
+    {
+      "id": "design-decisions-in-a-simple-ocr-system",
+      "text": "Design Decisions in a Simple OCR System",
+      "level": "h2"
+    },
+    {
+      "id": "a-simple-interface-ocr.html",
+      "text": "A Simple Interface ( ocr.html )",
+      "level": "h3"
+    },
+    {
+      "id": "an-ocr-client-ocr.js",
+      "text": "An OCR Client ( ocr.js )",
+      "level": "h3"
+    },
+    {
+      "id": "a-server-server.py",
+      "text": "A Server ( server.py )",
+      "level": "h3"
+    },
+    {
+      "id": "designing-a-feedforward-ann-neural_network_design.py",
+      "text": "Designing a Feedforward ANN ( neural_network_design.py )",
+      "level": "h3"
+    },
+    {
+      "id": "core-ocr-functionality",
+      "text": "Core OCR Functionality",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5889,
+  "imageCount": 1,
+  "tableCount": 0,
+  "codeBlockCount": 19,
+  "hasFootnotes": false,
+  "missingAssetCount": 1
+}

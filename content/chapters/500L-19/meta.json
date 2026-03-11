@@ -1,0 +1,82 @@
+{
+  "sessionId": "500L-19",
+  "sourceUrl": "https://aosabook.org/en/500L/a-rejection-sampler.html",
+  "title": "A Rejection Sampler",
+  "author": "Jessica B. Hamrick",
+  "contentPath": "content/chapters/500L-19/content.html",
+  "rawPagePath": "content/chapters/500L-19/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "what-is-sampling",
+      "text": "What is Sampling?",
+      "level": "h3"
+    },
+    {
+      "id": "programming-with-samples-and-probabilities",
+      "text": "Programming with Samples and Probabilities",
+      "level": "h3"
+    },
+    {
+      "id": "sampling-magical-items",
+      "text": "Sampling Magical Items",
+      "level": "h2"
+    },
+    {
+      "id": "the-multinomial-distribution",
+      "text": "The Multinomial Distribution",
+      "level": "h2"
+    },
+    {
+      "id": "the-multinomialdistribution-class",
+      "text": "The MultinomialDistribution Class",
+      "level": "h3"
+    },
+    {
+      "id": "sampling-from-a-multinomial-distribution",
+      "text": "Sampling from a Multinomial Distribution",
+      "level": "h3"
+    },
+    {
+      "id": "evaluating-the-multinomial-pmf",
+      "text": "Evaluating the Multinomial PMF",
+      "level": "h3"
+    },
+    {
+      "id": "sampling-magical-items-revisited",
+      "text": "Sampling Magical Items, Revisited",
+      "level": "h2"
+    },
+    {
+      "id": "estimating-attack-damage",
+      "text": "Estimating Attack Damage",
+      "level": "h2"
+    },
+    {
+      "id": "implementing-a-distribution-over-damage",
+      "text": "Implementing a Distribution Over Damage",
+      "level": "h3"
+    },
+    {
+      "id": "approximating-the-distribution",
+      "text": "Approximating the Distribution",
+      "level": "h3"
+    },
+    {
+      "id": "summary",
+      "text": "Summary",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7178,
+  "imageCount": 1,
+  "tableCount": 0,
+  "codeBlockCount": 28,
+  "hasFootnotes": true,
+  "missingAssetCount": 1
+}

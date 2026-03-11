@@ -1,0 +1,117 @@
+{
+  "sessionId": "500L-09",
+  "sourceUrl": "https://aosabook.org/en/500L/an-event-driven-web-framework.html",
+  "title": "An Event-Driven Web Framework",
+  "author": "Leo Zovic",
+  "contentPath": "content/chapters/500L-09/content.html",
+  "rawPagePath": "content/chapters/500L-09/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "the-basics-of-http-servers",
+      "text": "The Basics of HTTP Servers",
+      "level": "h2"
+    },
+    {
+      "id": "cometlong-poll",
+      "text": "Comet/Long Poll",
+      "level": "h3"
+    },
+    {
+      "id": "server-sent-events-sse",
+      "text": "Server-Sent Events (SSE)",
+      "level": "h3"
+    },
+    {
+      "id": "websockets",
+      "text": "WebSockets",
+      "level": "h3"
+    },
+    {
+      "id": "long-lived-connections",
+      "text": "Long-Lived Connections",
+      "level": "h3"
+    },
+    {
+      "id": "traditional-http-server-architecture",
+      "text": "Traditional HTTP Server Architecture",
+      "level": "h3"
+    },
+    {
+      "id": "architectural-decisions",
+      "text": "Architectural Decisions",
+      "level": "h3"
+    },
+    {
+      "id": "building-an-event-driven-web-server",
+      "text": "Building an Event-Driven Web Server",
+      "level": "h2"
+    },
+    {
+      "id": "the-event-loop",
+      "text": "The Event Loop",
+      "level": "h3"
+    },
+    {
+      "id": "clos-and-generic-functions",
+      "text": "CLOS and Generic Functions",
+      "level": "h3"
+    },
+    {
+      "id": "processing-sockets",
+      "text": "Processing Sockets",
+      "level": "h3"
+    },
+    {
+      "id": "processing-connections-without-blocking",
+      "text": "Processing Connections Without Blocking",
+      "level": "h3"
+    },
+    {
+      "id": "interpreting-requests",
+      "text": "Interpreting Requests",
+      "level": "h3"
+    },
+    {
+      "id": "rendering-responses",
+      "text": "Rendering Responses",
+      "level": "h3"
+    },
+    {
+      "id": "error-responses",
+      "text": "Error Responses",
+      "level": "h3"
+    },
+    {
+      "id": "extending-the-server-into-a-web-framework",
+      "text": "Extending the Server Into a Web Framework",
+      "level": "h2"
+    },
+    {
+      "id": "a-dsl-for-handlers",
+      "text": "A DSL for Handlers",
+      "level": "h3"
+    },
+    {
+      "id": "expanding-a-handler",
+      "text": "Expanding a Handler",
+      "level": "h3"
+    },
+    {
+      "id": "http-types",
+      "text": "HTTP \"Types\"",
+      "level": "h3"
+    },
+    {
+      "id": "all-together-now",
+      "text": "All Together Now",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 7980,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 44,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

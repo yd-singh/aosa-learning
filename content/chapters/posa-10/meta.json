@@ -1,0 +1,177 @@
+{
+  "sessionId": "posa-10",
+  "sourceUrl": "https://aosabook.org/en/posa/zotonic.html",
+  "title": "Zotonic",
+  "author": "Arjan Scherpenisse and Marc Worrell",
+  "contentPath": "content/chapters/posa-10/content.html",
+  "rawPagePath": "content/chapters/posa-10/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction-to-zotonic",
+      "text": "Introduction to Zotonic",
+      "level": "h2"
+    },
+    {
+      "id": "why-zotonic-why-erlang",
+      "text": "Why Zotonic? Why Erlang?",
+      "level": "h2"
+    },
+    {
+      "id": "problems-with-the-classic-phpapache-approach",
+      "text": "Problems with the Classic PHP +Apache Approach",
+      "level": "h3"
+    },
+    {
+      "id": "requirements-for-a-modern-web-framework",
+      "text": "Requirements for a Modern Web Framework",
+      "level": "h3"
+    },
+    {
+      "id": "erlang-to-the-rescue",
+      "text": "Erlang to the Rescue",
+      "level": "h3"
+    },
+    {
+      "id": "zotonics-architecture",
+      "text": "Zotonic\u2019s Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "additional-zotonic-concepts",
+      "text": "Additional Zotonic Concepts",
+      "level": "h3"
+    },
+    {
+      "id": "problem-solving-fighting-the-slashdot-effect",
+      "text": "Problem Solving: Fighting the Slashdot Effect",
+      "level": "h2"
+    },
+    {
+      "id": "cache-hot-data",
+      "text": "Cache Hot Data",
+      "level": "h3"
+    },
+    {
+      "id": "share-rendered-templates-and-sub-templates-between-pages",
+      "text": "Share Rendered Templates and Sub-templates Between Pages",
+      "level": "h3"
+    },
+    {
+      "id": "prevent-overload-on-server-start-or-restart",
+      "text": "Prevent Overload on Server Start or Restart",
+      "level": "h3"
+    },
+    {
+      "id": "the-database-connection-pool",
+      "text": "The Database Connection Pool",
+      "level": "h3"
+    },
+    {
+      "id": "caching-layers",
+      "text": "Caching Layers",
+      "level": "h2"
+    },
+    {
+      "id": "client-side-caching",
+      "text": "Client-Side Caching",
+      "level": "h3"
+    },
+    {
+      "id": "server-side-caching",
+      "text": "Server-Side Caching",
+      "level": "h3"
+    },
+    {
+      "id": "static-css-js-and-image-files",
+      "text": "Static CSS , JS and Image Files",
+      "level": "h3"
+    },
+    {
+      "id": "rendered-templates",
+      "text": "Rendered Templates",
+      "level": "h3"
+    },
+    {
+      "id": "in-memory-caching",
+      "text": "In-Memory Caching",
+      "level": "h3"
+    },
+    {
+      "id": "depcache",
+      "text": "Depcache",
+      "level": "h3"
+    },
+    {
+      "id": "process-dictionary-memo-cache",
+      "text": "Process Dictionary Memo Cache",
+      "level": "h3"
+    },
+    {
+      "id": "the-erlang-virtual-machine",
+      "text": "The Erlang Virtual Machine",
+      "level": "h2"
+    },
+    {
+      "id": "processes-are-cheap",
+      "text": "Processes are Cheap",
+      "level": "h3"
+    },
+    {
+      "id": "data-copying-is-expensive",
+      "text": "Data Copying is Expensive",
+      "level": "h3"
+    },
+    {
+      "id": "string-processing-is-expensive",
+      "text": "String Processing is Expensive",
+      "level": "h3"
+    },
+    {
+      "id": "implications-for-zotonic",
+      "text": "Implications for Zotonic",
+      "level": "h3"
+    },
+    {
+      "id": "changes-to-the-webmachine-library",
+      "text": "Changes to the Webmachine Library",
+      "level": "h2"
+    },
+    {
+      "id": "data-model-a-document-database-in-sql",
+      "text": "Data Model: a Document Database in SQL",
+      "level": "h2"
+    },
+    {
+      "id": "benchmarks-statistics-and-optimizations",
+      "text": "Benchmarks, Statistics and Optimizations",
+      "level": "h2"
+    },
+    {
+      "id": "a-simplified-benchmark",
+      "text": "A Simplified Benchmark",
+      "level": "h3"
+    },
+    {
+      "id": "real-life-performance",
+      "text": "Real-Life Performance",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    },
+    {
+      "id": "acknowledgements",
+      "text": "Acknowledgements",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7232,
+  "imageCount": 1,
+  "tableCount": 1,
+  "codeBlockCount": 4,
+  "hasFootnotes": true,
+  "missingAssetCount": 1
+}

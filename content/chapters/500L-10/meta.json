@@ -1,0 +1,77 @@
+{
+  "sessionId": "500L-10",
+  "sourceUrl": "https://aosabook.org/en/500L/a-flow-shop-scheduler.html",
+  "title": "A Flow Shop Scheduler",
+  "author": "Christian Muise",
+  "contentPath": "content/chapters/500L-10/content.html",
+  "rawPagePath": "content/chapters/500L-10/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "a-flow-shop-scheduler",
+      "text": "A Flow Shop Scheduler",
+      "level": "h2"
+    },
+    {
+      "id": "background",
+      "text": "Background",
+      "level": "h2"
+    },
+    {
+      "id": "flow-shop-scheduling",
+      "text": "Flow Shop Scheduling",
+      "level": "h3"
+    },
+    {
+      "id": "local-search",
+      "text": "Local Search",
+      "level": "h3"
+    },
+    {
+      "id": "general-solver",
+      "text": "General Solver",
+      "level": "h2"
+    },
+    {
+      "id": "parsing-problems",
+      "text": "Parsing Problems",
+      "level": "h3"
+    },
+    {
+      "id": "compiling-solutions",
+      "text": "Compiling Solutions",
+      "level": "h3"
+    },
+    {
+      "id": "printing-solutions",
+      "text": "Printing Solutions",
+      "level": "h3"
+    },
+    {
+      "id": "neighbourhoods",
+      "text": "Neighbourhoods",
+      "level": "h2"
+    },
+    {
+      "id": "heuristics",
+      "text": "Heuristics",
+      "level": "h2"
+    },
+    {
+      "id": "dynamic-strategy-selection",
+      "text": "Dynamic Strategy Selection",
+      "level": "h2"
+    },
+    {
+      "id": "discussion",
+      "text": "Discussion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 5673,
+  "imageCount": 2,
+  "tableCount": 0,
+  "codeBlockCount": 35,
+  "hasFootnotes": false,
+  "missingAssetCount": 2
+}

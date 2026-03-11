@@ -1,0 +1,88 @@
+{
+  "sessionId": "v2-22",
+  "sourceUrl": "https://aosabook.org/en/v2/twisted.html",
+  "title": "Twisted",
+  "author": "Jessica McKellar",
+  "contentPath": "content/chapters/v2-22/content.html",
+  "rawPagePath": "content/chapters/v2-22/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/twisted/threading_models.png",
+      "localPath": "content/assets/static/twisted/threading_models.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/twisted/deferred.png",
+      "localPath": "content/assets/static/twisted/deferred.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "21-1-why-twisted",
+      "text": "21.1. Why Twisted?",
+      "level": "h2"
+    },
+    {
+      "id": "21-2-the-architecture-of-twisted",
+      "text": "21.2. The Architecture of Twisted",
+      "level": "h2"
+    },
+    {
+      "id": "reusing-existing-applications",
+      "text": "Reusing Existing Applications",
+      "level": "h3"
+    },
+    {
+      "id": "the-reactor",
+      "text": "The Reactor",
+      "level": "h3"
+    },
+    {
+      "id": "managing-callback-chains",
+      "text": "Managing Callback Chains",
+      "level": "h3"
+    },
+    {
+      "id": "transports",
+      "text": "Transports",
+      "level": "h3"
+    },
+    {
+      "id": "protocols",
+      "text": "Protocols",
+      "level": "h3"
+    },
+    {
+      "id": "applications",
+      "text": "Applications",
+      "level": "h3"
+    },
+    {
+      "id": "21-3-retrospective-and-lessons-learned",
+      "text": "21.3. Retrospective and Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "twisted-application-persistence",
+      "text": "Twisted Application Persistence",
+      "level": "h3"
+    },
+    {
+      "id": "web2-a-lesson-on-rewrites",
+      "text": "web2: a lesson on rewrites",
+      "level": "h3"
+    },
+    {
+      "id": "keeping-up-with-the-internet",
+      "text": "Keeping Up with the Internet",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 5483,
+  "imageCount": 2,
+  "tableCount": 3,
+  "codeBlockCount": 11,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

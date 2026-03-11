@@ -1,0 +1,88 @@
+{
+  "sessionId": "v2-11",
+  "sourceUrl": "https://aosabook.org/en/v2/mailman.html",
+  "title": "GNU Mailman",
+  "author": "Barry Warsaw",
+  "contentPath": "content/chapters/v2-11/content.html",
+  "rawPagePath": "content/chapters/v2-11/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/mailman/mime.png",
+      "localPath": "content/assets/static/mailman/mime.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/mailman/tree.png",
+      "localPath": "content/assets/static/mailman/tree.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/mailman/chains.png",
+      "localPath": "content/assets/static/mailman/chains.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/mailman/pipeline.png",
+      "localPath": "content/assets/static/mailman/pipeline.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "10-1-the-anatomy-of-a-message",
+      "text": "10.1. The Anatomy of a Message",
+      "level": "h2"
+    },
+    {
+      "id": "10-2-the-mailing-list",
+      "text": "10.2. The Mailing List",
+      "level": "h2"
+    },
+    {
+      "id": "10-3-runners",
+      "text": "10.3. Runners",
+      "level": "h2"
+    },
+    {
+      "id": "10-4-the-master-runner",
+      "text": "10.4. The Master Runner",
+      "level": "h2"
+    },
+    {
+      "id": "10-5-rules-links-and-chains",
+      "text": "10.5. Rules, Links, and Chains",
+      "level": "h2"
+    },
+    {
+      "id": "10-6-handlers-and-pipelines",
+      "text": "10.6. Handlers and Pipelines",
+      "level": "h2"
+    },
+    {
+      "id": "10-7-verp",
+      "text": "10.7. VERP",
+      "level": "h2"
+    },
+    {
+      "id": "10-8-rest",
+      "text": "10.8. REST",
+      "level": "h2"
+    },
+    {
+      "id": "10-9-internationalization",
+      "text": "10.9. Internationalization",
+      "level": "h2"
+    },
+    {
+      "id": "10-10-lessons-learned",
+      "text": "10.10. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7818,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 1,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

@@ -1,0 +1,102 @@
+{
+  "sessionId": "500L-11",
+  "sourceUrl": "https://aosabook.org/en/500L/an-archaeology-inspired-database.html",
+  "title": "An Archaeology-Inspired Database",
+  "author": "Yoav Rubin",
+  "contentPath": "content/chapters/500L-11/content.html",
+  "rawPagePath": "content/chapters/500L-11/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "designing-a-database-like-an-archaeologist",
+      "text": "Designing a Database Like an Archaeologist",
+      "level": "h3"
+    },
+    {
+      "id": "laying-the-foundation",
+      "text": "Laying the Foundation",
+      "level": "h2"
+    },
+    {
+      "id": "entities",
+      "text": "Entities",
+      "level": "h3"
+    },
+    {
+      "id": "storage",
+      "text": "Storage",
+      "level": "h3"
+    },
+    {
+      "id": "indexing-the-data",
+      "text": "Indexing the Data",
+      "level": "h3"
+    },
+    {
+      "id": "database",
+      "text": "Database",
+      "level": "h3"
+    },
+    {
+      "id": "basic-accessors",
+      "text": "Basic Accessors",
+      "level": "h3"
+    },
+    {
+      "id": "data-behavior-and-life-cycle",
+      "text": "Data Behavior and Life Cycle",
+      "level": "h2"
+    },
+    {
+      "id": "the-bare-necessities",
+      "text": "The Bare Necessities",
+      "level": "h3"
+    },
+    {
+      "id": "transactions",
+      "text": "Transactions",
+      "level": "h3"
+    },
+    {
+      "id": "insight-extraction-as-libraries",
+      "text": "Insight Extraction as Libraries",
+      "level": "h2"
+    },
+    {
+      "id": "graph-traversal",
+      "text": "Graph Traversal",
+      "level": "h3"
+    },
+    {
+      "id": "querying-the-database",
+      "text": "Querying the Database",
+      "level": "h2"
+    },
+    {
+      "id": "query-language",
+      "text": "Query Language",
+      "level": "h3"
+    },
+    {
+      "id": "query-engine-design",
+      "text": "Query Engine Design",
+      "level": "h3"
+    },
+    {
+      "id": "summary",
+      "text": "Summary",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 9036,
+  "imageCount": 3,
+  "tableCount": 7,
+  "codeBlockCount": 58,
+  "hasFootnotes": false,
+  "missingAssetCount": 3
+}

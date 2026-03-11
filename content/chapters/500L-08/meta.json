@@ -1,0 +1,77 @@
+{
+  "sessionId": "500L-08",
+  "sourceUrl": "https://aosabook.org/en/500L/dbdb-dog-bed-database.html",
+  "title": "DBDB: Dog Bed Database",
+  "author": "Taavi Burns",
+  "contentPath": "content/chapters/500L-08/content.html",
+  "rawPagePath": "content/chapters/500L-08/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "memory",
+      "text": "Memory",
+      "level": "h2"
+    },
+    {
+      "id": "why-is-it-interesting",
+      "text": "Why Is it Interesting?",
+      "level": "h2"
+    },
+    {
+      "id": "characterizing-failure",
+      "text": "Characterizing Failure",
+      "level": "h2"
+    },
+    {
+      "id": "the-architecture-of-dbdb",
+      "text": "The Architecture of DBDB",
+      "level": "h2"
+    },
+    {
+      "id": "discovering-the-design",
+      "text": "Discovering the Design",
+      "level": "h2"
+    },
+    {
+      "id": "organisational-units",
+      "text": "Organisational Units",
+      "level": "h3"
+    },
+    {
+      "id": "reading-a-value",
+      "text": "Reading a Value",
+      "level": "h3"
+    },
+    {
+      "id": "how-noderefs-save-memory",
+      "text": "How NodeRefs Save Memory",
+      "level": "h3"
+    },
+    {
+      "id": "exercises-for-the-reader",
+      "text": "Exercises for the Reader",
+      "level": "h3"
+    },
+    {
+      "id": "patterns-and-principles",
+      "text": "Patterns and Principles",
+      "level": "h3"
+    },
+    {
+      "id": "summary",
+      "text": "Summary",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 4109,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 24,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

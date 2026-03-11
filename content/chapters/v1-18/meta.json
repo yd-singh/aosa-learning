@@ -1,0 +1,212 @@
+{
+  "sessionId": "v1-18",
+  "sourceUrl": "https://aosabook.org/en/v1/sendmail.html",
+  "title": "Sendmail",
+  "author": "Eric Allman",
+  "contentPath": "content/chapters/v1-18/content.html",
+  "rawPagePath": "content/chapters/v1-18/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "17-1-once-upon-a-time",
+      "text": "17.1. Once Upon a Time\u2026",
+      "level": "h2"
+    },
+    {
+      "id": "17-2-design-principles",
+      "text": "17.2. Design Principles",
+      "level": "h2"
+    },
+    {
+      "id": "17-2-1-accept-that-one-programmer-is-finite",
+      "text": "17.2.1. Accept that One Programmer Is Finite",
+      "level": "h3"
+    },
+    {
+      "id": "17-2-2-don-t-redesign-user-agents",
+      "text": "17.2.2. Don't Redesign User Agents",
+      "level": "h3"
+    },
+    {
+      "id": "17-2-3-don-t-redesign-the-local-mail-store",
+      "text": "17.2.3. Don't Redesign the Local Mail Store",
+      "level": "h3"
+    },
+    {
+      "id": "17-2-4-make-sendmail-adapt-to-the-world-not-the-other-way-around",
+      "text": "17.2.4. Make Sendmail Adapt to the World, Not the Other Way Around",
+      "level": "h3"
+    },
+    {
+      "id": "17-2-5-change-as-little-as-possible",
+      "text": "17.2.5. Change as Little as Possible",
+      "level": "h3"
+    },
+    {
+      "id": "17-2-6-think-about-reliability-early",
+      "text": "17.2.6. Think About Reliability Early",
+      "level": "h3"
+    },
+    {
+      "id": "17-2-7-what-was-left-out",
+      "text": "17.2.7. What Was Left Out",
+      "level": "h3"
+    },
+    {
+      "id": "17-3-development-phases",
+      "text": "17.3. Development Phases",
+      "level": "h2"
+    },
+    {
+      "id": "17-3-1-wave-1-delivermail",
+      "text": "17.3.1. Wave 1: delivermail",
+      "level": "h3"
+    },
+    {
+      "id": "17-3-2-wave-2-sendmail-3-4-and-5",
+      "text": "17.3.2. Wave 2: sendmail 3, 4, and 5",
+      "level": "h3"
+    },
+    {
+      "id": "17-3-3-wave-3-the-chaos-years",
+      "text": "17.3.3. Wave 3: The Chaos Years",
+      "level": "h3"
+    },
+    {
+      "id": "17-3-4-wave-4-sendmail-8",
+      "text": "17.3.4. Wave 4: sendmail 8",
+      "level": "h3"
+    },
+    {
+      "id": "17-3-5-wave-5-the-commercial-years",
+      "text": "17.3.5. Wave 5: The Commercial Years",
+      "level": "h3"
+    },
+    {
+      "id": "17-3-6-whatever-happened-to-sendmail-6-and-7",
+      "text": "17.3.6. Whatever Happened to sendmail 6 and 7?",
+      "level": "h3"
+    },
+    {
+      "id": "17-4-design-decisions",
+      "text": "17.4. Design Decisions",
+      "level": "h2"
+    },
+    {
+      "id": "17-4-1-the-syntax-of-the-configuration-file",
+      "text": "17.4.1. The Syntax of the Configuration File",
+      "level": "h3"
+    },
+    {
+      "id": "17-4-2-rewriting-rules",
+      "text": "17.4.2. Rewriting Rules",
+      "level": "h3"
+    },
+    {
+      "id": "17-4-3-using-rewriting-for-parsing",
+      "text": "17.4.3. Using Rewriting for Parsing",
+      "level": "h3"
+    },
+    {
+      "id": "17-4-4-embedding-smtp-and-queueing-in-sendmail",
+      "text": "17.4.4. Embedding SMTP and Queueing in sendmail",
+      "level": "h3"
+    },
+    {
+      "id": "17-4-5-the-implementation-of-the-queue",
+      "text": "17.4.5. The Implementation of the Queue",
+      "level": "h3"
+    },
+    {
+      "id": "17-4-6-accepting-and-fixing-bogus-input",
+      "text": "17.4.6. Accepting and Fixing Bogus Input",
+      "level": "h3"
+    },
+    {
+      "id": "17-4-7-configuration-and-the-use-of-m4",
+      "text": "17.4.7. Configuration and the Use of M4",
+      "level": "h3"
+    },
+    {
+      "id": "17-5-other-considerations",
+      "text": "17.5. Other Considerations",
+      "level": "h2"
+    },
+    {
+      "id": "17-5-1-a-word-about-optimizing-internet-scale-systems",
+      "text": "17.5.1. A Word About Optimizing Internet Scale Systems",
+      "level": "h3"
+    },
+    {
+      "id": "17-5-2-milter",
+      "text": "17.5.2. Milter",
+      "level": "h3"
+    },
+    {
+      "id": "17-5-3-release-schedules",
+      "text": "17.5.3. Release Schedules",
+      "level": "h3"
+    },
+    {
+      "id": "17-6-security",
+      "text": "17.6. Security",
+      "level": "h2"
+    },
+    {
+      "id": "sec.sendmail.evo",
+      "text": "17.7. Evolution of Sendmail",
+      "level": "h2"
+    },
+    {
+      "id": "sec.sendmail.evo-2",
+      "text": "17.7.1. Configuration Became More Verbose",
+      "level": "h3"
+    },
+    {
+      "id": "sec.sendmail.evo-3",
+      "text": "17.7.2. More Connections with Other Subsystems: Greater Integration",
+      "level": "h3"
+    },
+    {
+      "id": "sec.sendmail.evo-4",
+      "text": "17.7.3. Adaptation to a Hostile World",
+      "level": "h3"
+    },
+    {
+      "id": "sec.sendmail.evo-5",
+      "text": "17.7.4. Incorporation of New Technologies",
+      "level": "h3"
+    },
+    {
+      "id": "17-8-what-if-i-did-it-today",
+      "text": "17.8. What If I Did It Today?",
+      "level": "h2"
+    },
+    {
+      "id": "17-8-1-things-i-would-do-differently",
+      "text": "17.8.1. Things I Would Do Differently",
+      "level": "h3"
+    },
+    {
+      "id": "17-8-2-things-i-would-do-the-same",
+      "text": "17.8.2. Things I Would Do The Same",
+      "level": "h3"
+    },
+    {
+      "id": "17-9-conclusions",
+      "text": "17.9. Conclusions",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 11471,
+  "imageCount": 0,
+  "tableCount": 2,
+  "codeBlockCount": 1,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

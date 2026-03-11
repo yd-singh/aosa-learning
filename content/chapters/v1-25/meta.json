@@ -1,0 +1,108 @@
+{
+  "sessionId": "v1-25",
+  "sourceUrl": "https://aosabook.org/en/v1/vtk.html",
+  "title": "VTK",
+  "author": "Berk Geveci and Will Schroeder",
+  "contentPath": "content/chapters/v1-25/content.html",
+  "rawPagePath": "content/chapters/v1-25/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/vtk/dataclasses.png",
+      "localPath": "content/assets/static/vtk/dataclasses.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/vtk/dataset.png",
+      "localPath": "content/assets/static/vtk/dataset.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/vtk/pipeline.png",
+      "localPath": "content/assets/static/vtk/pipeline.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/vtk/painter.png",
+      "localPath": "content/assets/static/vtk/painter.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "24-1-what-is-vtk",
+      "text": "24.1. What Is VTK?",
+      "level": "h2"
+    },
+    {
+      "id": "24-2-architectural-features",
+      "text": "24.2. Architectural Features",
+      "level": "h2"
+    },
+    {
+      "id": "24-2-1-core-features",
+      "text": "24.2.1. Core Features",
+      "level": "h3"
+    },
+    {
+      "id": "24-2-2-representing-data",
+      "text": "24.2.2. Representing Data",
+      "level": "h3"
+    },
+    {
+      "id": "24-2-3-pipeline-architecture",
+      "text": "24.2.3. Pipeline Architecture",
+      "level": "h3"
+    },
+    {
+      "id": "24-2-4-rendering-subsystem",
+      "text": "24.2.4. Rendering Subsystem",
+      "level": "h3"
+    },
+    {
+      "id": "24-2-5-events-and-interaction",
+      "text": "24.2.5. Events and Interaction",
+      "level": "h3"
+    },
+    {
+      "id": "24-2-6-summary-of-libraries",
+      "text": "24.2.6. Summary of Libraries",
+      "level": "h3"
+    },
+    {
+      "id": "24-3-looking-back-looking-forward",
+      "text": "24.3. Looking Back/Looking Forward",
+      "level": "h2"
+    },
+    {
+      "id": "24-3-1-managing-growth",
+      "text": "24.3.1. Managing Growth",
+      "level": "h3"
+    },
+    {
+      "id": "24-3-2-technology-additions",
+      "text": "24.3.2. Technology Additions",
+      "level": "h3"
+    },
+    {
+      "id": "24-3-3-open-science",
+      "text": "24.3.3. Open Science",
+      "level": "h3"
+    },
+    {
+      "id": "24-3-4-lessons-learned",
+      "text": "24.3.4. Lessons Learned",
+      "level": "h3"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6362,
+  "imageCount": 4,
+  "tableCount": 1,
+  "codeBlockCount": 11,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

@@ -1,0 +1,77 @@
+{
+  "sessionId": "500L-22",
+  "sourceUrl": "https://aosabook.org/en/500L/a-template-engine.html",
+  "title": "A Template Engine",
+  "author": "Ned Batchelder",
+  "contentPath": "content/chapters/500L-22/content.html",
+  "rawPagePath": "content/chapters/500L-22/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "templates",
+      "text": "Templates",
+      "level": "h2"
+    },
+    {
+      "id": "supported-syntax",
+      "text": "Supported Syntax",
+      "level": "h2"
+    },
+    {
+      "id": "implementation-approaches",
+      "text": "Implementation Approaches",
+      "level": "h2"
+    },
+    {
+      "id": "compiling-to-python",
+      "text": "Compiling to Python",
+      "level": "h2"
+    },
+    {
+      "id": "writing-the-engine",
+      "text": "Writing the Engine",
+      "level": "h2"
+    },
+    {
+      "id": "the-templite-class",
+      "text": "The Templite class",
+      "level": "h3"
+    },
+    {
+      "id": "codebuilder",
+      "text": "CodeBuilder",
+      "level": "h3"
+    },
+    {
+      "id": "the-templite-class-implementation",
+      "text": "The Templite class implementation",
+      "level": "h3"
+    },
+    {
+      "id": "testing",
+      "text": "Testing",
+      "level": "h2"
+    },
+    {
+      "id": "whats-left-out",
+      "text": "What's Left Out",
+      "level": "h2"
+    },
+    {
+      "id": "summing-up",
+      "text": "Summing up",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 7627,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 62,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

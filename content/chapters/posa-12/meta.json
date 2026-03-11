@@ -1,0 +1,152 @@
+{
+  "sessionId": "posa-12",
+  "sourceUrl": "https://aosabook.org/en/posa/warp.html",
+  "title": "Warp",
+  "author": "Kazu Yamamoto, Michael Snoyman, and Andreas Voellmy",
+  "contentPath": "content/chapters/posa-12/content.html",
+  "rawPagePath": "content/chapters/posa-12/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "network-programming-in-haskell",
+      "text": "Network Programming in Haskell",
+      "level": "h2"
+    },
+    {
+      "id": "native-threads",
+      "text": "Native Threads",
+      "level": "h3"
+    },
+    {
+      "id": "event-driven-architecture",
+      "text": "Event-driven Architecture",
+      "level": "h3"
+    },
+    {
+      "id": "one-process-per-core",
+      "text": "One Process Per Core",
+      "level": "h3"
+    },
+    {
+      "id": "user-threads",
+      "text": "User Threads",
+      "level": "h3"
+    },
+    {
+      "id": "warps-architecture",
+      "text": "Warp's Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "the-performance-of-warp",
+      "text": "The Performance of Warp",
+      "level": "h2"
+    },
+    {
+      "id": "key-ideas",
+      "text": "Key Ideas",
+      "level": "h2"
+    },
+    {
+      "id": "issuing-as-few-system-calls-as-possible",
+      "text": "Issuing as Few System Calls as Possible",
+      "level": "h3"
+    },
+    {
+      "id": "specialized-functions-and-avoiding-recalculation",
+      "text": "Specialized Functions and Avoiding Recalculation",
+      "level": "h3"
+    },
+    {
+      "id": "avoiding-locks",
+      "text": "Avoiding Locks",
+      "level": "h3"
+    },
+    {
+      "id": "using-proper-data-structures",
+      "text": "Using Proper Data Structures",
+      "level": "h3"
+    },
+    {
+      "id": "http-request-parser",
+      "text": "HTTP Request Parser",
+      "level": "h2"
+    },
+    {
+      "id": "writing-the-parser",
+      "text": "Writing the Parser",
+      "level": "h3"
+    },
+    {
+      "id": "conduit",
+      "text": "Conduit",
+      "level": "h3"
+    },
+    {
+      "id": "slowloris-protection",
+      "text": "Slowloris Protection",
+      "level": "h3"
+    },
+    {
+      "id": "http-response-composer",
+      "text": "HTTP Response Composer",
+      "level": "h2"
+    },
+    {
+      "id": "composer-for-http-response-header",
+      "text": "Composer for HTTP Response Header",
+      "level": "h3"
+    },
+    {
+      "id": "composer-for-http-response-body",
+      "text": "Composer for HTTP Response Body",
+      "level": "h3"
+    },
+    {
+      "id": "sending-the-header-and-body-together",
+      "text": "Sending the Header and Body Together",
+      "level": "h3"
+    },
+    {
+      "id": "clean-up-with-timers",
+      "text": "Clean-up with Timers",
+      "level": "h2"
+    },
+    {
+      "id": "timers-for-connections",
+      "text": "Timers for Connections",
+      "level": "h3"
+    },
+    {
+      "id": "timers-for-file-descriptors",
+      "text": "Timers for File Descriptors",
+      "level": "h3"
+    },
+    {
+      "id": "future-work",
+      "text": "Future Work",
+      "level": "h2"
+    },
+    {
+      "id": "memory-allocation",
+      "text": "Memory Allocation",
+      "level": "h3"
+    },
+    {
+      "id": "new-thundering-herd",
+      "text": "New Thundering Herd",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6737,
+  "imageCount": 13,
+  "tableCount": 0,
+  "codeBlockCount": 10,
+  "hasFootnotes": false,
+  "missingAssetCount": 13
+}

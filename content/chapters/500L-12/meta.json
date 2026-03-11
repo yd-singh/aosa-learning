@@ -1,0 +1,147 @@
+{
+  "sessionId": "500L-12",
+  "sourceUrl": "https://aosabook.org/en/500L/making-your-own-image-filters.html",
+  "title": "Making Your Own Image Filters",
+  "author": "Cate Huston",
+  "contentPath": "content/chapters/500L-12/content.html",
+  "rawPagePath": "content/chapters/500L-12/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "a-brilliant-idea-that-wasnt-all-that-brilliant",
+      "text": "A Brilliant Idea (That Wasn\u2019t All That Brilliant)",
+      "level": "h2"
+    },
+    {
+      "id": "the-app",
+      "text": "The App",
+      "level": "h2"
+    },
+    {
+      "id": "background",
+      "text": "Background",
+      "level": "h2"
+    },
+    {
+      "id": "photographs-the-old-way",
+      "text": "Photographs, the Old Way",
+      "level": "h3"
+    },
+    {
+      "id": "photographs-the-digital-way",
+      "text": "Photographs, the Digital Way",
+      "level": "h3"
+    },
+    {
+      "id": "running-the-app",
+      "text": "Running the App",
+      "level": "h2"
+    },
+    {
+      "id": "processing-basics",
+      "text": "Processing Basics",
+      "level": "h2"
+    },
+    {
+      "id": "size-and-color",
+      "text": "Size and Color",
+      "level": "h3"
+    },
+    {
+      "id": "pimage",
+      "text": "PImage",
+      "level": "h3"
+    },
+    {
+      "id": "file-chooser",
+      "text": "File Chooser",
+      "level": "h3"
+    },
+    {
+      "id": "responding-to-key-presses",
+      "text": "Responding to Key Presses",
+      "level": "h3"
+    },
+    {
+      "id": "writing-tests",
+      "text": "Writing Tests",
+      "level": "h2"
+    },
+    {
+      "id": "do-it-yourself-filters",
+      "text": "Do-It-Yourself Filters",
+      "level": "h2"
+    },
+    {
+      "id": "rgb-filters",
+      "text": "RGB Filters",
+      "level": "h3"
+    },
+    {
+      "id": "color",
+      "text": "Color",
+      "level": "h3"
+    },
+    {
+      "id": "extracting-the-dominant-hue-from-an-image",
+      "text": "Extracting the Dominant Hue from an Image",
+      "level": "h3"
+    },
+    {
+      "id": "combining-filters",
+      "text": "Combining Filters",
+      "level": "h3"
+    },
+    {
+      "id": "architecture",
+      "text": "Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "the-app-1",
+      "text": "The App",
+      "level": "h3"
+    },
+    {
+      "id": "model",
+      "text": "Model",
+      "level": "h3"
+    },
+    {
+      "id": "color-1",
+      "text": "Color",
+      "level": "h3"
+    },
+    {
+      "id": "wrapper-classes-and-tests",
+      "text": "Wrapper Classes and Tests",
+      "level": "h3"
+    },
+    {
+      "id": "colorhelper-and-associated-tests",
+      "text": "ColorHelper and Associated Tests",
+      "level": "h3"
+    },
+    {
+      "id": "image-state-and-associated-tests",
+      "text": "Image State and Associated Tests",
+      "level": "h3"
+    },
+    {
+      "id": "imagefilterapp",
+      "text": "ImageFilterApp",
+      "level": "h3"
+    },
+    {
+      "id": "the-value-of-prototyping",
+      "text": "The Value of Prototyping",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8087,
+  "imageCount": 9,
+  "tableCount": 3,
+  "codeBlockCount": 16,
+  "hasFootnotes": true,
+  "missingAssetCount": 9
+}

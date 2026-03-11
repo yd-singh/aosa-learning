@@ -1,0 +1,188 @@
+{
+  "sessionId": "v2-14",
+  "sourceUrl": "https://aosabook.org/en/v2/moodle.html",
+  "title": "Moodle",
+  "author": "Tim Hunt",
+  "contentPath": "content/chapters/v2-14/content.html",
+  "rawPagePath": "content/chapters/v2-14/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/moodle/course.png",
+      "localPath": "content/assets/static/moodle/course.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/moodle/university.png",
+      "localPath": "content/assets/static/moodle/university.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/moodle/contexts.png",
+      "localPath": "content/assets/static/moodle/contexts.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "13-1-an-overview-of-how-moodle-works",
+      "text": "13.1. An Overview of How Moodle Works",
+      "level": "h2"
+    },
+    {
+      "id": "request-dispatching",
+      "text": "Request Dispatching",
+      "level": "h3"
+    },
+    {
+      "id": "plugins",
+      "text": "Plugins",
+      "level": "h3"
+    },
+    {
+      "id": "an-example-plugin",
+      "text": "An Example Plugin",
+      "level": "h3"
+    },
+    {
+      "id": "line-1-bootstrapping-moodle",
+      "text": "Line 1: Bootstrapping Moodle",
+      "level": "h3"
+    },
+    {
+      "id": "line-2-checking-the-user-is-logged-in",
+      "text": "Line 2: Checking the User Is Logged In",
+      "level": "h3"
+    },
+    {
+      "id": "13-2-moodle-s-roles-and-permissions-system",
+      "text": "13.2. Moodle's Roles and Permissions System",
+      "level": "h2"
+    },
+    {
+      "id": "line-3-getting-the-context",
+      "text": "Line 3: Getting the Context",
+      "level": "h3"
+    },
+    {
+      "id": "line-4-checking-the-user-has-permission-to-use-this-script",
+      "text": "Line 4: Checking the User Has Permission to Use This Script",
+      "level": "h3"
+    },
+    {
+      "id": "defining-capabilities",
+      "text": "Defining Capabilities",
+      "level": "h3"
+    },
+    {
+      "id": "roles",
+      "text": "Roles",
+      "level": "h3"
+    },
+    {
+      "id": "permissions",
+      "text": "Permissions",
+      "level": "h3"
+    },
+    {
+      "id": "permission-aggregation",
+      "text": "Permission Aggregation",
+      "level": "h3"
+    },
+    {
+      "id": "13-3-back-to-our-example-script",
+      "text": "13.3. Back to Our Example Script",
+      "level": "h2"
+    },
+    {
+      "id": "line-5-get-data-from-the-request",
+      "text": "Line 5: Get Data From the Request",
+      "level": "h3"
+    },
+    {
+      "id": "line-6-global-variables",
+      "text": "Line 6: Global Variables",
+      "level": "h3"
+    },
+    {
+      "id": "nothing-is-simple",
+      "text": "Nothing is Simple",
+      "level": "h3"
+    },
+    {
+      "id": "line-7-logging",
+      "text": "Line 7: Logging",
+      "level": "h3"
+    },
+    {
+      "id": "13-4-generating-output",
+      "text": "13.4. Generating Output",
+      "level": "h2"
+    },
+    {
+      "id": "line-8-the-page-global",
+      "text": "Line 8: The $PAGE Global",
+      "level": "h3"
+    },
+    {
+      "id": "line-9-moodle-url",
+      "text": "Line 9: Moodle URL",
+      "level": "h3"
+    },
+    {
+      "id": "line-10-internationalisation",
+      "text": "Line 10: Internationalisation",
+      "level": "h3"
+    },
+    {
+      "id": "line-11-starting-output",
+      "text": "Line 11: Starting Output",
+      "level": "h3"
+    },
+    {
+      "id": "line-12-outputting-the-body-of-the-page",
+      "text": "Line 12: Outputting the Body of the Page",
+      "level": "h3"
+    },
+    {
+      "id": "line-13-finishing-output",
+      "text": "Line 13: Finishing Output",
+      "level": "h3"
+    },
+    {
+      "id": "should-this-script-mix-logic-and-output",
+      "text": "Should This Script Mix Logic and Output?",
+      "level": "h3"
+    },
+    {
+      "id": "13-5-database-abstraction",
+      "text": "13.5. Database Abstraction",
+      "level": "h2"
+    },
+    {
+      "id": "the-moodle-database-class",
+      "text": "The moodle_database Class",
+      "level": "h3"
+    },
+    {
+      "id": "defining-the-database-structure",
+      "text": "Defining the Database Structure",
+      "level": "h3"
+    },
+    {
+      "id": "13-6-what-has-not-been-covered",
+      "text": "13.6. What Has Not Been Covered",
+      "level": "h2"
+    },
+    {
+      "id": "13-7-lessons-learned",
+      "text": "13.7. Lessons Learned",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6451,
+  "imageCount": 3,
+  "tableCount": 1,
+  "codeBlockCount": 22,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

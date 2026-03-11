@@ -1,0 +1,122 @@
+{
+  "sessionId": "500L-04",
+  "sourceUrl": "https://aosabook.org/en/500L/clustering-by-consensus.html",
+  "title": "Clustering by Consensus",
+  "author": "Dustin J. Mitchell",
+  "contentPath": "content/chapters/500L-04/content.html",
+  "rawPagePath": "content/chapters/500L-04/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "introduction",
+      "text": "Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "motivating-example",
+      "text": "Motivating Example",
+      "level": "h2"
+    },
+    {
+      "id": "distributed-state-machines",
+      "text": "Distributed State Machines",
+      "level": "h2"
+    },
+    {
+      "id": "consensus-by-paxos",
+      "text": "Consensus by Paxos",
+      "level": "h2"
+    },
+    {
+      "id": "simple-paxos",
+      "text": "Simple Paxos",
+      "level": "h3"
+    },
+    {
+      "id": "multi-paxos",
+      "text": "Multi-Paxos",
+      "level": "h3"
+    },
+    {
+      "id": "paxos-made-pretty-hard",
+      "text": "Paxos Made Pretty Hard",
+      "level": "h3"
+    },
+    {
+      "id": "introducing-cluster",
+      "text": "Introducing Cluster",
+      "level": "h2"
+    },
+    {
+      "id": "types-and-constants",
+      "text": "Types and Constants",
+      "level": "h3"
+    },
+    {
+      "id": "component-model",
+      "text": "Component Model",
+      "level": "h3"
+    },
+    {
+      "id": "application-interface",
+      "text": "Application Interface",
+      "level": "h3"
+    },
+    {
+      "id": "role-classes",
+      "text": "Role Classes",
+      "level": "h3"
+    },
+    {
+      "id": "summary",
+      "text": "Summary",
+      "level": "h3"
+    },
+    {
+      "id": "network",
+      "text": "Network",
+      "level": "h2"
+    },
+    {
+      "id": "debugging-support",
+      "text": "Debugging Support",
+      "level": "h2"
+    },
+    {
+      "id": "testing",
+      "text": "Testing",
+      "level": "h2"
+    },
+    {
+      "id": "power-struggles",
+      "text": "Power Struggles",
+      "level": "h2"
+    },
+    {
+      "id": "further-extensions",
+      "text": "Further Extensions",
+      "level": "h2"
+    },
+    {
+      "id": "catching-up",
+      "text": "Catching Up",
+      "level": "h3"
+    },
+    {
+      "id": "consistent-memory-usage",
+      "text": "Consistent Memory Usage",
+      "level": "h3"
+    },
+    {
+      "id": "references",
+      "text": "References",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 9213,
+  "imageCount": 8,
+  "tableCount": 0,
+  "codeBlockCount": 24,
+  "hasFootnotes": true,
+  "missingAssetCount": 8
+}

@@ -1,0 +1,72 @@
+{
+  "sessionId": "posa-03",
+  "sourceUrl": "https://aosabook.org/en/posa/from-socialcalc-to-ethercalc.html",
+  "title": "From SocialCalc to EtherCalc",
+  "author": "Audrey Tang",
+  "contentPath": "content/chapters/posa-03/content.html",
+  "rawPagePath": "content/chapters/posa-03/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "design-constraints",
+      "text": "Design Constraints",
+      "level": "h3"
+    },
+    {
+      "id": "initial-prototype",
+      "text": "Initial Prototype",
+      "level": "h2"
+    },
+    {
+      "id": "porting-to-node.js",
+      "text": "Porting to Node.js",
+      "level": "h2"
+    },
+    {
+      "id": "server-side-socialcalc",
+      "text": "Server-side SocialCalc",
+      "level": "h2"
+    },
+    {
+      "id": "profiling-node.js",
+      "text": "Profiling Node.js",
+      "level": "h2"
+    },
+    {
+      "id": "multi-core-scaling",
+      "text": "Multi-core Scaling",
+      "level": "h2"
+    },
+    {
+      "id": "lessons-learned",
+      "text": "Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "constraints-are-liberating",
+      "text": "Constraints are Liberating",
+      "level": "h3"
+    },
+    {
+      "id": "worst-is-best",
+      "text": "Worst is Best",
+      "level": "h3"
+    },
+    {
+      "id": "livescript-redux",
+      "text": "LiveScript, Redux",
+      "level": "h3"
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 2991,
+  "imageCount": 9,
+  "tableCount": 0,
+  "codeBlockCount": 3,
+  "hasFootnotes": false,
+  "missingAssetCount": 9
+}

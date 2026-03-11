@@ -1,0 +1,153 @@
+{
+  "sessionId": "v1-09",
+  "sourceUrl": "https://aosabook.org/en/v1/hdfs.html",
+  "title": "The Hadoop Distributed File System",
+  "author": "Robert Chansler, Hairong Kuang, Sanjay Radia, Konstantin Shvachko, and Suresh Srinivas",
+  "contentPath": "content/chapters/v1-09/content.html",
+  "rawPagePath": "content/chapters/v1-09/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/hdfs/CreateFile.png",
+      "localPath": "content/assets/static/hdfs/CreateFile.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/hdfs/Pipeline.png",
+      "localPath": "content/assets/static/hdfs/Pipeline.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/hdfs/Cluster.png",
+      "localPath": "content/assets/static/hdfs/Cluster.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "8-1-introduction",
+      "text": "8.1. Introduction",
+      "level": "h2"
+    },
+    {
+      "id": "8-2-architecture",
+      "text": "8.2. Architecture",
+      "level": "h2"
+    },
+    {
+      "id": "8-2-1-namenode",
+      "text": "8.2.1. NameNode",
+      "level": "h3"
+    },
+    {
+      "id": "8-2-2-image-and-journal",
+      "text": "8.2.2. Image and Journal",
+      "level": "h3"
+    },
+    {
+      "id": "8-2-3-datanodes",
+      "text": "8.2.3. DataNodes",
+      "level": "h3"
+    },
+    {
+      "id": "8-2-4-hdfs-client",
+      "text": "8.2.4. HDFS Client",
+      "level": "h3"
+    },
+    {
+      "id": "8-2-5-checkpointnode",
+      "text": "8.2.5. CheckpointNode",
+      "level": "h3"
+    },
+    {
+      "id": "8-2-6-backupnode",
+      "text": "8.2.6. BackupNode",
+      "level": "h3"
+    },
+    {
+      "id": "8-2-7-upgrades-and-filesystem-snapshots",
+      "text": "8.2.7. Upgrades and Filesystem Snapshots",
+      "level": "h3"
+    },
+    {
+      "id": "8-3-file-i-o-operations-and-replica-management",
+      "text": "8.3. File I/O Operations and Replica Management",
+      "level": "h2"
+    },
+    {
+      "id": "8-3-1-file-read-and-write",
+      "text": "8.3.1. File Read and Write",
+      "level": "h3"
+    },
+    {
+      "id": "8-3-2-block-placement",
+      "text": "8.3.2. Block Placement",
+      "level": "h3"
+    },
+    {
+      "id": "8-3-3-replication-management",
+      "text": "8.3.3. Replication Management",
+      "level": "h3"
+    },
+    {
+      "id": "8-3-4-balancer",
+      "text": "8.3.4. Balancer",
+      "level": "h3"
+    },
+    {
+      "id": "8-3-5-block-scanner",
+      "text": "8.3.5. Block Scanner",
+      "level": "h3"
+    },
+    {
+      "id": "8-3-6-decommissioning",
+      "text": "8.3.6. Decommissioning",
+      "level": "h3"
+    },
+    {
+      "id": "8-3-7-inter-cluster-data-copy",
+      "text": "8.3.7. Inter-Cluster Data Copy",
+      "level": "h3"
+    },
+    {
+      "id": "8-4-practice-at-yahoo",
+      "text": "8.4. Practice at Yahoo!",
+      "level": "h2"
+    },
+    {
+      "id": "8-4-1-durability-of-data",
+      "text": "8.4.1. Durability of Data",
+      "level": "h3"
+    },
+    {
+      "id": "8-4-2-features-for-sharing-hdfs",
+      "text": "8.4.2. Features for Sharing HDFS",
+      "level": "h3"
+    },
+    {
+      "id": "8-4-3-scaling-and-hdfs-federation",
+      "text": "8.4.3. Scaling and HDFS Federation",
+      "level": "h3"
+    },
+    {
+      "id": "8-5-lessons-learned",
+      "text": "8.5. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "8-6-acknowledgment",
+      "text": "8.6. Acknowledgment",
+      "level": "h2"
+    },
+    {
+      "id": "footnotes",
+      "text": "Footnotes",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 6978,
+  "imageCount": 3,
+  "tableCount": 0,
+  "codeBlockCount": 0,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

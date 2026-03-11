@@ -1,0 +1,193 @@
+{
+  "sessionId": "v2-05",
+  "sourceUrl": "https://aosabook.org/en/v2/gdb.html",
+  "title": "GDB",
+  "author": "Stan Shebs",
+  "contentPath": "content/chapters/v2-05/content.html",
+  "rawPagePath": "content/chapters/v2-05/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/gdb/gdb-structure.png",
+      "localPath": "content/assets/static/gdb/gdb-structure.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/gdb/gdbserver.png",
+      "localPath": "content/assets/static/gdb/gdbserver.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "4-1-the-goal",
+      "text": "4.1. The Goal",
+      "level": "h2"
+    },
+    {
+      "id": "4-2-origins-of-gdb",
+      "text": "4.2. Origins of GDB",
+      "level": "h2"
+    },
+    {
+      "id": "4-3-block-diagram",
+      "text": "4.3. Block Diagram",
+      "level": "h2"
+    },
+    {
+      "id": "4-4-examples-of-operation",
+      "text": "4.4. Examples of Operation",
+      "level": "h2"
+    },
+    {
+      "id": "4-5-portability",
+      "text": "4.5. Portability",
+      "level": "h2"
+    },
+    {
+      "id": "4-6-data-structures",
+      "text": "4.6. Data Structures",
+      "level": "h2"
+    },
+    {
+      "id": "breakpoints",
+      "text": "Breakpoints",
+      "level": "h3"
+    },
+    {
+      "id": "symbols-and-symbol-tables",
+      "text": "Symbols and Symbol Tables",
+      "level": "h3"
+    },
+    {
+      "id": "stack-frames",
+      "text": "Stack frames",
+      "level": "h3"
+    },
+    {
+      "id": "expressions",
+      "text": "Expressions",
+      "level": "h3"
+    },
+    {
+      "id": "values",
+      "text": "Values",
+      "level": "h3"
+    },
+    {
+      "id": "4-7-the-symbol-side",
+      "text": "4.7. The Symbol Side",
+      "level": "h2"
+    },
+    {
+      "id": "partial-symbol-tables",
+      "text": "Partial Symbol Tables",
+      "level": "h3"
+    },
+    {
+      "id": "language-support",
+      "text": "Language Support",
+      "level": "h3"
+    },
+    {
+      "id": "4-8-target-side",
+      "text": "4.8. Target Side",
+      "level": "h2"
+    },
+    {
+      "id": "target-vectors-and-the-target-stack",
+      "text": "Target Vectors and the Target Stack",
+      "level": "h3"
+    },
+    {
+      "id": "gdbarch",
+      "text": "Gdbarch",
+      "level": "h3"
+    },
+    {
+      "id": "execution-control",
+      "text": "Execution Control",
+      "level": "h3"
+    },
+    {
+      "id": "the-remote-protocol",
+      "text": "The Remote Protocol",
+      "level": "h3"
+    },
+    {
+      "id": "gdbserver",
+      "text": "GDBserver",
+      "level": "h3"
+    },
+    {
+      "id": "4-9-interfaces-to-gdb",
+      "text": "4.9. Interfaces to GDB",
+      "level": "h2"
+    },
+    {
+      "id": "command-line-interface",
+      "text": "Command-Line Interface",
+      "level": "h3"
+    },
+    {
+      "id": "machine-interface",
+      "text": "Machine Interface",
+      "level": "h3"
+    },
+    {
+      "id": "other-user-interfaces",
+      "text": "Other User Interfaces",
+      "level": "h3"
+    },
+    {
+      "id": "4-10-development-process",
+      "text": "4.10. Development Process",
+      "level": "h2"
+    },
+    {
+      "id": "maintainers",
+      "text": "Maintainers",
+      "level": "h3"
+    },
+    {
+      "id": "testing-testing",
+      "text": "Testing Testing",
+      "level": "h3"
+    },
+    {
+      "id": "4-11-lessons-learned",
+      "text": "4.11. Lessons Learned",
+      "level": "h2"
+    },
+    {
+      "id": "open-development-wins",
+      "text": "Open Development Wins",
+      "level": "h3"
+    },
+    {
+      "id": "make-a-plan-but-expect-it-to-change",
+      "text": "Make a Plan, but Expect It to Change",
+      "level": "h3"
+    },
+    {
+      "id": "things-would-be-great-if-we-were-infinitely-intelligent",
+      "text": "Things Would Be Great If We Were Infinitely Intelligent",
+      "level": "h3"
+    },
+    {
+      "id": "learn-to-live-with-incomplete-transitions",
+      "text": "Learn to Live with Incomplete Transitions",
+      "level": "h3"
+    },
+    {
+      "id": "don-t-get-too-attached-to-the-code",
+      "text": "Don't Get Too Attached to the Code",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 6878,
+  "imageCount": 2,
+  "tableCount": 0,
+  "codeBlockCount": 6,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

@@ -1,0 +1,77 @@
+{
+  "sessionId": "posa-04",
+  "sourceUrl": "https://aosabook.org/en/posa/ninja.html",
+  "title": "Ninja",
+  "author": "Evan Martin",
+  "contentPath": "content/chapters/posa-04/content.html",
+  "rawPagePath": "content/chapters/posa-04/page.html",
+  "assets": [],
+  "anchors": [
+    {
+      "id": "a-small-history-of-chrome",
+      "text": "A Small History of Chrome",
+      "level": "h2"
+    },
+    {
+      "id": "the-design-of-ninja",
+      "text": "The Design of Ninja",
+      "level": "h2"
+    },
+    {
+      "id": "what-ninja-does",
+      "text": "What Ninja Does",
+      "level": "h2"
+    },
+    {
+      "id": "optimizing-ninja",
+      "text": "Optimizing Ninja",
+      "level": "h2"
+    },
+    {
+      "id": "parsing",
+      "text": "Parsing",
+      "level": "h3"
+    },
+    {
+      "id": "canonicalization",
+      "text": "Canonicalization",
+      "level": "h3"
+    },
+    {
+      "id": "the-build-log",
+      "text": "The Build Log",
+      "level": "h3"
+    },
+    {
+      "id": "dependency-files",
+      "text": "Dependency Files",
+      "level": "h3"
+    },
+    {
+      "id": "executing-a-build",
+      "text": "Executing a Build",
+      "level": "h3"
+    },
+    {
+      "id": "supporting-windows",
+      "text": "Supporting Windows",
+      "level": "h3"
+    },
+    {
+      "id": "conclusions-and-alternative-designs",
+      "text": "Conclusions and Alternative Designs",
+      "level": "h2"
+    },
+    {
+      "id": "acknowledgements",
+      "text": "Acknowledgements",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 4900,
+  "imageCount": 0,
+  "tableCount": 0,
+  "codeBlockCount": 6,
+  "hasFootnotes": true,
+  "missingAssetCount": 0
+}

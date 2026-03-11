@@ -1,0 +1,108 @@
+{
+  "sessionId": "v1-10",
+  "sourceUrl": "https://aosabook.org/en/v1/integration.html",
+  "title": "Continuous Integration",
+  "author": "C. Titus Brown and Rosangela Canino-Koning",
+  "contentPath": "content/chapters/v1-10/content.html",
+  "rawPagePath": "content/chapters/v1-10/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/integration/ci-internal.png",
+      "localPath": "content/assets/static/integration/ci-internal.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/integration/buildbot.png",
+      "localPath": "content/assets/static/integration/buildbot.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/integration/cdash.png",
+      "localPath": "content/assets/static/integration/cdash.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/integration/webhooks.png",
+      "localPath": "content/assets/static/integration/webhooks.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "9-1-the-landscape",
+      "text": "9.1. The Landscape",
+      "level": "h2"
+    },
+    {
+      "id": "9-1-1-what-does-continuous-integration-software-do",
+      "text": "9.1.1. What Does Continuous Integration Software Do?",
+      "level": "h3"
+    },
+    {
+      "id": "9-1-2-external-interactions",
+      "text": "9.1.2. External Interactions",
+      "level": "h3"
+    },
+    {
+      "id": "9-2-architectures",
+      "text": "9.2. Architectures",
+      "level": "h2"
+    },
+    {
+      "id": "9-2-1-implementation-model-buildbot",
+      "text": "9.2.1. Implementation Model: Buildbot",
+      "level": "h3"
+    },
+    {
+      "id": "9-2-2-implementation-model-cdash",
+      "text": "9.2.2. Implementation Model: CDash",
+      "level": "h3"
+    },
+    {
+      "id": "9-2-3-implementation-model-jenkins",
+      "text": "9.2.3. Implementation Model: Jenkins",
+      "level": "h3"
+    },
+    {
+      "id": "9-2-4-implementation-model-pony-build",
+      "text": "9.2.4. Implementation Model: Pony-Build",
+      "level": "h3"
+    },
+    {
+      "id": "9-2-5-build-recipes",
+      "text": "9.2.5. Build Recipes",
+      "level": "h3"
+    },
+    {
+      "id": "9-2-6-trust",
+      "text": "9.2.6. Trust",
+      "level": "h3"
+    },
+    {
+      "id": "9-2-7-choosing-a-model",
+      "text": "9.2.7. Choosing a Model",
+      "level": "h3"
+    },
+    {
+      "id": "9-3-the-future",
+      "text": "9.3. The Future",
+      "level": "h2"
+    },
+    {
+      "id": "9-3-1-concluding-thoughts",
+      "text": "9.3.1. Concluding Thoughts",
+      "level": "h3"
+    },
+    {
+      "id": "9-3-2-acknowledgments",
+      "text": "9.3.2. Acknowledgments",
+      "level": "h3"
+    }
+  ],
+  "wordCount": 5484,
+  "imageCount": 4,
+  "tableCount": 0,
+  "codeBlockCount": 1,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}

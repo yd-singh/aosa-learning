@@ -1,0 +1,198 @@
+{
+  "sessionId": "v2-02",
+  "sourceUrl": "https://aosabook.org/en/v2/distsys.html",
+  "title": "Scalable Web Architecture and Distributed Systems",
+  "author": "Kate Matsudaira",
+  "contentPath": "content/chapters/v2-02/content.html",
+  "rawPagePath": "content/chapters/v2-02/page.html",
+  "assets": [
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/imageHosting1.jpg",
+      "localPath": "content/assets/static/distsys/imageHosting1.jpg",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/imageHosting2.png",
+      "localPath": "content/assets/static/distsys/imageHosting2.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/imageHosting3.png",
+      "localPath": "content/assets/static/distsys/imageHosting3.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/imageHosting4.png",
+      "localPath": "content/assets/static/distsys/imageHosting4.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/simpleWeb.png",
+      "localPath": "content/assets/static/distsys/simpleWeb.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/overSimpleWeb.png",
+      "localPath": "content/assets/static/distsys/overSimpleWeb.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/accessingData.png",
+      "localPath": "content/assets/static/distsys/accessingData.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/cache.png",
+      "localPath": "content/assets/static/distsys/cache.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/multipleCaches.png",
+      "localPath": "content/assets/static/distsys/multipleCaches.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/globalCache1.png",
+      "localPath": "content/assets/static/distsys/globalCache1.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/globalCache2.png",
+      "localPath": "content/assets/static/distsys/globalCache2.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/distributedCaching.png",
+      "localPath": "content/assets/static/distsys/distributedCaching.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/proxies.png",
+      "localPath": "content/assets/static/distsys/proxies.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/collapseRequests.png",
+      "localPath": "content/assets/static/distsys/collapseRequests.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/collapseRequestsSpatial.png",
+      "localPath": "content/assets/static/distsys/collapseRequestsSpatial.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/indexes.jpg",
+      "localPath": "content/assets/static/distsys/indexes.jpg",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/multipleIndexes.jpg",
+      "localPath": "content/assets/static/distsys/multipleIndexes.jpg",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/loadBalancer.png",
+      "localPath": "content/assets/static/distsys/loadBalancer.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/multipleLoadBalancers.png",
+      "localPath": "content/assets/static/distsys/multipleLoadBalancers.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/synchronousRequest.png",
+      "localPath": "content/assets/static/distsys/synchronousRequest.png",
+      "kind": "image"
+    },
+    {
+      "sourceUrl": "https://aosabook.org/static/distsys/queues.png",
+      "localPath": "content/assets/static/distsys/queues.png",
+      "kind": "image"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "1-1-principles-of-web-distributed-systems-design",
+      "text": "1.1. Principles of Web Distributed Systems Design",
+      "level": "h2"
+    },
+    {
+      "id": "1-2-the-basics",
+      "text": "1.2. The Basics",
+      "level": "h2"
+    },
+    {
+      "id": "example-image-hosting-application",
+      "text": "Example: Image Hosting Application",
+      "level": "h3"
+    },
+    {
+      "id": "services",
+      "text": "Services",
+      "level": "h3"
+    },
+    {
+      "id": "redundancy",
+      "text": "Redundancy",
+      "level": "h3"
+    },
+    {
+      "id": "partitions",
+      "text": "Partitions",
+      "level": "h3"
+    },
+    {
+      "id": "1-3-the-building-blocks-of-fast-and-scalable-data-access",
+      "text": "1.3. The Building Blocks of Fast and Scalable Data Access",
+      "level": "h2"
+    },
+    {
+      "id": "caches",
+      "text": "Caches",
+      "level": "h3"
+    },
+    {
+      "id": "global-cache",
+      "text": "Global Cache",
+      "level": "h3"
+    },
+    {
+      "id": "distributed-cache",
+      "text": "Distributed Cache",
+      "level": "h3"
+    },
+    {
+      "id": "proxies",
+      "text": "Proxies",
+      "level": "h3"
+    },
+    {
+      "id": "indexes",
+      "text": "Indexes",
+      "level": "h3"
+    },
+    {
+      "id": "load-balancers",
+      "text": "Load Balancers",
+      "level": "h3"
+    },
+    {
+      "id": "queues",
+      "text": "Queues",
+      "level": "h3"
+    },
+    {
+      "id": "1-4-conclusion",
+      "text": "1.4. Conclusion",
+      "level": "h2"
+    }
+  ],
+  "wordCount": 8079,
+  "imageCount": 21,
+  "tableCount": 1,
+  "codeBlockCount": 0,
+  "hasFootnotes": false,
+  "missingAssetCount": 0
+}
